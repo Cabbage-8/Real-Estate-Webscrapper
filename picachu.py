@@ -8,7 +8,7 @@ def get_properties(location, offer, object):
     return list_prop
 
 
-def add_new_properties_to_db(database, list_property):
+def add_new_prop_to_db(database, list_property):
     open( database, 'w').close()
 
     dict_prop = {
