@@ -1,17 +1,24 @@
+from sreality import *
+
+def get_properties(location, offer, object):
+    list_prop = []
+
+    list_prop.extend( get_prop_sreality(location, offer, object) )
+    #list_prop.extend( get_prop_maxima(location, offer, object) )
+    return list_prop
 
 
-def get_properties(min_price, max_price, location, type):
-    list_property = []
-    dict_property = {
-        "str_address": ""
-        "int_metry": 1
-        "int_cena": 1
-        "str_url": ""
-        "str_typ": ""
+def add_new_properties_to_db(database, list_property):
+    open( database, 'w').close()
+
+    dict_prop = {
+        "str_address": "",
+        "int_metry": 40,
+        "int_cena": 100,
+        "str_url": "www.hello.matous",
+        "str_typ": "2+1"
     }
-    get_properties_sreality(properties, min_price, max_price, location, type)
-    get_properties_maxima(properties, min_price, max_price, location, type)
-    return list_property
-
-
-def add_new_properties_to_db(database, new_data):
+    with open( database, 'a', encoding="utf-8") as f:
+        w = csv.DictWriter(f, dict_prop.keys())
+        w.writeheader()
+        w.writerows(list_property)
