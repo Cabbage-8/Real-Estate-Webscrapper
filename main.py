@@ -1,9 +1,10 @@
-import csv
+from picachu import *
 
-def generator_matousu():
-    print("Matous 1")
-    print("Matous 2")
+location = ["Praha 8", "Praha 7"]
+object = "Byt"
+offer = "Prodej"
 
-print("Matouš je moc pěkný!")
-print("Tuhy je BOREC!")
-generator_matousu()
+new_data = get_properties(location, offer, object)
+add_new_properties_to_db(database, new_data)
+
+#notifikace()
