@@ -1,0 +1,1935 @@
+<!DOCTYPE html>
+<!--[if lt IE 8]><html class="lt-ie9 lt-ie8" lang="cs-CZ"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9" lang="cs-CZ"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="cs-CZ">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<title>Nabídka nemovitostí | Realitní kanceláø MAXIMA REALITY</title>
+
+        
+
+
+
+		<meta name="author" content="iREJ.cz - George Hrncir">
+
+    
+
+
+        <link rel="shortcut icon" href="https://www.maxima.cz/wp-content/themes/maxima_v2/pictures/favicons/favicon.ico">
+        <link rel="apple-touch-icon" sizes="57x57" href="https://www.maxima.cz/wp-content/themes/maxima_v2/pictures/favicons/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="https://www.maxima.cz/wp-content/themes/maxima_v2/pictures/favicons/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="https://www.maxima.cz/wp-content/themes/maxima_v2/pictures/favicons/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="https://www.maxima.cz/wp-content/themes/maxima_v2/pictures/favicons/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="https://www.maxima.cz/wp-content/themes/maxima_v2/pictures/favicons/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="https://www.maxima.cz/wp-content/themes/maxima_v2/pictures/favicons/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="https://www.maxima.cz/wp-content/themes/maxima_v2/pictures/favicons/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="https://www.maxima.cz/wp-content/themes/maxima_v2/pictures/favicons/apple-touch-icon-152x152.png">
+        <link rel="icon" type="image/png" href="https://www.maxima.cz/wp-content/themes/maxima_v2/pictures/favicons/favicon-196x196.png" sizes="196x196">
+        <link rel="icon" type="image/png" href="https://www.maxima.cz/wp-content/themes/maxima_v2/pictures/favicons/favicon-160x160.png" sizes="160x160">
+        <link rel="icon" type="image/png" href="https://www.maxima.cz/wp-content/themes/maxima_v2/pictures/favicons/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="https://www.maxima.cz/wp-content/themes/maxima_v2/pictures/favicons/favicon-16x16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="https://www.maxima.cz/wp-content/themes/maxima_v2/pictures/favicons/favicon-32x32.png" sizes="32x32">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-TileImage" content="https://www.maxima.cz/wp-content/themes/maxima_v2/pictures/favicons/mstile-144x144.png">
+        <meta name="msapplication-config" content="https://www.maxima.cz/wp-content/themes/maxima_v2/pictures/favicons/browserconfig.xml">
+
+    
+<meta property="og:url" content="https://www.maxima.cz/nabidka-nemovitosti/">
+
+    <meta property="og:image" content="https://www.maxima.cz/wp-content/themes/maxima_v2/pictures/logo-maxima-reality-fb-round.jpg">
+    
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Nabídka nemovitostí | Realitní kanceláø MAXIMA REALITY">
+<meta property="og:site_name" content="Realitní kanceláø MAXIMA REALITY">
+<meta property="og:description" content="">
+<!-- HEAD -->
+
+	<!--[if lt IE 9]>
+	<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<link rel="stylesheet" href="https://www.maxima.cz/wp-content/themes/maxima_v2/css/grid-system/ie-grid.css">
+	<![endif]-->
+
+	<link rel="alternate" hreflang="cs" href="https://www.maxima.cz/nabidka-nemovitosti/" />
+<link rel="alternate" hreflang="en" href="https://www.maxima.cz/en/nabidka-nemovitosti/" />
+
+	<!-- This site is optimized with the Yoast SEO plugin v15.2 - https://yoast.com/wordpress/plugins/seo/ -->
+	<meta name="description" content="Nabídka nemovitostí. ? 25 let na trhu ? Více než 55 000 spokojených klientù ? Prodejte nebo kuptenemovitost bezpeènì a bez starostí!" />
+	<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<link rel="canonical" href="https://www.maxima.cz/nabidka-nemovitosti/" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="Nabídka nemovitostí - Realitní kanceláø MAXIMA REALITY" />
+	<meta name="twitter:description" content="Nabídka nemovitostí. ? 25 let na trhu ? Více než 55 000 spokojených klientù ? Prodejte nebo kuptenemovitost bezpeènì a bez starostí!" />
+	<meta name="twitter:label1" value="Written by">
+	<meta name="twitter:data1" value="admin">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.maxima.cz/#website","url":"https://www.maxima.cz/","name":"Realitn\u00ed kancel\u00e1\u0159 MAXIMA REALITY","description":"Realitka pro v\u0161echny \u017eivotn\u00ed situace. Nemovitosti, byty, rodinn\u00e9 domy, pozemky, kancel\u00e1\u0159e, prodej, pron\u00e1jem.","potentialAction":[{"@type":"SearchAction","target":"https://www.maxima.cz/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"cs"},{"@type":"WebPage","@id":"https://www.maxima.cz/nabidka-nemovitosti/#webpage","url":"https://www.maxima.cz/nabidka-nemovitosti/","name":"Nab\u00eddka nemovitost\u00ed - Realitn\u00ed kancel\u00e1\u0159 MAXIMA REALITY","isPartOf":{"@id":"https://www.maxima.cz/#website"},"datePublished":"2014-02-19T20:48:46+00:00","dateModified":"2020-09-22T08:33:43+00:00","description":"Nab\u00eddka nemovitost\u00ed. \u2705 25 let na trhu \u2705 V\u00edce ne\u017e 55 000 spokojen\u00fdch klient\u016f \u2b50 Prodejte nebo kuptenemovitost bezpe\u010dn\u011b a bez starost\u00ed!","breadcrumb":{"@id":"https://www.maxima.cz/nabidka-nemovitosti/#breadcrumb"},"inLanguage":"cs","potentialAction":[{"@type":"ReadAction","target":["https://www.maxima.cz/nabidka-nemovitosti/"]}]},{"@type":"BreadcrumbList","@id":"https://www.maxima.cz/nabidka-nemovitosti/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://www.maxima.cz/","url":"https://www.maxima.cz/","name":"\u00davod"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"https://www.maxima.cz/nabidka-nemovitosti/","url":"https://www.maxima.cz/nabidka-nemovitosti/","name":"Nab\u00eddka nemovitost\u00ed"}}]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='stylesheet' id='mx-mailing-poptavka-nemovitosti-css'  href='https://www.maxima.cz/wp-content/plugins/mx-mailing-poptavka-nemovitosti/public/css/mx-mailing-poptavka-nemovitosti-public.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='https://www.maxima.cz/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<link rel='stylesheet' id='template-default-style-font-css'  href='https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto:400,400i,700,700i&#038;subset=latin-ext&#038;display=swap' type='text/css' media='all' />
+<link rel='stylesheet' id='template-default-style-css'  href='https://www.maxima.cz/wp-content/themes/maxima_v2/style.css?ver=20201030-1' type='text/css' media='all' />
+<link rel='stylesheet' id='template-default-style-grid-system-css'  href='https://www.maxima.cz/wp-content/themes/maxima_v2/css/grid-system/style-grid.css?ver=20201030-1' type='text/css' media='all' />
+<link rel='stylesheet' id='template-default-style-jquery-ui-1.10.4.custom.min-css'  href='https://www.maxima.cz/wp-content/themes/maxima_v2/js/jquery-ui-1.10.4.custom.min.css?ver=20201030-1' type='text/css' media='all' />
+<link rel='stylesheet' id='custom-style-slick-css'  href='https://www.maxima.cz/wp-content/themes/maxima_v2/js/slick.css?ver=20201030-1' type='text/css' media='all' />
+<link rel='stylesheet' id='custom-style-slick-theme-css'  href='https://www.maxima.cz/wp-content/themes/maxima_v2/js/slick-theme.css?ver=20201030-1' type='text/css' media='all' />
+<link rel='stylesheet' id='custom-style-jquery.nouislider-css'  href='https://www.maxima.cz/wp-content/themes/maxima_v2/js/jquery.nouislider.css?ver=20201030-1' type='text/css' media='all' />
+<link rel='stylesheet' id='custom-style-jquery.opentip-css'  href='https://www.maxima.cz/wp-content/themes/maxima_v2/js/jquery.opentip.css?ver=20201030-1' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.maxima.cz/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://www.maxima.cz/wp-content/plugins/mx-mailing-poptavka-nemovitosti/public/js/mx-mailing-poptavka-nemovitosti-public.js?ver=1.0.0' id='mx-mailing-poptavka-nemovitosti-js'></script>
+<script type='text/javascript' src='https://www.maxima.cz/wp-content/themes/maxima_v2/js/jquery-ui-1.10.4.custom.min.js?ver=20201030-1' id='jquery-ui-1.10.4.custom.min-js'></script>
+<script type='text/javascript' src='https://www.maxima.cz/wp-content/themes/maxima_v2/js/modernizr.js?ver=20201030-1' id='modernizr-js'></script>
+<script type='text/javascript' src='https://www.maxima.cz/wp-content/themes/maxima_v2/js/sweet-alert-promise-ie.js?ver=20201030-1' id='custom-script-sweet-alert-promise-ie-js'></script>
+<script type='text/javascript' src='https://www.maxima.cz/wp-content/themes/maxima_v2/js/sweet-alert.js?ver=20201030-1' id='custom-script-sweet-alert-js'></script>
+<script type='text/javascript' src='https://www.maxima.cz/wp-content/themes/maxima_v2/js/fbox3/jquery.fanbox.min.js?ver=20201030-1' id='custom-script-fanBox_3-js'></script>
+<script type='text/javascript' src='https://www.maxima.cz/wp-content/themes/maxima_v2/js/jquery.isInViewport.min.js?ver=20201030-1' id='custom-script-jquery.isInViewport.min-js'></script>
+<script type='text/javascript' src='https://www.maxima.cz/wp-content/themes/maxima_v2/js/jquery.cookies.js?ver=20201030-1' id='custom-script-jquery.cookies-new-js'></script>
+<script type='text/javascript' src='https://www.maxima.cz/wp-content/themes/maxima_v2/js/slick.min.js?ver=20201030-1' id='custom-script-slick.min-js'></script>
+<script type='text/javascript' src='https://www.maxima.cz/wp-content/themes/maxima_v2/js/icheck/icheck.min.js?ver=20201030-1' id='custom-script-icheck.min-js'></script>
+<script type='text/javascript' src='https://www.maxima.cz/wp-content/themes/maxima_v2/js/jquery.cycle2.min.js?ver=20201030-1' id='custom-script-jquery.cycle2.min-js'></script>
+<script type='text/javascript' src='https://www.maxima.cz/wp-content/themes/maxima_v2/js/jquery.cycle2.center.min.js?ver=20201030-1' id='custom-script-jquery.cycle2.center.min-js'></script>
+<script type='text/javascript' src='https://www.maxima.cz/wp-content/themes/maxima_v2/js/jquery.cycle2.swipe.min.js?ver=20201030-1' id='custom-script-jquery.cycle2.swipe.min-js'></script>
+<script type='text/javascript' src='https://www.maxima.cz/wp-content/themes/maxima_v2/js/jquery.mousewheel.js?ver=20201030-1' id='custom-script-jquery.mousewheel-js'></script>
+<script type='text/javascript' src='https://www.maxima.cz/wp-content/themes/maxima_v2/js/jquery.nouislider.all.js?ver=20201030-1' id='custom-script-jquery.nouislider.all-js'></script>
+<script type='text/javascript' src='https://www.maxima.cz/wp-content/themes/maxima_v2/js/jquery.event.move.js?ver=20201030-1' id='custom-script-jquery.event.move-js'></script>
+<script type='text/javascript' src='https://www.maxima.cz/wp-content/themes/maxima_v2/js/jquery.twentytwenty.js?ver=20201030-1' id='custom-script-jquery.twentytwenty-js'></script>
+<script type='text/javascript' src='https://www.maxima.cz/wp-content/themes/maxima_v2/js/screenfull.min.js?ver=20201030-1' id='custom-script-screenfull.min-js'></script>
+<script type='text/javascript' src='https://www.maxima.cz/wp-content/themes/maxima_v2/js/jquery.opentip.js?ver=20201030-1' id='custom-script-jquery.opentip-js'></script>
+<script type='text/javascript' src='https://www.maxima.cz/wp-content/themes/maxima_v2/js/jquery.scrollto.js?ver=20201030-1' id='custom-script-jquery.scrollto-js'></script>
+<script type='text/javascript' src='https://www.maxima.cz/wp-content/themes/maxima_v2/js/jquery.sortable.js?ver=20201030-1' id='custom-script-jquery.sortable-js'></script>
+<script type='text/javascript' src='https://www.maxima.cz/wp-content/themes/maxima_v2/js/jquery.placeholder.js?ver=20201030-1' id='custom-script-jquery.placeholder-js'></script>
+<script type='text/javascript' src='https://www.maxima.cz/wp-content/themes/maxima_v2/js/jquery.animateNumbers.js?ver=20201030-1' id='custom-script-jquery.animateNumbers-js'></script>
+<script type='text/javascript' src='https://www.maxima.cz/wp-content/themes/maxima_v2/js/rangeslider.min.js?ver=20201030-1' id='custom-script-rangeslider-js'></script>
+<script type='text/javascript' src='https://www.maxima.cz/wp-content/themes/maxima_v2/js/jquery.documentsize.js?ver=20201030-1' id='custom-script-jquery.documentsize-js'></script>
+<script type='text/javascript' src='https://www.maxima.cz/wp-content/themes/maxima_v2/js/jquery.star-rating-svg.js?ver=20201030-1' id='custom-script-jquery.star-rating-svg-js'></script>
+<script type='text/javascript' src='https://www.maxima.cz/wp-content/themes/maxima_v2/js/sticky-kit.min.js?ver=20201030-1' id='custom-script-sticky-kit.min-js'></script>
+<script type='text/javascript' src='https://www.maxima.cz/wp-content/themes/maxima_v2/js/imagesloaded.min.js?ver=1' id='imagesLoaded-js'></script>
+<script type='text/javascript' src='https://www.maxima.cz/wp-content/themes/maxima_v2/js/heartcode-canvasloader-min.js?ver=20201030-1' id='custom-script-heartcode-canvasloader-min-js'></script>
+<script type='text/javascript' src='https://www.maxima.cz/wp-content/themes/maxima_v2/js/svgClass.js?ver=20201030-1' id='svgClass-js'></script>
+<script type='text/javascript' id='custom-script-custom_scripts-scripts.js-js-extra'>
+/* <![CDATA[ */
+var SiteParameters = {"site_url":"\/\/www.maxima.cz","theme_directory":"https:\/\/www.maxima.cz\/wp-content\/themes\/maxima_v2","REQUEST_URI":"\/nabidka-nemovitosti\/?advert_function=1&advert_type=1&advert_price-min=&advert_price-max=&floor_number-min=&floor_number-max=&usable_area-min=&usable_area-max=&estate_area-min=&estate_area-max=","get_the_ID":"46052","site_url_id_1006":"","is_front_page":"false","bodySloganAdjust_Runed":null,"properties_prices":{"_properties_prices_global_lowest":"0","_properties_prices_global_highest":"36450000","_properties_prices_rent_flat_lowest":"8000","_properties_prices_rent_flat_highest":"35000","_properties_prices_rent_house_lowest":"36000","_properties_prices_rent_house_highest":"36000","_properties_prices_buy_flat_lowest":"0","_properties_prices_buy_flat_highest":"16320000","_properties_prices_buy_house_lowest":"0","_properties_prices_buy_house_highest":"34900000"},"lang":{"Vypl\u0148te spr\u00e1vn\u011b v\u0161echna povinn\u00e1 pole.":"Vypl\u0148te spr\u00e1vn\u011b v\u0161echna povinn\u00e1 pole.","Pros\u00edme, zadejte v\u0161echny povinn\u00e9 \u00fadaje.":"Pros\u00edme, zadejte v\u0161echny povinn\u00e9 \u00fadaje.","Neplatn\u00fd email":"Neplatn\u00fd email","Zru\u0161it":"Zru\u0161it","Chci koupit":"Chci koupit","Chci si pronajmout":"Chci si pronajmout","Zobrazit":"Zobrazit","nemovitost":"nemovitost","nemovitosti":"nemovitosti","nemovitost\u00ed":"nemovitost\u00ed","vyhledat":"vyhledat","JAKOU CENU M\u00c1 TE\u010e MOJE NEMOVITOST?":"JAKOU CENU M\u00c1 TE\u010e MOJE NEMOVITOST?","Na odhadu pracujeme a ozveme se v\u00e1m.":"Na odhadu pracujeme a ozveme se v\u00e1m."},"conversion_links":{"sell_property_to_us":"\/\/www.maxima.cz\/_conversions\/sell_property_to_us.php","online_odhad":"\/\/www.maxima.cz\/_conversions\/online_odhad.php","maxima_trziste":"\/\/www.maxima.cz\/_conversions\/maxima_trziste.php"},"hypocalculator_interest_rate":"2.49","default_contact_email":"info@maxima.cz","terms_and_conditions_content":{"osobni_udaje":"<span style=\"display:block; width:100%; height:190px; overflow:auto; line-break:loose;\" class=\"user-editable-content\"><p>Odesl\u00e1n\u00edm formul\u00e1\u0159e potvrzuji, \u017ee vypln\u011bn\u00e9 \u00fadaje jsou \u00fadaji t\u00fdkaj\u00edc\u00ed se m\u00e9 osoby a&nbsp;souhlas\u00edm s&nbsp;t\u00edm, \u017ee mnou uveden\u00e9 osobn\u00ed \u00fadaje budou zpracov\u00e1ny za \u00fa\u010delem zp\u011btn\u00e9ho kontaktu a&nbsp;vytvo\u0159en\u00ed obchodn\u00ed nab\u00eddky, v\u010detn\u011b n\u00e1sledn\u00e9ho kontaktu za \u00fa\u010delem z\u00edsk\u00e1n\u00ed reference o&nbsp;kvalit\u011b poskytnut\u00fdch slu\u017eeb. Souhlas ud\u011bluji v&nbsp;souladu se z\u00e1konem \u010d. 101\/2000 Sb., o&nbsp;ochran\u011b osobn\u00edch \u00fadaj\u016f, a&nbsp;to v\u00fdhradn\u011b pro spole\u010dnosti MAXIMA REALITY, s.r.o., I\u010c: 25149610, Tom\u00e1\u0161 Kab\u00e1tek &#8211; TORESS, I\u010c: 70359105 nebo Home Institute, s.r.o, I\u010c 020 49 872 a&nbsp;pro n\u011b pracuj\u00edc\u00ed fyzick\u00e9 osoby. Mnou poskytnut\u00e9 \u00fadaje nebudou t\u011bmito osobami pou\u017eity pro \u017e\u00e1dn\u00fd jin\u00fd, ne\u017e uveden\u00fd \u00fa\u010del. Tento souhlas je ud\u011blen na dobu neur\u010ditou. Jsem t\u00edmto informov\u00e1n\/a, \u017ee m\u00e1m kdykoliv mo\u017enost po\u017e\u00e1dat o&nbsp;vysv\u011btlen\u00ed, blokov\u00e1n\u00ed, opravu, dopln\u011bn\u00ed \u010di likvidaci t\u011bchto \u00fadaj\u016f, p\u0159\u00edpadn\u011b m\u00e1m pr\u00e1vo odvolat souhlas se zpracov\u00e1n\u00edm osobn\u00edch \u00fadaj\u016f v&nbsp;p\u0159\u00edpadech, kdy zpracov\u00e1n\u00ed takov\u00fdch \u00fadaj\u016f nevypl\u00fdv\u00e1 ze z\u00e1kona, a&nbsp;to p\u00edsemn\u011b na adresu spole\u010dnosti MAXIMA REALITY, s.r.o., I\u010c: 25149610, Tom\u00e1\u0161 Kab\u00e1tek &#8211; TORESS, I\u010c: 70359105 nebo Home Institute, s.r.o, I\u010c 020 49\u00a0872.<\/p>\n<\/span>","obchodni_sdeleni":"<span style=\"display:block; width:100%; height:190px; overflow:auto; line-break:loose;\" class=\"user-editable-content\"><p>Odesl\u00e1n\u00edm formul\u00e1\u0159e potvrzuji, \u017ee vypln\u011bn\u00e9 \u00fadaje jsou \u00fadaji t\u00fdkaj\u00edc\u00ed se m\u00e9 osoby a\u00a0souhlas\u00edm s\u00a0t\u00edm, \u017ee mnou uveden\u00e9 osobn\u00ed \u00fadaje budou zpracov\u00e1ny za \u00fa\u010delem zas\u00edl\u00e1n\u00ed (\u010di jin\u00e9 formy kontaktov\u00e1n\u00ed, v\u010detn\u011b telefonick\u00fdch): marketingov\u00fdch a\u00a0reklamn\u00edch sd\u011blen\u00ed, jako\u017e i\u00a0n\u00e1sledn\u00fdch obchodn\u00edch nab\u00eddek t\u00fdkaj\u00edc\u00edch se prodeje \u010di pron\u00e1jmu nemovitost\u00ed, slu\u017eeb s\u00a0nemovitostmi spojen\u00fdmi \u010di \u0159e\u0161en\u00ed financov\u00e1n\u00ed koup\u011b nemovitost\u00ed, v\u010detn\u011b n\u00e1sledn\u00e9ho kontaktu za \u00fa\u010delem z\u00edsk\u00e1n\u00ed reference o\u00a0kvalit\u011b poskytnut\u00fdch slu\u017eeb. Sou\u010dasn\u011b souhlas\u00edm se zas\u00edl\u00e1n\u00edm marketingov\u00fdch a\u00a0reklamn\u00edch sd\u011blen\u00ed elektronick\u00fdmi prost\u0159edky na mnou poskytnutou elektronickou adresu. Souhlasy ud\u011bluji v\u00a0souladu se z\u00e1konem \u010d. 110\/2019 Sb., o\u00a0zpracov\u00e1n\u00ed osobn\u00edch \u00fadaj\u016f, a\u00a0v\u00a0souladu se z\u00e1konem \u010d. 480\/2004 Sb., o\u00a0n\u011bkter\u00fdch slu\u017eb\u00e1ch informa\u010dn\u00edch spole\u010dnost\u00ed, a\u00a0to v\u00fdhradn\u011b pro spole\u010dnosti MAXIMA REALITY, s.r.o., I\u010c: 25149610 a&nbsp;Tom\u00e1\u0161 Kab\u00e1tek \u2013 TORESS, I\u010c: 70359105 a\u00a0pro n\u011b pracuj\u00edc\u00ed fyzick\u00e9 osoby. Mnou poskytnut\u00e9 \u00fadaje nebudou t\u011bmito osobami pou\u017eity pro \u017e\u00e1dn\u00fd jin\u00fd, ne\u017e uveden\u00fd \u00fa\u010del. Tento souhlas je ud\u011blen na dobu neur\u010ditou. Jsem t\u00edmto informov\u00e1n\/a, \u017ee m\u00e1m kdykoliv mo\u017enost po\u017e\u00e1dat o\u00a0vysv\u011btlen\u00ed, blokov\u00e1n\u00ed, opravu, dopln\u011bn\u00ed \u010di likvidaci t\u011bchto \u00fadaj\u016f, p\u0159\u00edpadn\u011b m\u00e1m pr\u00e1vo odvolat souhlas se zpracov\u00e1n\u00edm osobn\u00edch \u00fadaj\u016f v\u00a0p\u0159\u00edpadech, kdy zpracov\u00e1n\u00ed takov\u00fdch \u00fadaj\u016f nevypl\u00fdv\u00e1 ze z\u00e1kona, a\u00a0to p\u00edsemn\u011b na adresu spole\u010dnosti MAXIMA REALITY, s.r.o., I\u010c: 25149610 a&nbsp;Tom\u00e1\u0161 Kab\u00e1tek \u2013 TORESS, I\u010c: 70359105. Sou\u010dasn\u011b jsem t\u00edmto informov\u00e1n, \u017ee m\u00e1m mo\u017enost kdykoliv odm\u00edtnout souhlas s\u00a0vyu\u017eit\u00edm m\u00e9ho elektronick\u00e9ho kontaktu, a\u00a0to p\u0159i zas\u00edl\u00e1n\u00ed ka\u017ed\u00e9ho jednotliv\u00e9ho marketingov\u00e9ho \u010di reklamn\u00edho sd\u011blen\u00ed.<\/p>\n<\/span>","zasady_o_zpracovani_osobnich_udaju":"<span style=\"display:block; width:100%; height:190px; overflow:auto; line-break:loose;\" class=\"user-editable-content\"><p>T\u00edmto dokumentem V\u00e1m poskytujeme informace o&nbsp;Va\u0161ich pr\u00e1vech souvisej\u00edc\u00edch se zpracov\u00e1v\u00e1n\u00edm osobn\u00edch \u00fadaj\u016f ve spole\u010dnosti Maxima reality s.r.o.. P\u0159i zpracov\u00e1v\u00e1n\u00ed osobn\u00edch \u00fadaj\u016f se \u0159\u00edd\u00edme pr\u00e1vn\u00edmi p\u0159edpisy, zejm\u00e9na na\u0159\u00edzen\u00edm GDPR a&nbsp;z\u00e1konem o&nbsp;zpracov\u00e1n\u00ed osobn\u00edch \u00fadaj\u016f. Zpracov\u00e1v\u00e1n\u00ed osobn\u00edch \u00fadaj\u016f prob\u00edh\u00e1 v\u017edy pouze v&nbsp;rozsahu dan\u00e9m konkr\u00e9tn\u00ed slu\u017ebou nebo \u00fa\u010delem zpracov\u00e1n\u00ed.<\/p>\n<p>Tento dokument bude pravideln\u011b aktualizov\u00e1n.<\/p>\n<p>S osobn\u00edmi \u00fadaji nakl\u00e1d\u00e1me s&nbsp;\u0159\u00e1dnou p\u00e9\u010d\u00ed a&nbsp;v&nbsp;souladu s&nbsp;platn\u00fdmi pr\u00e1vn\u00edmi p\u0159edpisy. Osobn\u00ed \u00fadaje chr\u00e1n\u00edme v&nbsp;maxim\u00e1ln\u00ed mo\u017en\u00e9 m\u00ed\u0159e, kter\u00e1 odpov\u00edd\u00e1 technick\u00e9 \u00farovni dostupn\u00fdch prost\u0159edk\u016f.<\/p>\n<p>Ve spole\u010dnosti Maxima reality s.r.o. plat\u00ed p\u0159\u00edsn\u00e1 pravidla stanovuj\u00edc\u00ed, kter\u00fd zam\u011bstnanec \u010di \u00fatvar m\u016f\u017ee m\u00edt p\u0159\u00edstup k&nbsp;osobn\u00edm \u00fadaj\u016fm a&nbsp;jak\u00e9 osobn\u00ed \u00fadaje m\u016f\u017ee zpracov\u00e1vat. Osobn\u00ed \u00fadaje z\u00e1sadn\u011b nep\u0159ed\u00e1v\u00e1me mimo spole\u010dnost Maxima reality s.r.o., s&nbsp;v\u00fdjimkou p\u0159\u00edpad\u016f, kdy m\u00e1me souhlas, ukl\u00e1d\u00e1 n\u00e1m to nebo n\u00e1s k&nbsp;tomu oprav\u0148uje pr\u00e1vn\u00ed p\u0159edpis nebo n\u00e1\u0161 opr\u00e1vn\u011bn\u00fd z\u00e1jem (nap\u0159\u00edklad v\u00a0p\u0159\u00edpad\u011b dodavatel\u016f nebo v&nbsp;p\u0159\u00edpad\u011b po\u017eadavk\u016f org\u00e1n\u016f \u010dinn\u00fdch v&nbsp;trestn\u00edm \u0159\u00edzen\u00ed apod.).<\/p>\n<p>Osobn\u00ed \u00fadaje d\u011bt\u00ed (tedy osob mlad\u0161\u00edch 15 let) zpracov\u00e1v\u00e1me, jen pokud za d\u00edt\u011b jednal nejprve jeho rodi\u010d nebo jin\u00fd z\u00e1stupce. Vysok\u00e9 standardy ochrany osobn\u00edch \u00fadaj\u016f, kter\u00e9 plat\u00ed v&nbsp;na\u0161\u00ed skupin\u011b pro\u00a0zpracov\u00e1n\u00ed osobn\u00edch \u00fadaj\u016f, plat\u00ed i&nbsp;v\u016f\u010di d\u011btem v&nbsp;nezm\u011bn\u011bn\u00e9m rozsahu. Tyto standardy jsou pro\u00a0zpracov\u00e1n\u00ed osobn\u00edch \u00fadaj\u016f d\u011bt\u00ed pln\u011b dosta\u010duj\u00edc\u00ed. Jako rodi\u010d nebo jin\u00fd z\u00e1stupce d\u00edt\u011bte nesete odpov\u011bdnost za to, \u017ee poskytnut\u00ed \u00fadaj\u016f o&nbsp;d\u00edt\u011bti je v&nbsp;souladu s&nbsp;jeho z\u00e1jmy a&nbsp;\u017ee d\u00edt\u011b o&nbsp;zpracov\u00e1n\u00ed osobn\u00edch \u00fadaj\u016f n\u00e1mi i&nbsp;o&nbsp;jeho pr\u00e1vech srozumiteln\u011b informujete.<\/p>\n<p>Doporu\u010dujeme, abyste si informace pe\u010dliv\u011b p\u0159e\u010detli. Ud\u011blali jsme v\u0161e pro to, aby byly co nejsrozumiteln\u011bj\u0161\u00ed. Pokud by V\u00e1m i&nbsp;p\u0159esto nebylo n\u011bco jasn\u00e9, r\u00e1di v\u00e1m kter\u00fdkoli pojem nebo pas\u00e1\u017e vysv\u011btl\u00edme. V\u00edce o&nbsp;zpracov\u00e1v\u00e1n\u00ed osobn\u00edch \u00fadaj\u016f naleznete na www.maxima.cz\/zasady-zpracovani-osobnich-udaju.<\/p>\n<p>Jestli\u017ee nesouhlas\u00edte se zp\u016fsobem, jak\u00fdm va\u0161e osobn\u00ed \u00fadaje zpracov\u00e1v\u00e1me, m\u016f\u017eete k\u00a0ochran\u011b sv\u00fdch pr\u00e1v podniknout kroky uveden\u00e9 n\u00ed\u017ee.<\/p>\n<p>Na ochranu soukrom\u00ed a&nbsp;osobn\u00edch \u00fadaj\u016f dohl\u00ed\u017e\u00ed:<\/p>\n<p>\u00da\u0159ad pro ochranu osobn\u00edch \u00fadaj\u016f<\/p>\n<p>adresa: Pplk. Sochora 27, 170 00 Praha 7<\/p>\n<p>tel.: 234 665 111 web: <a href=\"http:\/\/www.uoou.cz\"><strong>www.uoou.cz<\/strong><\/a><\/p>\n<p>&nbsp;<\/p>\n<p><strong>Z\u00e1kladn\u00ed informace o&nbsp;spr\u00e1vci <\/strong><\/p>\n<p>Spole\u010dnost MAXIMA REALITY, s.r.o. se s\u00eddlem Havl\u00ed\u010dkova 1030\/1, Nov\u00e9 M\u011bsto, 110 00 Praha 1, I\u010c: 25149610, veden\u00e9 u&nbsp;M\u011bstsk\u00e9ho soudu v\u00a0Praze pod spisovou zna\u010dkou C 53747 (d\u00e1le jen \u201e<strong>MAXIMA<\/strong>\u201c), se kterou uzav\u0159el subjekt \u00fadaj\u016f smluvn\u00ed vztah (d\u00e1le jen \u201e<strong>Spr\u00e1vce<\/strong>\u201c).<\/p>\n<p><strong>\u00da\u010del a&nbsp;rozsah zpracov\u00e1n\u00ed osobn\u00edch \u00fadaj\u016f<\/strong><\/p>\n<p>Spr\u00e1vce zpracov\u00e1v\u00e1 osobn\u00ed \u00fadaje v\u00a0souladu se z\u00e1konem \u010d. 110\/2019 Sb., o&nbsp;zpracov\u00e1n\u00ed osobn\u00edch \u00fadaj\u016f a&nbsp;s\u00a0pr\u00e1vem Evropsk\u00e9 unie, zejm\u00e9na v\u00a0souladu s\u00a0Na\u0159\u00edzen\u00edm Evropsk\u00e9ho parlamentu a&nbsp;Rady (EU) 2016\/679 ze dne 27. dubna 2016 o\u00a0ochran\u011b fyzick\u00fdch osob v&nbsp;souvislosti se zpracov\u00e1n\u00edm osobn\u00edch \u00fadaj\u016f a&nbsp;o&nbsp;voln\u00e9m pohybu t\u011bchto \u00fadaj\u016f a&nbsp;o&nbsp;zru\u0161en\u00ed sm\u011brnice 95\/46\/ES (obecn\u00e9 na\u0159\u00edzen\u00ed o&nbsp;ochran\u011b osobn\u00edch \u00fadaj\u016f) (d\u00e1le jen \u201e<strong>GDPR<\/strong>\u201c).<\/p>\n<p>Spr\u00e1vce zpracov\u00e1v\u00e1 osobn\u00ed \u00fadaje pouze stanoven\u00fdm \u00fa\u010delem, v\u00a0d\u00e1le uveden\u00e9m rozsahu, po dobu uvedenou v\u00a0uzav\u0159en\u00fdch smlouv\u00e1ch \u010di v\u00a0p\u0159\u00edslu\u0161n\u00fdch pr\u00e1vn\u00edch p\u0159edpisech.<\/p>\n<p>Spr\u00e1vce zpracov\u00e1v\u00e1 osobn\u00ed \u00fadaje nezbytn\u00e9 pro pln\u011bn\u00ed smlouvy uzav\u0159en\u00e9 mezi spr\u00e1vcem a&nbsp;subjektem \u00fadaj\u016f, pro \u00fa\u010dely realizace obchodn\u00edho vztahu mezi spr\u00e1vcem a&nbsp;subjektem \u00fadaj\u016f obsa\u017een\u00fdch ve smlouv\u011b a&nbsp;pro spr\u00e1vu vztahu se subjektem \u00fadaj\u016f. Spr\u00e1vce zpracov\u00e1v\u00e1 osobn\u00ed \u00fadaje na z\u00e1klad\u011b sv\u00fdch opr\u00e1vn\u011bn\u00fdch z\u00e1jm\u016f, , pokud tyto z\u00e1jmy nejsou p\u0159ev\u00e1\u017eeny z\u00e1jmy, pr\u00e1vy \u010di svobodami subjektu \u00fadaj\u016f. Spr\u00e1vce d\u00e1le zpracov\u00e1v\u00e1 osobn\u00ed \u00fadaje pro anal\u00fdzu a&nbsp;zlep\u0161en\u00ed kvality sv\u00fdch slu\u017eeb, pro anal\u00fdzu a&nbsp;pr\u016fzkum trhu. Spr\u00e1vce bude vyu\u017e\u00edvat osobn\u00ed \u00fadaje pro vytvo\u0159en\u00ed relevantn\u00ed propaga\u010dn\u00ed akce a&nbsp;nab\u00eddky produkt\u016f a&nbsp;slu\u017eeb spole\u010dnosti.<\/p>\n<p><strong>Z\u00e1kladn\u00ed \u00fa\u010del zpracov\u00e1n\u00ed osobn\u00edch \u00fadaj\u016f<\/strong><\/p>\n<p>\u00da\u010dely zpracov\u00e1n\u00ed osobn\u00edch \u00fadaj\u016f, pro kter\u00e9 jsou osobn\u00ed \u00fadaje ur\u010deny, a&nbsp;pr\u00e1vn\u00ed z\u00e1klad pro zpracov\u00e1n\u00ed:<\/p>\n<ul>\n<li>pln\u011bn\u00ed smlouvy a&nbsp;poskytov\u00e1n\u00ed slu\u017eeb<\/li>\n<li>zaji\u0161t\u011bn\u00ed provozn\u00edch \u010dinnost\u00ed<\/li>\n<li>\u00fa\u010detn\u00ed a&nbsp;da\u0148ov\u00e9 \u00fa\u010dely<\/li>\n<li>vym\u00e1h\u00e1n\u00ed pohled\u00e1vek<\/li>\n<li>spln\u011bn\u00ed pr\u00e1vn\u00ed povinnosti<\/li>\n<li>p\u0159\u00edm\u00fd marketing<\/li>\n<li>ochrana majetku a&nbsp;osob<\/li>\n<li>archivnictv\u00ed veden\u00e9 na z\u00e1klad\u011b z\u00e1kona.<\/li>\n<\/ul>\n<p><strong><br \/>\nRozsah zpracov\u00e1n\u00ed osobn\u00edch \u00fadaj\u016f:<\/strong><\/p>\n<p>Spr\u00e1vce zpracov\u00e1v\u00e1 osobn\u00ed \u00fadaje v\u00a0rozsahu, v\u00a0kter\u00e9m mu byly poskytnuty ze strany subjektu \u00fadaj\u016f nebo kter\u00e9 spr\u00e1vce shrom\u00e1\u017edil jinak a&nbsp;zpracov\u00e1v\u00e1 je v&nbsp;souladu s\u00a0platn\u00fdmi pr\u00e1vn\u00edmi p\u0159edpisy \u010di k&nbsp;pln\u011bn\u00ed z\u00e1konn\u00fdch povinnost\u00ed spr\u00e1vce. Jedn\u00e1 se zejm\u00e9na o&nbsp;tyto kategorie osobn\u00edch \u00fadaj\u016f:<\/p>\n<ul>\n<li>adresn\u00e9 a&nbsp;kontaktn\u00ed \u00fadaje, zejm\u00e9na tedy jm\u00e9no, p\u0159\u00edjmen\u00ed, datum narozen\u00ed, rodn\u00e9 \u010d\u00edslo, bydli\u0161t\u011b, m\u00edsto narozen\u00ed, telefonn\u00ed \u010d\u00edslo a&nbsp;jin\u00e9,<\/li>\n<li>podobizna,<\/li>\n<li>popisn\u00e9 \u00fadaje, nap\u0159. \u010d\u00edslo bankovn\u00edho \u00fa\u010dtu,<\/li>\n<li>dal\u0161\u00ed \u00fadaje plynouc\u00ed z\u00a0konkr\u00e9tn\u00ed smlouvy \u010di ze z\u00e1kona,<\/li>\n<li>\u00fadaje poskytnut\u00e9 nad r\u00e1mec p\u0159\u00edslu\u0161n\u00fdch z\u00e1kon\u016f zpracov\u00e1van\u00e9 v&nbsp;r\u00e1mci ud\u011blen\u00e9ho souhlasu ze strany subjektu \u00fadaj\u016f (zpracov\u00e1n\u00ed fotografi\u00ed, pou\u017eit\u00ed osobn\u00edch \u00fadaj\u016f za \u00fa\u010delem person\u00e1ln\u00edch \u0159\u00edzen\u00ed, soubory cookies aj.).<\/li>\n<\/ul>\n<p><strong><br \/>\nPr\u00e1va subjektu \u00fadaj\u016f:<\/strong><\/p>\n<p>Spr\u00e1vce zpracov\u00e1v\u00e1 osobn\u00ed \u00fadaje transparentn\u011b, korektn\u011b a&nbsp;v\u00a0souladu s\u00a0GDPR. Subjekt \u00fadaj\u016f m\u00e1 pr\u00e1vo na p\u0159\u00edstup ke sv\u00fdm \u00fadaj\u016fm, na vysv\u011btlen\u00ed, stejn\u011b jako dal\u0161\u00ed pr\u00e1va v\u00a0p\u0159\u00edpad\u011b, \u017ee se domn\u00edv\u00e1, \u017ee zpracov\u00e1n\u00ed nen\u00ed v\u00a0po\u0159\u00e1dku. Subjekt \u00fadaj\u016f m\u016f\u017ee podat st\u00ed\u017enost u&nbsp;\u00da\u0159adu pro ochranu osobn\u00edch \u00fadaj\u016f.<\/p>\n<p>Spr\u00e1vce informuje subjekty osobn\u00edch \u00fadaj\u016f o&nbsp;jejich pr\u00e1vech, jen\u017e jsou n\u00e1sleduj\u00edc\u00ed:<\/p>\n<ul>\n<li>pr\u00e1vo zn\u00e1t \u00fa\u010del zpracov\u00e1n\u00ed osobn\u00edch \u00fadaj\u016f,<\/li>\n<li>pr\u00e1vo zn\u00e1t kategorie dot\u010den\u00fdch osobn\u00edch \u00fadaj\u016f,<\/li>\n<li>pr\u00e1vo zn\u00e1t p\u0159\u00edjemce nebo kategorie p\u0159\u00edjemc\u016f osobn\u00edch \u00fadaj\u016f,<\/li>\n<li>pr\u00e1vo zn\u00e1t dobu, po kterou budou osobn\u00ed \u00fadaje ulo\u017eeny,<\/li>\n<li>pr\u00e1vo po\u017eadovat po spr\u00e1vci opravu nebo v\u00fdmaz osobn\u00edch \u00fadaj\u016f nebo omezen\u00ed jejich zpracov\u00e1n\u00ed a&nbsp;pr\u00e1vo vzn\u00e9st n\u00e1mitku proti tomuto zpracov\u00e1n\u00ed, pr\u00e1vo na p\u0159enositelnost \u00fadaj\u016f k\u00a0jin\u00e9mu spr\u00e1vci,<\/li>\n<li>pr\u00e1vo podat st\u00ed\u017enost u&nbsp;dozorov\u00e9ho \u00fa\u0159adu,<\/li>\n<li>pr\u00e1vo na ve\u0161ker\u00e9 dostupn\u00e9 informace o&nbsp;zdroji osobn\u00edch \u00fadaj\u016f, pokud nejsou z\u00edsk\u00e1ny od subjektu osobn\u00edch \u00fadaj\u016f,<\/li>\n<li>pr\u00e1vo kdykoli odvolat souhlas se zpracov\u00e1n\u00edm osobn\u00edch \u00fadaj\u016f, pokud jsou osobn\u00ed \u00fadaje zpracov\u00e1v\u00e1ny na z\u00e1klad\u011b ud\u011blen\u00e9ho souhlasu,<\/li>\n<li>skute\u010dnosti o&nbsp;tom, zda doch\u00e1z\u00ed k\u00a0automatizovan\u00e9mu rozhodov\u00e1n\u00ed, v\u010detn\u011b profilov\u00e1n\u00ed,<\/li>\n<li>pr\u00e1vo b\u00fdt informov\u00e1n, pokud hodl\u00e1 Spr\u00e1vce zpracov\u00e1vat poskytnut\u00e9 \u00fadaje pro jin\u00fd \u00fa\u010del, ne\u017e pro jak\u00fd byly shrom\u00e1\u017ed\u011bny,<\/li>\n<li>pr\u00e1vo odm\u00edtnout z\u00e1znam nebo monitorov\u00e1n\u00ed telefonn\u00edch hovor\u016f se zam\u011bstnanci Spr\u00e1vce.<\/li>\n<\/ul>\n<p>Subjekt \u00fadaj\u016f m\u00e1 pr\u00e1vo neposkytnout Spr\u00e1vci sv\u00e9 osobn\u00ed \u00fadaje. V\u00a0p\u0159\u00edpad\u011b, \u017ee je poskytnut\u00ed t\u011bchto osobn\u00edch \u00fadaj\u016f povinn\u00e9 (a to ze z\u00e1kona \u010di smlouvy), upozor\u0148uje Spr\u00e1vce subjekt \u00fadaj\u016f, \u017ee mu nebude moci poskytnout sv\u00e9 slu\u017eby.<\/p>\n<p>V\u00a0p\u0159\u00edpad\u011b, \u017ee jsme Va\u0161e osobn\u00ed \u00fadaje obdr\u017eeli od jin\u00e9ho subjektu ne\u017e od V\u00e1s, V\u00e1s upozor\u0148ujeme na n\u00e1sleduj\u00edc\u00ed:<\/p>\n<p>M\u00e1te pr\u00e1vo zn\u00e1t:<\/p>\n<ul>\n<li>toto\u017enost a&nbsp;kontaktn\u00ed \u00fadaje spr\u00e1vce<\/li>\n<li>\u00fa\u010dely zpracov\u00e1n\u00ed a&nbsp;pr\u00e1vn\u00ed z\u00e1klad zpracov\u00e1n\u00ed<\/li>\n<li>kategorie dot\u010den\u00fdch osobn\u00edch \u00fadaj\u016f<\/li>\n<li>p\u0159\u00edjemce osobn\u00edch \u00fadaj\u016f<\/li>\n<li>z\u00e1m\u011br spr\u00e1vce p\u0159edat osobn\u00ed \u00fadaje p\u0159\u00edjemci ve t\u0159et\u00ed zemi<\/li>\n<li>pr\u00e1vo zn\u00e1t dobu, po kterou budou osobn\u00ed \u00fadaje ulo\u017eeny,<\/li>\n<li>pr\u00e1vo po\u017eadovat po spr\u00e1vci opravu nebo v\u00fdmaz osobn\u00edch \u00fadaj\u016f nebo omezen\u00ed jejich zpracov\u00e1n\u00ed a&nbsp;pr\u00e1vo vzn\u00e9st n\u00e1mitku proti tomuto zpracov\u00e1n\u00ed, pr\u00e1vo na p\u0159enositelnost \u00fadaj\u016f k\u00a0jin\u00e9mu spr\u00e1vci,<\/li>\n<li>pr\u00e1vo podat st\u00ed\u017enost u&nbsp;dozorov\u00e9ho \u00fa\u0159adu,<\/li>\n<li>pr\u00e1vo na ve\u0161ker\u00e9 dostupn\u00e9 informace o&nbsp;zdroji osobn\u00edch \u00fadaj\u016f, pokud nejsou z\u00edsk\u00e1ny od subjektu osobn\u00edch \u00fadaj\u016f,<\/li>\n<li>pr\u00e1vo kdykoli odvolat souhlas se zpracov\u00e1n\u00edm osobn\u00edch \u00fadaj\u016f, pokud jsou osobn\u00ed \u00fadaje zpracov\u00e1v\u00e1ny na z\u00e1klad\u011b ud\u011blen\u00e9ho souhlasu,<\/li>\n<li>skute\u010dnosti o&nbsp;tom, zda doch\u00e1z\u00ed k\u00a0automatizovan\u00e9mu rozhodov\u00e1n\u00ed, v\u010detn\u011b profilov\u00e1n\u00ed,<\/li>\n<li>pr\u00e1vo b\u00fdt informov\u00e1n, pokud hodl\u00e1 spr\u00e1vce zpracov\u00e1vat poskytnut\u00e9 \u00fadaje pro jin\u00fd \u00fa\u010del, ne\u017e pro jak\u00fd byly shrom\u00e1\u017ed\u011bny.<\/li>\n<\/ul>\n<p><strong><br \/>\nZpracovatel\u00e9 a&nbsp;p\u0159\u00edjemci osobn\u00edch \u00fadaj\u016f:<\/strong><\/p>\n<p>Zpracovateli a&nbsp;p\u0159\u00edjemci osobn\u00edch \u00fadaj\u016f, kter\u00e9 spravuje Spr\u00e1vce, jsou:<\/p>\n<ul>\n<li>dodavatel\u00e9 a&nbsp;poskytovatel\u00e9 slu\u017eeb,<\/li>\n<li>finan\u010dn\u00ed \u00fastavy a&nbsp;banky,<\/li>\n<li>st\u00e1tn\u00ed a&nbsp;jin\u00e9 org\u00e1ny v&nbsp;r\u00e1mci pln\u011bn\u00ed z\u00e1konn\u00fdch povinnost\u00ed,<\/li>\n<li>dal\u0161\u00ed subjekty spolupracuj\u00edc\u00ed se Spr\u00e1vcem p\u0159i poskytov\u00e1n\u00ed finan\u010dn\u011b poradensk\u00fdch a&nbsp;zprost\u0159edkovatelsk\u00fdch slu\u017eeb klient\u016fm Spr\u00e1vce zejm\u00e9na v&nbsp;oblasti hypote\u010dn\u00edch \u00fav\u011br\u016f (spole\u010dnost SIRIUS FINANCE, a.s., I\u010cO: 055 51 421 a&nbsp;jej\u00ed spolupracovn\u00edci).<\/li>\n<\/ul>\n<p><strong><br \/>\nP\u0159ed\u00e1n\u00ed osobn\u00edch \u00fadaj\u016f do t\u0159et\u00edch zem\u00ed<\/strong><\/p>\n<p>Spr\u00e1vce m\u016f\u017ee p\u0159ed\u00e1vat osobn\u00ed \u00fadaje do t\u0159et\u00edch zem\u00ed, mimo Evropsk\u00fd hospod\u00e1\u0159sk\u00fd prostor, nap\u0159. USA a&nbsp;\u0160v\u00fdcarsko.<\/p>\n<p>V\u00a0p\u0159\u00edpad\u011b, \u017ee budou osobn\u00ed \u00fadaje p\u0159ed\u00e1ny do zem\u00ed mimo Evropsk\u00fd hospod\u00e1\u0159sk\u00fd prostor nebo do zem\u00ed, kter\u00e9 nemaj\u00ed odpov\u00eddaj\u00edc\u00ed \u00farove\u0148 ochrany podle platn\u00fdch z\u00e1kon\u016f, zejm\u00e9na GDPR a&nbsp;dal\u0161\u00edch p\u0159edpis\u016f EU a&nbsp;vnitrost\u00e1tn\u00edch p\u0159edpis\u016f o&nbsp;ochran\u011b osobn\u00edch \u00fadaj\u016f, bude toto p\u0159ed\u00e1n\u00ed uskute\u010dn\u011bno na z\u00e1klad\u011b v\u00fdjimky vztahuj\u00edc\u00ed se na konkr\u00e9tn\u00ed situaci, nebo Spr\u00e1vce zajist\u00ed, \u017ee budou poskytnuty odpov\u00eddaj\u00edc\u00ed z\u00e1ruky, aby byla zaji\u0161t\u011bna ochrana osobn\u00edch \u00fadaj\u016f v\u00a0souladu s\u00a0GDPR, tedy zejm\u00e9na s\u00a0\u010dl. 42 odst. 2 GDPR.<\/p>\n<p><strong>Kamerov\u00fd syst\u00e9m<\/strong><\/p>\n<p>Prostory Spr\u00e1vce jsou sledov\u00e1ny kamerov\u00fdm syst\u00e9mem, o&nbsp;\u010dem\u017e jsou n\u00e1v\u0161t\u011bvn\u00edci provozoven informov\u00e1ni. \u00da\u010delem zpracov\u00e1n\u00ed osobn\u00edch \u00fadaj\u016f je sledov\u00e1n\u00ed vymezen\u00fdch prostor. Zpracov\u00e1n\u00ed prob\u00edh\u00e1 dle \u010dl. 6 odst. 1 p\u00edsm. f) GDPR, kdy souhlas subjektu \u00fadaj\u016f nen\u00ed t\u0159eba, jeliko\u017e zpracov\u00e1n\u00ed je nezbytn\u00e9 pro \u00fa\u010dely opr\u00e1vn\u011bn\u00e9ho z\u00e1jmu Spr\u00e1vce \u010di t\u0159et\u00ed strany, a&nbsp;aby byly chr\u00e1n\u011bny z\u00e1jmy a&nbsp;z\u00e1kladn\u00ed pr\u00e1va a&nbsp;svobody subjektu \u00fadaj\u016f. Opr\u00e1vn\u011bn\u00fd z\u00e1jem Spr\u00e1vce a&nbsp;t\u0159et\u00edch osob je ochrana majetku MAXIMA, a&nbsp;ochrana osob nach\u00e1zej\u00edc\u00edch se v&nbsp;monitorovan\u00fdch prostorech, prov\u011b\u0159en\u00ed pr\u016fb\u011bhu nehodov\u00e9ho d\u011bje na pracovi\u0161ti, vzniku \u0161kody, prov\u011b\u0159en\u00ed okolnosti odcizen\u00ed v\u011bc\u00ed z\u00a0pracovi\u0161t\u011b, vniknut\u00ed ciz\u00ed osoby do objektu MAXIMA.<\/p>\n<p>Z\u00e1znamy z\u00a0kamerov\u00e9ho syst\u00e9mu jsou uchov\u00e1v\u00e1ny v\u00a0d\u00e9lce 30 dn\u016f a&nbsp;pot\u00e9 jsou v\u00a0automatick\u00e9 smy\u010dce p\u0159emaz\u00e1v\u00e1ny. Nejsou po\u0159izov\u00e1ny zvukov\u00e9 z\u00e1znamy, stejn\u011b tak nen\u00ed pou\u017e\u00edv\u00e1n software k&nbsp;porovn\u00e1v\u00e1n\u00ed n\u011bkter\u00fdch biometrick\u00fdch charakteristik subjektu \u00fadaj\u016f (nap\u0159. charakteristiky pohybu \u010di ch\u016fze subjekt\u016f \u00fadaj\u016f).<\/p>\n<p><strong>Cookies<\/strong><\/p>\n<p><strong>Co to jsou \u201ecookies\u201c?<\/strong><\/p>\n<p>\u201eCookies\u201c jsou mal\u00e9 datov\u00e9 soubory pou\u017e\u00edvan\u00e9 jako jedine\u010dn\u00e9 identifik\u00e1tory. Ka\u017ed\u00fd soubor cookie je jedine\u010dn\u00fd pro v\u00e1\u0161 webov\u00fd prohl\u00ed\u017ee\u010d. Soubor cookie obsahuje anonymn\u00ed informace a&nbsp;je odes\u00edl\u00e1n ze serveru webov\u00fdch str\u00e1nek, kter\u00e9 prohl\u00ed\u017e\u00edte, do va\u0161eho po\u010d\u00edta\u010de nebo mobiln\u00edho telefonu. Bude ulo\u017een na va\u0161em za\u0159\u00edzen\u00ed a&nbsp;pouze tento server bude moci vyhledat nebo na\u010d\u00edst obsah tohoto souboru cookie. Odeslan\u00e9 soubory cookies mohou b\u00fdt zasl\u00e1ny zp\u011bt na servery webov\u00fdch str\u00e1nek s&nbsp;aktualizovan\u00fdmi daty b\u011bhem va\u0161eho prohl\u00ed\u017een\u00ed webov\u00fdch str\u00e1nek. Cookies vyu\u017e\u00edv\u00e1 pro svou \u010dinnost naprost\u00e1 v\u011bt\u0161ina webov\u00fdch str\u00e1nek.<\/p>\n<p>Soubory cookies mohou b\u00fdt nastaveny webov\u00fdmi str\u00e1nkami, kter\u00e9 nav\u0161t\u011bvujete (\u201ena\u0161e cookies\u201c), nebo mohou b\u00fdt nastaveny organizac\u00ed, kter\u00e1 nen\u00ed vlastn\u00edkem webov\u00fdch str\u00e1nek, je\u017e si prohl\u00ed\u017e\u00edte (\u201ecookies t\u0159et\u00ed strany\u201c). Nap\u0159\u00edklad mohou b\u00fdt nastaveny jin\u00fdmi webov\u00fdmi str\u00e1nkami, kter\u00e9 spou\u0161t\u011bj\u00ed obsah na str\u00e1nce, kterou si prohl\u00ed\u017e\u00edte, nebo nez\u00e1vislou analytickou spole\u010dnost\u00ed. Webov\u00e9 str\u00e1nky, kter\u00e9 nav\u0161t\u011bvujete, mohou tak\u00e9 zahrnovat obsah vlo\u017een\u00fd z&nbsp;jin\u00fdch webov\u00fdch str\u00e1nek a&nbsp;tyto str\u00e1nky mohou rovn\u011b\u017e nastavit sv\u00e9 vlastn\u00ed cookies. Webov\u00e9 str\u00e1nky mohou pou\u017e\u00edvat reklamn\u00ed s\u00edt\u011b t\u0159et\u00ed osoby k&nbsp;poskytov\u00e1n\u00ed c\u00edlen\u00e9 reklamy. Tyto cookies mohou m\u00edt mo\u017enost sledovat va\u0161e prohl\u00ed\u017een\u00ed r\u016fzn\u00fdch str\u00e1nek.<\/p>\n<p><strong>Jak se d\u011bl\u00ed cookies<\/strong><\/p>\n<p>Cookies lze rozd\u011blit podle toho, kdo je k&nbsp;V\u00e1m na web umis\u0165uje, tj. na:<\/p>\n<ul>\n<li>Cookie prvn\u00ed strany (first party cookie) \u2013 jejich platnost je omezena na dom\u00e9nu webu, kter\u00fd prohl\u00ed\u017e\u00edte. Tyto cookies jsou pova\u017eov\u00e1ny za bezpe\u010dn\u011bj\u0161\u00ed.<\/li>\n<li>Cookie t\u0159et\u00ed strany (third party cookie) \u2013 jsou um\u00edst\u011bny pomoc\u00ed skriptu z&nbsp;jin\u00e9 dom\u00e9ny. U\u017eivatele tak lze sledovat nap\u0159\u00ed\u010d dom\u00e9nami. Pou\u017e\u00edvaj\u00ed se \u010dasto pro vyhodnocen\u00ed \u00fa\u010dinnosti reklamn\u00edch kan\u00e1l\u016f.<\/li>\n<\/ul>\n<p>Tyto webov\u00e9 str\u00e1nky pou\u017e\u00edvaj\u00ed dva druhy cookies:<\/p>\n<p>Kr\u00e1tkodob\u00e9, rela\u010dn\u00ed cookies (session cookie) \u2013 Rela\u010dn\u00ed cookies se ukl\u00e1daj\u00ed pouze do\u010dasn\u011b b\u011bhem relace prohl\u00ed\u017een\u00ed a&nbsp;jsou vymaz\u00e1ny z&nbsp;Va\u0161eho za\u0159\u00edzen\u00ed po zav\u0159en\u00ed prohl\u00ed\u017ee\u010de.<\/p>\n<p>Dlouhodob\u00e9, trval\u00e9 (persistent cookie) \u2013 Tento typ cookies se ukl\u00e1d\u00e1 ve va\u0161em po\u010d\u00edta\u010di po pevn\u011b stanovenou dobu, kter\u00e1 z\u00e1le\u017e\u00ed na nastaven\u00ed Va\u0161eho prohl\u00ed\u017ee\u010de a&nbsp;nastaven\u00ed cookie (obvykle m\u011bs\u00edc, rok nebo d\u00e9le) a&nbsp;tyto cookies nejsou vymaz\u00e1ny po zav\u0159en\u00ed prohl\u00ed\u017ee\u010de. Trval\u00e9 cookies se pou\u017e\u00edvaj\u00ed k&nbsp;Va\u0161\u00ed identifikaci od jedn\u00e9 relace prohl\u00ed\u017een\u00ed k&nbsp;dal\u0161\u00ed, nap\u0159\u00edklad k&nbsp;ulo\u017een\u00ed va\u0161ich preferenc\u00ed, tak\u017ee si je budou pamatovat pro dal\u0161\u00ed n\u00e1v\u0161t\u011bvu. M\u016f\u017eete je tak\u00e9 ru\u010dn\u011b odstranit.<\/p>\n<p><strong>Jak pou\u017e\u00edv\u00e1me cookies?<\/strong><\/p>\n<p>Soubory cookies pou\u017e\u00edv\u00e1me ke zlep\u0161en\u00ed va\u0161ich u\u017eivatelsk\u00fdch zku\u0161enost\u00ed tak, \u017ee webov\u00fdm str\u00e1nk\u00e1m umo\u017en\u00edme, aby V\u00e1s identifikovaly, bu\u010f po dobu trv\u00e1n\u00ed va\u0161\u00ed n\u00e1v\u0161t\u011bvy (za pou\u017eit\u00ed rela\u010dn\u00edch cookies), nebo pro opakovan\u00e9 n\u00e1v\u0161t\u011bvy (za pou\u017eit\u00ed trval\u00fdch cookies). Soubory cookies, kter\u00e9 pou\u017e\u00edv\u00e1me, mohou:<\/p>\n<ul>\n<li>b\u00fdt nezbytn\u011b zapot\u0159eb\u00ed pro V\u00e1\u0161 pohyb po str\u00e1nk\u00e1ch nebo poskytnut\u00ed n\u011bkter\u00fdch z\u00e1kladn\u00edch funkc\u00ed; nebo<\/li>\n<li>zlep\u0161ovat funkce na\u0161ich webov\u00fdch str\u00e1nek, nap\u0159\u00edklad ulo\u017een\u00edm va\u0161ich preferenc\u00ed. Zaznamen\u00e1vaj\u00ed Va\u0161e volby (nap\u0159\u00edklad u\u017eivatelsk\u00e9 jm\u00e9no nebo zvolen\u00fd jazyk) a&nbsp;umo\u017e\u0148uj\u00ed n\u00e1m poskytovat personalizovan\u00e9 prost\u0159ed\u00ed; nebo<\/li>\n<li>n\u00e1m pom\u00e1hat zlep\u0161it v\u00fdkonnost na\u0161ich webov\u00fdch str\u00e1nek, aby V\u00e1m nab\u00eddly lep\u0161\u00ed u\u017eivatelsk\u00e9 zku\u0161enosti. Informace poskytovan\u00e9 t\u011bmito soubory cookies jsou anonymn\u00ed a&nbsp;pom\u00e1haj\u00ed n\u00e1m pochopit, jak na\u0161i n\u00e1v\u0161t\u011bvn\u00edci pou\u017e\u00edvaj\u00ed na\u0161e webov\u00e9 str\u00e1nky, abychom mohli zlep\u0161it prezentaci sv\u00e9ho obsahu. Tyto slu\u017eby jsou obecn\u011b poskytov\u00e1ny nez\u00e1visl\u00fdmi spole\u010dnostmi pro m\u011b\u0159en\u00ed a&nbsp;v\u00fdzkum, tak\u017ee se v&nbsp;p\u0159\u00edpad\u011b t\u011bchto cookies m\u016f\u017ee jednat o&nbsp;cookies t\u0159et\u00edch stran.<\/li>\n<\/ul>\n<p>Kdybychom cookies nepou\u017e\u00edvali, na\u0161e webov\u00e9 str\u00e1nky by V\u00e1s pova\u017eovaly za nov\u00e9ho n\u00e1v\u0161t\u011bvn\u00edka poka\u017ed\u00e9, kdy\u017e se dostanete na novou str\u00e1nku na\u0161ich webov\u00fdch str\u00e1nek \u2013 nap\u0159\u00edklad kdy\u017e zad\u00e1te p\u0159ihla\u0161ovac\u00ed \u00fadaje a&nbsp;p\u0159ejdete na dal\u0161\u00ed str\u00e1nku, nerozpoznaly by V\u00e1s a&nbsp;nemohli byste z\u016fstat p\u0159ihl\u00e1\u0161eni.<\/p>\n<p>Soubory cookies pot\u0159ebujeme pou\u017e\u00edvat, abychom zachovali efektivnost na\u0161ich webov\u00fdch str\u00e1nek a&nbsp;poskytli V\u00e1m u\u017eivatelsky p\u0159\u00e1telsk\u00e9 prost\u0159ed\u00ed. Proto nelze cookies zablokovat samostatn\u011b a&nbsp;pokra\u010dov\u00e1n\u00edm prohl\u00ed\u017een\u00ed na\u0161ich webov\u00fdch str\u00e1nek a&nbsp;pou\u017e\u00edv\u00e1n\u00edm na\u0161ich online slu\u017eeb souhlas\u00edte s&nbsp;t\u00edm, \u017ee m\u016f\u017eeme na va\u0161e za\u0159\u00edzen\u00ed tyto soubory cookies um\u00edstit.<\/p>\n<p>Na\u0161e webov\u00e9 str\u00e1nky rovn\u011b\u017e pou\u017e\u00edvaj\u00ed cookies pro behavior\u00e1ln\u011b c\u00edlenou reklamu, co\u017e n\u00e1m umo\u017e\u0148uje upravit reklamu a&nbsp;zajistit, \u017ee pro V\u00e1s bude relevantn\u00ed, a&nbsp;to na z\u00e1klad\u011b oblast\u00ed, kter\u00e9 na na\u0161\u00ed webov\u00e9 str\u00e1nce prohl\u00ed\u017e\u00edte, a&nbsp;geografick\u00e9ho um\u00edst\u011bn\u00ed Va\u0161\u00ed adresy IP. Tyto cookies jsou um\u00edst\u011bny reklamn\u00edmi s\u00edt\u011bmi t\u0159et\u00edch osob s&nbsp;na\u0161\u00edm souhlasem.<\/p>\n<p><strong>K \u010demu cookies pou\u017e\u00edv\u00e1me<\/strong><\/p>\n<p>Na na\u0161em webu pou\u017e\u00edv\u00e1me tyto cookies:<\/p>\n<ul>\n<li>Technick\u00e9 \u2013 prvn\u00ed strany, kr\u00e1tkodob\u00e9. Zaji\u0161\u0165uj\u00ed z\u00e1kladn\u00ed technickou funk\u010dnost webu, tj. p\u0159ihla\u0161ov\u00e1n\u00ed, zapamatov\u00e1n\u00ed si nastaven\u00ed, vyu\u017e\u00edv\u00e1n\u00ed slu\u017eeb apod.<\/li>\n<li>Statistick\u00e9 a&nbsp;diagnostick\u00e9 (nap\u0159. Google Analytics) \u2013 prvn\u00ed strany, dlouhodob\u00e9. Jsou vyu\u017eity ke generov\u00e1n\u00ed anonymn\u00edch statistik o&nbsp;pou\u017e\u00edv\u00e1n\u00ed webu.<\/li>\n<li>Reklamn\u00ed &#8211; prvn\u00ed i&nbsp;t\u0159et\u00ed strany. Jsou vyu\u017e\u00edv\u00e1ny pro behavior\u00e1ln\u00ed c\u00edlen\u00ed reklamy podle z\u00e1jm\u016f. Kdy\u017e u\u017e se reklama mus\u00ed zobrazovat (jako hlavn\u00ed p\u0159\u00edjem pro web a&nbsp;tvorbu jeho obsahu), tak a\u0165 se u\u017eivateli \/ \u010dten\u00e1\u0159i zobrazuj\u00ed nab\u00eddky, kter\u00e9 jej mohou skute\u010dn\u011b zaj\u00edmat.<\/li>\n<\/ul>\n<p><strong><br \/>\nCo d\u011blat, kdy\u017e nechcete pou\u017e\u00edvat soubory cookies<\/strong><\/p>\n<p>Souhlas s&nbsp;um\u00edst\u011bn\u00edm soubor\u016f cookies je dobrovoln\u00fd. Budete-li si to p\u0159\u00e1t, m\u016f\u017eete zablokovat n\u011bkter\u00e9 nebo v\u0161echny soubory cookies nebo vymazat cookies, kter\u00e9 ji\u017e byly nastaveny. V\u0161echny podrobnosti ohledn\u011b spr\u00e1vy cookies a&nbsp;mo\u017enost\u00ed jejich blokov\u00e1n\u00ed v\u00a0r\u016fzn\u00fdch typech webov\u00fdch prohl\u00ed\u017ee\u010d\u016f m\u016f\u017eete naj\u00edt na str\u00e1nce www.aboutcookies.org, nebo<\/p>\n<ul>\n<li>https:\/\/support.microsoft.com\/cs-cz\/help\/17442\/windows-internet-explorer-delete-manage-cookies (pro prohl\u00ed\u017ee\u010d Internet Explorer); nebo<\/li>\n<li>https:\/\/support.mozilla.org\/cs\/kb\/povoleni-zakazani-cookies (pro prohl\u00ed\u017ee\u010d Mozzilla\/Firefox);<\/li>\n<li>https:\/\/support.google.com\/chrome\/answer\/95647?visit_id=0-636535873837482984-3731587686&amp;hl=cs&amp;rd=1 (pro prohl\u00ed\u017ee\u010d Chrome);<\/li>\n<li>http:\/\/www.opera.com\/help\/tutorials\/security\/privacy\/ (pro prohl\u00ed\u017ee\u010d Opera);<\/li>\n<li>https:\/\/support.apple.com\/kb\/ph21411?locale=cs_CZ (pro prohl\u00ed\u017ee\u010d Safari).<\/li>\n<\/ul>\n<p>Mus\u00edte si v\u0161ak uv\u011bdomit, \u017ee pokud zablokujete nebo vyma\u017eete cookies odes\u00edlan\u00e9 z&nbsp;na\u0161ich webov\u00fdch str\u00e1nek, kter\u00e9 jsou nezbytn\u011b nutn\u00e9 nebo zaji\u0161\u0165uj\u00ed funk\u010dnost a&nbsp;v\u00fdkon, m\u016f\u017ee se st\u00e1t, \u017ee str\u00e1nky nebude mo\u017en\u00e9 pou\u017e\u00edvat.<\/p>\n<p>Typy cookies pou\u017e\u00edvan\u00e9 na na\u0161ich webov\u00fdch str\u00e1nk\u00e1ch si m\u016f\u017eete zobrazit, a&nbsp;tak z\u00edskat informace, jak zm\u011bnit nastaven\u00ed cookies, anebo jak zablokovat cookies pou\u017e\u00edvan\u00e9 na na\u0161ich webov\u00fdch str\u00e1nk\u00e1ch.<\/p>\n<p><strong>Webov\u00e9 str\u00e1nky t\u0159et\u00edch osob<\/strong><\/p>\n<p>Pokud pou\u017e\u00edv\u00e1te webov\u00e9 str\u00e1nky na\u0161ich partner\u016f, m\u016f\u017ee b\u00fdt soubor cookie nastaven nav\u0161t\u00edven\u00fdmi webov\u00fdmi str\u00e1nkami. Tyto str\u00e1nky neprovozujeme, a&nbsp;nem\u00e1me tedy kontrolu nad \u0161\u00ed\u0159en\u00edm t\u011bchto cookies. V\u00edce informac\u00ed o&nbsp;t\u011bchto cookies najdete na webov\u00fdch str\u00e1nk\u00e1ch p\u0159\u00edslu\u0161n\u00e9 t\u0159et\u00ed osoby.<\/p>\n<p>Spole\u010dnost MAXIMA pou\u017e\u00edv\u00e1 tyto soubory cookies.<\/p>\n<p>&nbsp;<\/p>\n<table cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td valign=\"middle\"><strong>N\u00e1zev<\/strong><\/td>\n<td valign=\"middle\"><strong>Zpracovatel<\/strong><\/td>\n<td valign=\"middle\"><strong>\u00da\u010del zpracov\u00e1n\u00ed<\/strong><\/td>\n<td valign=\"middle\"><strong>Popis<\/strong><\/td>\n<\/tr>\n<tr>\n<td valign=\"bottom\">Facebook<\/td>\n<td valign=\"middle\">Facebook, Inc.<\/td>\n<td valign=\"middle\">Sd\u00edlen\u00ed, c\u00edlen\u00e1 reklama.<\/td>\n<td valign=\"bottom\">https:\/\/www.facebook.com\/policies\/cookies\/<\/td>\n<\/tr>\n<tr>\n<td valign=\"bottom\">Google Adwords<\/td>\n<td valign=\"middle\">Google LLC<\/td>\n<td valign=\"middle\">C\u00edlen\u00e1 reklama.<\/td>\n<td valign=\"bottom\">https:\/\/policies.google.com\/technologies\/types<\/td>\n<\/tr>\n<tr>\n<td valign=\"bottom\">Google Analytics<\/td>\n<td valign=\"middle\">Google LLC<\/td>\n<td valign=\"middle\">Anal\u00fdza chov\u00e1n\u00ed na webu.<\/td>\n<td valign=\"bottom\">https:\/\/policies.google.com\/technologies\/types<\/td>\n<\/tr>\n<tr>\n<td valign=\"bottom\">Google Tag Manager<\/td>\n<td valign=\"middle\">Google LLC<\/td>\n<td valign=\"middle\">Program\u00e1torsk\u00fd n\u00e1stroj pro web.<\/td>\n<td valign=\"bottom\">https:\/\/policies.google.com\/technologies\/types<\/td>\n<\/tr>\n<tr>\n<td valign=\"bottom\">Sklik<\/td>\n<td valign=\"middle\">Seznam.cz, a.s.<\/td>\n<td valign=\"middle\">C\u00edlen\u00e1 reklama.<\/td>\n<td valign=\"bottom\">https:\/\/napoveda.sklik.cz\/mereni-uspesnosti\/konverze\/<\/td>\n<\/tr>\n<tr>\n<td valign=\"bottom\">IBM Watson Campaign Automation<\/td>\n<td valign=\"middle\">IBM Corp.<\/td>\n<td valign=\"middle\">E-mail marketing.<\/td>\n<td valign=\"bottom\">https:\/\/www.ibm.com\/support\/knowledgecenter\/en\/SSWU4L\/Support\/imc_Support\/GDPR_FAQs.html<\/td>\n<\/tr>\n<tr>\n<td valign=\"bottom\">Smartsupp<\/td>\n<td valign=\"middle\">Smartsupp.com, s.r.o.<\/td>\n<td valign=\"middle\">Anal\u00fdza chov\u00e1n\u00ed n\u00e1v\u0161t\u011bvn\u00edk\u016f webu za \u00fa\u010delem zp\u0159ehledn\u011bn\u00ed prezentovan\u00fdch informac\u00ed.<\/td>\n<td valign=\"bottom\">https:\/\/www.smartsupp.com\/privacy<\/td>\n<\/tr>\n<tr>\n<td valign=\"bottom\">Hotjar<\/td>\n<td valign=\"middle\">Hotjar Ltd.<\/td>\n<td valign=\"middle\">Anal\u00fdza chov\u00e1n\u00ed n\u00e1v\u0161t\u011bvn\u00edk\u016f webu za \u00fa\u010delem zp\u0159ehledn\u011bn\u00ed prezentovan\u00fdch informac\u00ed.<\/td>\n<td valign=\"bottom\">https:\/\/www.hotjar.com\/legal\/policies\/cookie-information<\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n<p>V\u0161echny v\u00fd\u0161e uveden\u00e9 cookies jsou pou\u017e\u00edv\u00e1ny pouze k&nbsp;\u00fa\u010delu uveden\u00e9mu v&nbsp;t\u00e9to tabulce.<\/p>\n<p><strong>Kontaktn\u00ed \u00fadaje<\/strong><\/p>\n<p>V p\u0159\u00edpad\u011b jak\u00e9hokoli dotazu \u010di vyu\u017eit\u00ed sv\u00e9ho pr\u00e1va, kter\u00e9 je stanoven\u00e9 GDPR uv\u00e1d\u00ed spr\u00e1vce sv\u00e9 kontaktn\u00ed \u00fadaje, na kter\u00e9 se m\u016f\u017ee subjekt \u00fadaj\u016f obr\u00e1tit.<\/p>\n<p><i>Email:\u00a0<\/i><a href=\"mailto:gdpr@maxima.cz\"><strong>gdpr@maxima.cz<\/strong><\/a><\/p>\n<\/span>","doporuceni_podminky":"<span style=\"display:block; width:100%; height:190px; overflow:auto; line-break:loose;\" class=\"user-editable-content\"><p>Kampa\u0148 <strong>Neplat\u00edte provizi<\/strong> se vztahuje na slu\u017eby realitn\u00ed kancel\u00e1\u0159e MAXIMA REALITY, s.r.o. poskytnut\u00e9 majitel\u016fm nemovitost\u00ed p\u0159i prodeji nemovitosti v\u00a0Praze.<\/p>\n<p>Kampa\u0148 <strong>Odm\u011bna za doporu\u010den\u00ed<\/strong> nemovitosti k\u00a0prodeji \u010din\u00ed 10\u00a0000 K\u010d a&nbsp;je vyplacena do 10 dn\u00ed za spln\u011bn\u00ed podm\u00ednek:<\/p>\n<ul>\n<li>doporu\u010den\u00e1 nemovitost \u2013 byt se nach\u00e1z\u00ed v\u00a0Praze<\/li>\n<li>doporu\u010den\u00e1 nemovitost \u2013 d\u016fm nebo pozemek se nach\u00e1z\u00ed v\u00a0Praze, Praze-v\u00fdchod, Praze-z\u00e1pad<\/li>\n<li>realitn\u00ed kancel\u00e1\u0159 Maxima realizuje prodej doporu\u010den\u00e9 nemovitosti<\/li>\n<li>kampa\u0148 Odm\u011bna za doporu\u010den\u00ed nen\u00ed \u010dasov\u011b omezena, RK si v\u0161ak vyhrazuje pr\u00e1vo tuto kampa\u0148 kdykoliv ukon\u010dit<\/li>\n<\/ul>\n<\/span>","doporuceni_podminky_neplatite_provizi":"<span style=\"display:block; width:100%; height:190px; overflow:auto; line-break:loose;\" class=\"user-editable-content\"><p>Kampa\u0148 <strong>Neplat\u00edte provizi<\/strong> se vztahuje na slu\u017eby realitn\u00ed kancel\u00e1\u0159e MAXIMA REALITY, s.r.o. poskytnut\u00e9 majitel\u016fm nemovitost\u00ed p\u0159i prodeji nemovitosti v\u00a0Praze.<\/p>\n<\/span>","zaruka_prodeje":"<span style=\"display:block; width:100%; height:190px; overflow:auto; line-break:loose;\" class=\"user-editable-content\"><p><strong>Realitn\u00ed kancel\u00e1\u0159 MAXIMA REALITY, s.r.o.,<\/strong> (d\u00e1le jen \u201eRK Maxima\u201c) <strong>se zavazuje, \u017ee majiteli bytu<\/strong> za spln\u011bn\u00ed PODM\u00cdNEK Z\u00c1RUKY PRODEJE BYTU a&nbsp;za doby trv\u00e1n\u00ed Smlouvy o&nbsp;poskytnut\u00ed slu\u017eeb RK, <strong>vyhled\u00e1<\/strong> nejpozd\u011bji do 4 m\u011bs\u00edc\u016f od zve\u0159ejn\u011bn\u00ed inzerce bytu z\u00e1jemce o&nbsp;koupi bytu a&nbsp;s&nbsp;t\u00edmto vyhledan\u00fdm z\u00e1jemcem uzav\u0159e Rezerva\u010dn\u00ed smlouvu.<\/p>\n<p>            V&nbsp;p\u0159\u00edpad\u011b, \u017ee RK Maxima za spln\u011bn\u00ed PODM\u00cdNEK a&nbsp;za doby trv\u00e1n\u00ed Smlouvy o&nbsp;poskytnut\u00ed slu\u017eeb RK nevyhled\u00e1 z\u00e1jemce o&nbsp;koupi bytu a&nbsp;neuzav\u0159e s&nbsp;t\u00edmto vyhledan\u00fdm z\u00e1jemcem Rezerva\u010dn\u00ed smlouvu do 4 m\u011bs\u00edc\u016f od zve\u0159ejn\u011bn\u00ed inzerce bytu, <strong>zaplat\u00ed RK Maxima klientovi<\/strong> jednor\u00e1zovou smluvn\u00ed <strong>pokutu ve v\u00fd\u0161i 20 000 K\u010d,<\/strong> a&nbsp;to do 15 pracovn\u00edch dn\u016f od marn\u00e9ho uplynut\u00ed shora uveden\u00e9 lh\u016fty pro uzav\u0159en\u00ed Rezerva\u010dn\u00ed smlouvy, a&nbsp;to bankovn\u00edm p\u0159evodem na \u00fa\u010det klienta.<\/p>\n<p>            <strong>PODM\u00cdNKY akce Z\u00c1RUKA PRODEJE BYTU<\/strong><\/p>\n<ul>\n<li>Z\u00c1RUKA PRODEJE BYTU je ur\u010dena pro v\u0161echny majitele byt\u016f (v\u010detn\u011b dru\u017estevn\u00edch pod\u00edl\u016f v&nbsp;bytov\u00fdch dru\u017estvech s&nbsp;pr\u00e1vem n\u00e1jmu bytu), kte\u0159\u00ed se na RK Maxima obr\u00e1t\u00ed s&nbsp;\u017e\u00e1dost\u00ed o&nbsp;zprost\u0159edkov\u00e1n\u00ed prodeje bytu a&nbsp;<\/li>\n<li>byt se mus\u00ed nach\u00e1zet v&nbsp;lokalit\u011b Praha, Praha-v\u00fdchod, Praha-z\u00e1pad a&nbsp;<\/li>\n<li>mezi majitelem bytu a&nbsp;RK Maxima mus\u00ed doj\u00edt k&nbsp;uzav\u0159en\u00ed v\u00fdhradn\u00ed Smlouvy o&nbsp;poskytnut\u00ed slu\u017eeb RK Maxima p\u0159i prodeji bytu, a&nbsp;to na dobu ur\u010ditou min. 4 m\u011bs\u00edce a&nbsp;<\/li>\n<li>re\u00e1ln\u00e1 tr\u017en\u00ed cena bytu mus\u00ed b\u00fdt stanovena ze strany RK Maxima a&nbsp;<\/li>\n<li>byt bude nab\u00edzen RK Maxima za j\u00ed stanovenou tr\u017en\u00ed cenu nav\u00fd\u0161enou o&nbsp;provizi RK Maxima a&nbsp;<\/li>\n<li>klient mus\u00ed poskytovat RK Maxima nezbytnou sou\u010dinnost, zejm\u00e9na umo\u017enit p\u0159\u00edpravu bytu k&nbsp;inzerci, prohl\u00eddky bytu a&nbsp;poskytnout nezbytn\u00e9 informace a&nbsp;dokumentaci k&nbsp;bytu. <\/li>\n<li>RK Maxima si vyhrazuje pr\u00e1vo odm\u00edtnout poskytnut\u00ed Z\u00c1RUKY PRODEJE BYTU \u010di ji\u017e poskytnutou Z\u00c1RUKU PRODEJE BYTU zru\u0161it u&nbsp;byt\u016f s&nbsp;pr\u00e1vn\u00edmi \u010di jin\u00fdmi vadami, p\u0159i nestandardn\u00edch po\u017eadavc\u00edch majitele bytu na podm\u00ednky obchodu nebo na osobu kupuj\u00edc\u00edho \u010di na obsah smluv. <\/li>\n<li>RK Maxima si vyhrazuje i&nbsp;pr\u00e1vo tuto akci, tj. vystavov\u00e1n\u00ed Z\u00c1RUK PRODEJE BYTU, kdykoliv ukon\u010dit.<\/li>\n<\/ul>\n<\/span>","odmenime_vas":"<span style=\"display:block; width:100%; height:190px; overflow:auto; line-break:loose;\" class=\"user-editable-content\"><p><strong>Podm\u00ednky vzniku n\u00e1roku na vyplacen\u00ed provize:<\/strong><\/p>\n<ol>\n<li>doporu\u010den\u00e1 nemovitost \u2013 byt se nach\u00e1z\u00ed v&nbsp;Praze nebo doporu\u010den\u00e1 nemovitost \u2013 d\u016fm\/pozemek se \t\tnach\u00e1z\u00ed v&nbsp;Praze, Praze-v\u00fdchod nebo Praze-z\u00e1pad a<\/li>\n<li>dojde k&nbsp;uzav\u0159en\u00ed smlouvy o&nbsp;poskytnut\u00ed slu\u017eeb RK mezi RK a&nbsp;vlastn\u00edkem doporu\u010den\u00e9 nemovitosti a<\/li>\n<li>dojde k&nbsp;realizaci prodeje doporu\u010den\u00e9 nemovitosti prost\u0159ednictv\u00edm RK a<\/li>\n<li>dojde k&nbsp;inkasov\u00e1n\u00ed odm\u011bny RK za poskytnut\u00ed slu\u017eeb RK p\u0159i prodeji doporu\u010den\u00e9 nemovitosti.<\/li>\n<\/ol>\n<\/span>","souhlas_se_zpracovanim_osobnich_udaju_pro_obchodni_ucely":"<span style=\"display:block; width:100%; height:190px; overflow:auto; line-break:loose;\" class=\"user-editable-content\"><p>T\u00edmto ud\u011bluji spole\u010dnosti MAXIMA REALITY, s.r.o. se s\u00eddlem Havl\u00ed\u010dkova 1030\/1, Nov\u00e9 M\u011bsto, 110 00 Praha 1, I\u010c: 25149610, veden\u00e9 u\u00a0M\u011bstsk\u00e9ho soudu v\u00a0Praze pod spisovou zna\u010dkou C 53747 (d\u00e1le jen \u201e<b>MAXIMA<\/b> d\u00e1le tak\u00e9 jen \u201e<b>Spr\u00e1vce<\/b>\u201c) souhlas s\u00a0vyu\u017eit\u00edm ve\u0161ker\u00fdch identifika\u010dn\u00edch, kontaktn\u00edch, provozn\u00edch, v\u010detn\u011b lokaliza\u010dn\u00edch a\u00a0jin\u00fdch \u00fadaj\u016f generovan\u00fdch p\u0159i poskytov\u00e1n\u00ed slu\u017eeb nebo z\u00edskan\u00fdch p\u0159i komunikaci se mnou (d\u00e1le jen \u201e\u00fadaje\u201c) pro obchodn\u00ed \u00fa\u010dely. Jednotliv\u00e9 z\u00e1sady zpracov\u00e1n\u00ed osobn\u00edch \u00fadaj\u016f jsou pops\u00e1ny v\u00a0dokumentu\u00a0<a href=\"http:\/\/www.maxima.cz\/zasady-zpracovani-osobnich-udaju\/\" target=\"_blank\" rel=\"noopener noreferrer\">Z\u00e1sady zpracov\u00e1n\u00ed osobn\u00edch \u00fadaj\u016f.<\/a><\/p>\n<p>Jsem si v\u011bdom, \u017ee obchodn\u00ed \u00fa\u010dely zahrnuj\u00ed zejm\u00e9na \u010dinnosti t\u00fdkaj\u00edc\u00ed se t\u0159\u00edd\u011bn\u00ed \u00fadaj\u016f, uchov\u00e1v\u00e1n\u00ed \u00fadaj\u016f, vypracov\u00e1v\u00e1n\u00ed anal\u00fdz, vytv\u00e1\u0159en\u00ed c\u00edlen\u00fdch nab\u00eddek, nab\u00eddek \u00fa\u010dasti na marketingov\u00fdch sout\u011b\u017e\u00edch, v\u00fdzkumech a\u00a0anket\u00e1ch a\u00a0d\u00e1le samotn\u00e9 osloven\u00ed Spr\u00e1vce s\u00a0obchodn\u00ed nab\u00eddkou nebo ze strany t\u0159et\u00ed strany, a\u00a0to p\u00edsemn\u011b, telefonicky, internetovou reklamou a\u00a0elektronickou komunikac\u00ed, prost\u0159ednictv\u00edm kontakt\u016f, kter\u00e9 Spr\u00e1vci poskytnu.<\/p>\n<p>Souhlas je poskytnut na dobu t\u0159\u00ed let. Osobn\u00ed \u00fadaje mohou b\u00fdt zpracov\u00e1v\u00e1ny rovn\u011b\u017e spr\u00e1vcem pov\u011b\u0159en\u00fdmi zpracovateli za pou\u017eit\u00ed manu\u00e1ln\u00edch a\u00a0automatizovan\u00fdch zp\u016fsob\u016f zpracov\u00e1n\u00ed.<\/p>\n<p>Byl jsem informov\u00e1n, \u017ee Spr\u00e1vce m\u016f\u017ee p\u0159edat m\u00e9 osobn\u00ed \u00fadaje do t\u0159et\u00edch zem\u00ed, mimo Evropsk\u00fd hospod\u00e1\u0159sk\u00fd prostor. V\u00a0p\u0159\u00edpad\u011b, \u017ee budou osobn\u00ed \u00fadaje p\u0159ed\u00e1ny do zem\u00ed mimo Evropsk\u00fd hospod\u00e1\u0159sk\u00fd prostor nebo do zem\u00ed, kter\u00e9 nemaj\u00ed odpov\u00eddaj\u00edc\u00ed \u00farove\u0148 ochrany podle platn\u00fdch z\u00e1kon\u016f, zejm\u00e9na GDPR a\u00a0dal\u0161\u00edch p\u0159edpis\u016f EU a\u00a0vnitrost\u00e1tn\u00edch p\u0159edpis\u016f o\u00a0ochran\u011b osobn\u00edch \u00fadaj\u016f, bude toto p\u0159ed\u00e1n\u00ed uskute\u010dn\u011bno na z\u00e1klad\u011b v\u00fdjimky vztahuj\u00edc\u00ed se na konkr\u00e9tn\u00ed situaci, nebo Spr\u00e1vce zajist\u00ed, \u017ee budou poskytnuty odpov\u00eddaj\u00edc\u00ed z\u00e1ruky, aby byla zaji\u0161t\u011bna ochrana osobn\u00edch \u00fadaj\u016f v\u00a0souladu s\u00a0GDPR, tedy zejm\u00e9na s\u00a0\u010dl. 42 odst. 2 GDPR.<\/p>\n<p>Beru na v\u011bdom\u00ed, \u017ee podle GDPR a\u00a0z\u00e1kona o\u00a0ochran\u011b osobn\u00edch \u00fadaj\u016f m\u00e1m pr\u00e1vo:<\/p>\n<ul>\n<li>vz\u00edt souhlas kdykoliv zp\u011bt,<\/li>\n<li>po\u017eadovat po Spr\u00e1vci informaci, jak\u00e9 moje osobn\u00ed \u00fadaje zpracov\u00e1v\u00e1,<\/li>\n<li>po\u017eadovat po Spr\u00e1vci vysv\u011btlen\u00ed ohledn\u011b zpracov\u00e1n\u00ed osobn\u00edch \u00fadaj\u016f,<\/li>\n<li>vy\u017e\u00e1dat si u\u00a0Spr\u00e1vce p\u0159\u00edstup k\u00a0t\u011bmto \u00fadaj\u016fm a\u00a0tyto nechat aktualizovat nebo opravit,<\/li>\n<li>po\u017eadovat po Spr\u00e1vci v\u00fdmaz t\u011bchto osobn\u00edch \u00fadaj\u016f,<\/li>\n<li>v\u00a0p\u0159\u00edpad\u011b pochybnost\u00ed o\u00a0dodr\u017eov\u00e1n\u00ed povinnost\u00ed souvisej\u00edc\u00edch se zpracov\u00e1n\u00edm osobn\u00edch \u00fadaj\u016f obr\u00e1tit se na Spr\u00e1vce nebo na \u00da\u0159ad pro ochranu osobn\u00edch \u00fadaj\u016f.<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<\/span>"},"tooltip_y_offset":"0","colors":{"orange":"#ec6608"},"submit_form_non":"7992fb385f","newsletter_v3_non":"7b505d5bdc","online_odhad_future_interest_non":"a59c86fd94"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.maxima.cz/wp-content/themes/maxima_v2/js/scripts.js?ver=20201030-1' id='custom-script-custom_scripts-scripts.js-js'></script>
+<script type='text/javascript' src='https://www.maxima.cz/wp-content/themes/maxima_v2/js/callFullscreenGallery.js?ver=20201030-1' id='custom-script-custom_scripts-callFullscreenGallery.js-js'></script>
+<link rel="https://api.w.org/" href="https://www.maxima.cz/wp-json/" /><link rel="alternate" type="application/json" href="https://www.maxima.cz/wp-json/wp/v2/pages/46052" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.maxima.cz/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.maxima.cz/wp-includes/wlwmanifest.xml" /> 
+
+<link rel='shortlink' href='https://www.maxima.cz/?p=46052' />
+<link rel="alternate" type="application/json+oembed" href="https://www.maxima.cz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.maxima.cz%2Fnabidka-nemovitosti%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.maxima.cz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.maxima.cz%2Fnabidka-nemovitosti%2F&#038;format=xml" />
+<meta name="generator" content="WPML ver:4.3.18 stt:9,1;" />
+<!-- HEAD  END -->
+
+
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0">
+
+<meta name="avgthreatlabs-verification" content="79945360a45e02ca42d349c82f31099e29d9d1dc" />
+<meta name="seznam-wmt" content="evy30PWZTYQweExmXjf4cPSD1FqpAtAQ" />
+
+
+<!--<style>
+.wow {visibility:hidden;}
+</style>-->
+
+<!--<script>
+setTimeout(function(){
+	if( jQuery('.wow').css('visibility') != 'visible' ){
+		jQuery('.wow').css('visibility', 'visible');
+	}
+},7000);
+</script>-->
+
+
+<!-- muj funkcni -->
+ <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0pNFeVdHju1KcmN6DnQke6cecga7Me9A&sensor=false&language=cs-CZ&libraries=geometry"></script> -->
+
+ <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbLFydIDOsrjRCMXCWVgvYYHG0HlLzbVs&sensor=false&language=cs-CZ&libraries=geometry"></script> 
+
+
+
+
+<!-- Smartsupp Live Chat script -->
+<script type="text/javascript">
+var _smartsupp = _smartsupp || {};
+_smartsupp.key = 'c4ed008f5cee9644d11e1e435663f60d400f471a';
+_smartsupp.offlineControls = [
+  {
+    xtype: "textinput",
+    name: "phone",
+    label: "Telefon",
+    required: false
+  }
+];
+window.smartsupp||(function(d) {
+ var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+ s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+ c.type='text/javascript';c.charset='utf-8';c.async=true;
+ c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+
+    smartsupp('theme:options', {
+        offlineHeight: 450
+    });
+    
+})(document);
+</script>
+
+
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-59DMVB7');</script>
+<!-- End Google Tag Manager -->
+
+
+
+
+
+<!-- Behavee Tag Manager -->
+<script type="text/javascript">
+var _mtm = _mtm || [];
+_mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+g.type='text/javascript'; g.async=true; g.defer=true; g.src='https://analytics.behavee.com/js/container_hRN4rJ8W.js'; s.parentNode.insertBefore(g,s);
+</script>
+<!-- End Behavee Tag Manager -->
+
+
+
+
+
+<script>
+const swalMX = Swal.mixin({
+    reverseButtons: true,
+    scrollbarPadding: false,
+    width: 700,
+    confirmButtonColor: '#ec6608'
+});
+</script>
+
+
+
+</head>
+<body class="page-template page-template-page-properties page-template-page-properties-php page page-id-46052 responsible elementor-default elementor-kit-120838"data-property_search-searched="sell_flat"onLoad="property_search_filterLoadUserSellected();">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-59DMVB7" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<script>
+if(navigator.userAgent.indexOf('MSIE')!==-1
+|| navigator.appVersion.indexOf('Trident/') > -1){
+    jQuery('body').addClass('b_ie');
+}
+</script>
+
+
+
+
+
+<script>
+jQuery(function(){
+    
+    if( Cookies.get('cookies_information_box') != 'hide' ){
+
+        setTimeout(function(){
+            jQuery('#cookies_information_box-wrapper').fadeIn(400,function(){
+                var height = jQuery('#cookies_information_box-wrapper').outerHeight();
+                var htmlCss = '#chat-application { bottom: ' + height + 'px !important;} ';
+                htmlCss += '@media (max-width: 767px) { #floating_global_contact_us .trigger { bottom: calc(100% + ' + height + 'px);} }';
+                jQuery('#cookies_information_box-chat-box').html(htmlCss);
+            });
+        },100);
+
+        jQuery(window).resize(function(){
+            var height = jQuery('#cookies_information_box-wrapper').outerHeight();
+            var htmlCss = '#chat-application { bottom: ' + height + 'px !important;} ';
+            htmlCss += '@media (max-width: 767px) { #floating_global_contact_us .trigger { bottom: calc(100% + ' + height + 'px);} }';
+            jQuery('#cookies_information_box-chat-box').html(htmlCss);
+        });
+
+
+        jQuery('#cookies_information_box-wrapper .accept').on('click',function(event){
+            event.preventDefault();
+
+
+            var dateExpires = new Date('December 17, 2025 01:00:00');
+            Cookies.set('cookies_information_box', 'hide', { expires: dateExpires, path: '/' });
+
+            var ajaxData = 'action=' + 'paenituit_track_cookies_info_accepts_action';
+            // AJAX
+            jQuery.ajax({
+                    url: SiteParameters.site_url + '/wp-admin/admin-ajax.php',
+                    type: 'POST',
+                    data: ajaxData,
+                    success: function(result){
+                    },
+                    error: function(){ // if error try again...
+                        var ajaxData = 'action=' + 'paenituit_track_cookies_info_accepts_action';
+                        // AJAX
+                        jQuery.ajax({
+                                url: SiteParameters.site_url + '/wp-admin/admin-ajax.php',
+                                type: 'POST',
+                                data: ajaxData,
+                                success: function(result){
+                                }
+                        }); 
+                    }
+            }); 
+
+            jQuery('#cookies_information_box-wrapper').fadeOut(400,function(){
+                jQuery(this).remove();
+            });
+
+        });
+    }
+});
+</script>
+<div id="cookies_information_box-wrapper">
+    <style id="cookies_information_box-chat-box"></style>
+	<div class="content">
+        <div class="outer">
+            <div class="middle">
+                Tento web používá k&nbsp;poskytování služeb, personalizaci reklam a&nbsp;analýze návštìvnosti soubory cookie. Používáním tohoto webu s&nbsp;tím souhlasíte.            </div>
+            <div class="middle">
+            	<a href="#" class="accept">Rozumím</a>
+            </div>
+            <div class="middle">
+            	<a href="/zasady-zpracovani-osobnich-udaju/" class="more_info">Další informace</a>
+            </div>
+        </div>
+	</div>
+</div><header class="main">
+
+    
+    <div class="top_content-wrapper">
+		<div class="outer full-width">
+			<div class="middle" style="width: 1%;">
+								<a href="https://www.maxima.cz/"><img src="https://www.maxima.cz/wp-content/themes/maxima_v2/pictures/logo-maxima-reality.png" class="logo" alt="MAXIMA REALITY"></a>
+			</div>
+			<div class="middle">
+                <div class="company-note">realitka pro všechny životní situace</div>
+			</div>
+			<div class="middle text-align-right basic-contact-info">
+                <div class="outer-no-height align-right">
+                    <div class="middle">
+                        <div class="free-line">
+                            800 111 555                        </div>
+                    </div>
+                    <div class="middle">
+                       <div class="free-line-info">infolinka 7 dní v týdnu</div>
+                    </div>
+                    <div class="middle">
+                       <div class="free-line-info"><a href="https://www.maxima.cz/kontakty/" class="call-center-note">Kdy se k nám dovoláte?</a></div>
+                    </div>
+                    <div class="middle">
+                        <div class="free-line-info">
+                            <a href="#show_global_contact_form" class="mail" onClick="ga('send', 'event', 'Zobrazení kontaktního formuláøe', 'Horní lišta - info@maxima.cz');">info@maxima.cz</a>
+                        </div>
+                    </div>
+                    <div class="middle">
+                        <a href="/">CS</a> | <a href="/en/">EN</a>
+                    </div>
+                </div>
+            </div>
+		</div>
+	
+		
+		
+	</div>
+	<div class="bottom_content-wrapper">
+		<div class="menu-wrapper"><ul id="menu-header-top-navigation" class="nav"><li id="menu-item-122070" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-122070"><a href="/nabidka-nemovitosti/?advert_function=1&#038;advert_type=1">Koupit</a></li>
+<li id="menu-item-121026" class="wider-submenu menu-item menu-item-type-post_type menu-item-object-page menu-item-121026"><a href="https://www.maxima.cz/prodat/">Prodat</a></li>
+<li id="menu-item-83435" class="wider-submenu menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-83435"><a href="/nabidka-nemovitosti/?advert_function=2&#038;advert_type=1">Pronájem</a>
+<ul class="sub-menu">
+	<li id="menu-item-122071" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-122071"><a href="/nabidka-nemovitosti/?advert_function=2&#038;advert_type=1">Hledám</a></li>
+	<li id="menu-item-83437" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83437"><a href="https://www.maxima.cz/nabidnout-nemovitost-pronajem/">Nabízím</a></li>
+</ul>
+</li>
+<li id="menu-item-122015" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-122015"><a href="https://www.maxima.cz/sluzby/">Služby</a></li>
+<li id="menu-item-121126" class="menu-item menu-item-type-post_type_archive menu-item-object-references menu-item-121126"><a href="https://www.maxima.cz/reference/">Reference</a></li>
+<li id="menu-item-102283" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-102283"><a href="/blog/">Blog</a></li>
+<li id="menu-item-122068" class="wider-submenu align-right-submenu menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-122068"><a href="https://www.maxima.cz/makleri/">Makléøi</a>
+<ul class="sub-menu">
+	<li id="menu-item-122320" class="disable-current menu-item menu-item-type-custom menu-item-object-custom menu-item-122320"><a href="/makleri/#realitni-specialiste-na-prodej-nemovitosti">Praha a okolí</a></li>
+	<li id="menu-item-122770" class="disable-current menu-item menu-item-type-custom menu-item-object-custom menu-item-122770"><a href="/makleri/#realitni-specialiste-pro-stredocesky-kraj">Støedoèeský kraj</a></li>
+	<li id="menu-item-122345" class="disable-current menu-item menu-item-type-custom menu-item-object-custom menu-item-122345"><a href="/makleri/#realitni-specialista-pro-plzensky-kraj">Plzeòský kraj</a></li>
+	<li id="menu-item-123528" class="disable-current menu-item menu-item-type-custom menu-item-object-custom menu-item-123528"><a href="/makleri/#realitni-specialista-pro-liberecky-kraj">Liberecký kraj</a></li>
+	<li id="menu-item-123527" class="disable-current menu-item menu-item-type-custom menu-item-object-custom menu-item-123527"><a href="/makleri/#realitni-specialista-pro-ustecky-kraj">Ústecký kraj</a></li>
+	<li id="menu-item-123526" class="disable-current menu-item menu-item-type-custom menu-item-object-custom menu-item-123526"><a href="/makleri/#realitni-specialista-pro-pardubicky-kraj">Pardubický kraj</a></li>
+	<li id="menu-item-122754" class="disable-current menu-item menu-item-type-custom menu-item-object-custom menu-item-122754"><a href="/makleri/#realitni-specialista-pro-jihomoravsky-kraj">Jihomoravský kraj</a></li>
+	<li id="menu-item-122323" class="disable-current menu-item menu-item-type-custom menu-item-object-custom menu-item-122323"><a href="/makleri/#realitni-specialista-pro-olomoucky-kraj">Olomoucký kraj</a></li>
+	<li id="menu-item-122322" class="disable-current menu-item menu-item-type-custom menu-item-object-custom menu-item-122322"><a href="/makleri/#realitni-specialista-pro-zlinsky-kraj">Zlínský kraj</a></li>
+</ul>
+</li>
+<li id="menu-item-122081" class="wider-submenu align-right-submenu napiste-nam-trigger menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-122081"><a href="/kontakty/#napiste-nam">Kontakt</a>
+<ul class="sub-menu">
+	<li id="menu-item-122079" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-122079"><a href="https://www.maxima.cz/kontakty/">Kontakty</a></li>
+	<li id="menu-item-122080" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-122080"><a href="https://www.maxima.cz/o-nas/">O nás</a></li>
+	<li id="menu-item-120241" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-120241"><a href="https://www.maxima.cz/kariera/">Kariéra</a></li>
+</ul>
+</li>
+</ul></div>	</div>
+    
+    
+    <a href="/vice/druha-vlna" class="header_critical_info">
+         Maxima je otevøená, prohlídky probíhají
+    </a>
+
+</header>
+
+
+
+
+<header class="mobile">
+    <div class="left-wrapper">
+        <div class="outer">
+            <div class="middle">
+                <a href="tel:" class="phone"><i class="ct-icon-phone-v2"></i></a>
+            </div>
+            <div class="middle">
+                <a href="/" class="lang">CS</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/en/" class="lang">EN</a>
+            </div>
+        </div>
+    </div>
+    <a href="https://www.maxima.cz/"><img src="https://www.maxima.cz/wp-content/themes/maxima_v2/pictures/logo-maxima-reality.png" class="logo" alt="MAXIMA REALITY"></a>
+        <button class="mobile-menu-trigger c-hamburger"><span></span></button>
+    
+    <div class="slide_down_content-wrapper">
+		<div class="menu-wrapper"><ul id="menu-header-top-navigation-1" class="nav"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-122070"><a href="/nabidka-nemovitosti/?advert_function=1&#038;advert_type=1">Koupit</a></li>
+<li class="wider-submenu menu-item menu-item-type-post_type menu-item-object-page menu-item-121026"><a href="https://www.maxima.cz/prodat/">Prodat</a></li>
+<li class="wider-submenu menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-83435"><a href="/nabidka-nemovitosti/?advert_function=2&#038;advert_type=1">Pronájem</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-122071"><a href="/nabidka-nemovitosti/?advert_function=2&#038;advert_type=1">Hledám</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83437"><a href="https://www.maxima.cz/nabidnout-nemovitost-pronajem/">Nabízím</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-122015"><a href="https://www.maxima.cz/sluzby/">Služby</a></li>
+<li class="menu-item menu-item-type-post_type_archive menu-item-object-references menu-item-121126"><a href="https://www.maxima.cz/reference/">Reference</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-102283"><a href="/blog/">Blog</a></li>
+<li class="wider-submenu align-right-submenu menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-122068"><a href="https://www.maxima.cz/makleri/">Makléøi</a>
+<ul class="sub-menu">
+	<li class="disable-current menu-item menu-item-type-custom menu-item-object-custom menu-item-122320"><a href="/makleri/#realitni-specialiste-na-prodej-nemovitosti">Praha a okolí</a></li>
+	<li class="disable-current menu-item menu-item-type-custom menu-item-object-custom menu-item-122770"><a href="/makleri/#realitni-specialiste-pro-stredocesky-kraj">Støedoèeský kraj</a></li>
+	<li class="disable-current menu-item menu-item-type-custom menu-item-object-custom menu-item-122345"><a href="/makleri/#realitni-specialista-pro-plzensky-kraj">Plzeòský kraj</a></li>
+	<li class="disable-current menu-item menu-item-type-custom menu-item-object-custom menu-item-123528"><a href="/makleri/#realitni-specialista-pro-liberecky-kraj">Liberecký kraj</a></li>
+	<li class="disable-current menu-item menu-item-type-custom menu-item-object-custom menu-item-123527"><a href="/makleri/#realitni-specialista-pro-ustecky-kraj">Ústecký kraj</a></li>
+	<li class="disable-current menu-item menu-item-type-custom menu-item-object-custom menu-item-123526"><a href="/makleri/#realitni-specialista-pro-pardubicky-kraj">Pardubický kraj</a></li>
+	<li class="disable-current menu-item menu-item-type-custom menu-item-object-custom menu-item-122754"><a href="/makleri/#realitni-specialista-pro-jihomoravsky-kraj">Jihomoravský kraj</a></li>
+	<li class="disable-current menu-item menu-item-type-custom menu-item-object-custom menu-item-122323"><a href="/makleri/#realitni-specialista-pro-olomoucky-kraj">Olomoucký kraj</a></li>
+	<li class="disable-current menu-item menu-item-type-custom menu-item-object-custom menu-item-122322"><a href="/makleri/#realitni-specialista-pro-zlinsky-kraj">Zlínský kraj</a></li>
+</ul>
+</li>
+<li class="wider-submenu align-right-submenu napiste-nam-trigger menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-122081"><a href="/kontakty/#napiste-nam">Kontakt</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-122079"><a href="https://www.maxima.cz/kontakty/">Kontakty</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-122080"><a href="https://www.maxima.cz/o-nas/">O nás</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-120241"><a href="https://www.maxima.cz/kariera/">Kariéra</a></li>
+</ul>
+</li>
+</ul></div>    </div>
+    
+    
+    <a href="/vice/druha-vlna" class="header_critical_info">
+    Maxima je otevøená, prohlídky probíhají
+    </a>
+
+</header>
+
+<div class="dummy_header">
+</div>
+
+    <script>
+        jQuery('header.mobile .menu-wrapper > ul').prepend('<li><a href="https://www.maxima.cz">HLAVNÍ STRÁNKA</a></li>');
+        jQuery('header .menu-wrapper > ul').append('<li class="site-switch"><a href="https://novostavby.maxima.cz/projekty/"></a></li>');
+        jQuery('header .menu-wrapper > ul .site-switch a').html('NOVOSTAVBY <i class="icon-external-link" aria-hidden="true"></i>');
+    </script>
+	
+
+
+
+    <div class="page_wrapper main mobile w-960">
+            <div  class="page_main_content_wrapper clearfix" >
+    
+	
+
+<div id="post-46052" class="post-46052 page type-page status-publish hentry  page-content margin-top-main-content">
+
+	
+
+
+	<div style="width:100%; height:20px;"></div>
+	<nav class="content_menu on-top clearfix"><div class="menu-custom_menu_name-default-container"><ul id="menu-custom_menu_name-default" class="nav"><li id="menu-item-787" class="backLink menu-item menu-item-type-custom menu-item-object-custom menu-item-787"><a href="#backLink"><< zpìt</a></li>
+</ul></div><div class="only_text"><div class="text">Celkem nalezených nemovitostí: 63, <span style="color:red; font-style:italic;"></span> zobrazeno: 1 až 24</div></div>                <script>
+                    jQuery('#menu-custom_menu_name-default a[href*="#backLink"]').addClass('back_button_top_header').removeAttr('href').text('');
+                    //jQuery('#menu-custom_menu_name-default a[href*="#backLink"]').attr('onClick','parent.history.back();').removeAttr('href').text('');
+                    jQuery(function(){
+                        jQuery('#menu-custom_menu_name-default').on('click','.back_button_top_header',function(event){
+                            event.preventDefault();
+                            window.location.href = jQuery('#back_button_reorder_change_search').attr('href');
+                        });
+                    });
+                </script>
+                			</nav>
+ 
+<div class="grid-wrap quarter-gutter negativ-top-gutter property_search_order_wrapper show_type-price">
+		        	<form>
+            	<div class="grid-col col-full"><h3><strong>Srovnat podle</strong></h3></div>
+    	<div class="grid-col col-one-fifth bp1-col-one-third bp0-col-one-third">
+            <fieldset class="checkbox__wrapper">
+                <input type="radio" name="order_type" value="price" checked id="oncq9fHqUQ">
+                <label for="oncq9fHqUQ">ceny</label>
+            </fieldset>
+            <fieldset class="checkbox__wrapper" style="display:none;">
+                <input type="radio" name="order_type" value="locality"  id="sUYIDCu0Hp">
+                <label for="sUYIDCu0Hp">lokality</label>
+            </fieldset>
+            <fieldset class="checkbox__wrapper">
+                <input type="radio" name="order_type" value="size"  id="zqa0AxDhin">
+                <label for="zqa0AxDhin">velikosti</label>
+            </fieldset>
+            <fieldset class="checkbox__wrapper">
+                <input type="radio" name="order_type" value="date"  id="BneeHiWCkA">
+                <label for="BneeHiWCkA">stáøí</label>
+            </fieldset>
+
+            
+        </div>
+    	<div class="grid-col col-two-fifth bp1-col-two-thirds bp0-col-two-thirds">
+        	<div class="grid-wrap quarter-gutter">
+                <div class="grid-col col-full show_on_type-price">
+                    <div class="grid-wrap quarter-gutter">
+                        <div class="grid-col col-one-half">
+                            <fieldset class="checkbox__wrapper">
+                                <input type="radio" name="order_sort" value="ASC_1" checked id="HMFJSYW8x2">
+                                <label for="HMFJSYW8x2">od nejlevnìjšího</label>
+                            </fieldset>
+                        </div>
+                        <div class="grid-col col-one-half">
+                            <fieldset class="checkbox__wrapper">
+                                <input type="radio" name="order_sort" value="DESC_1"  id="XnRmtxPoto">
+                                <label for="XnRmtxPoto">od nejdražšího</label>
+                            </fieldset>
+                        </div>
+                        <div class="grid-col col-one-third" style="display:none;">
+                            <fieldset class="checkbox__wrapper" style="display:none;">
+                                <input type="radio" name="order_sort" value="discounts_on_top_1"  id="AepE3b1E91">
+                                <label for="AepE3b1E91">zlevnìno na zaèátek</label>
+                            </fieldset>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-col col-full show_on_type-locality" style="display:none;">
+                    <div class="grid-wrap quarter-gutter">
+                        <div class="grid-col col-one-half">
+                            <fieldset class="checkbox__wrapper">
+                                <input type="radio" name="order_sort" value="ASC_2"  id="WLS4VlXpb4">
+                                <label for="WLS4VlXpb4">A-Z</label>
+                            </fieldset>
+                        </div>
+                        <div class="grid-col col-one-half">
+                            <fieldset class="checkbox__wrapper">
+                                <input type="radio" name="order_sort" value="DESC_2"  id="pPT6XYys2s">
+                                <label for="pPT6XYys2s">Z-A</label>
+                            </fieldset>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-col col-full show_on_type-size">
+                    <div class="grid-wrap quarter-gutter">
+                        <div class="grid-col col-one-half">
+                            <fieldset class="checkbox__wrapper">
+                                <input type="radio" name="order_sort" value="ASC_3"  id="tw0umibnsO">
+                                <label for="tw0umibnsO">od nejmìnšího</label>
+                            </fieldset>
+                        </div>
+                        <div class="grid-col col-one-half">
+                            <fieldset class="checkbox__wrapper">
+                                <input type="radio" name="order_sort" value="DESC_3"  id="xNrfRp6NW2">
+                                <label for="xNrfRp6NW2">od nejvìtšího</label>
+                            </fieldset>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-col col-full show_on_type-date">
+                    <div class="grid-wrap quarter-gutter">
+                        <div class="grid-col col-one-half">
+                            <fieldset class="checkbox__wrapper">
+                                <input type="radio" name="order_sort" value="DESC_4"  id="Ts78Do2zHT">
+                                <label for="Ts78Do2zHT">od nejnovìjšího</label>
+                            </fieldset>
+                        </div>
+                        <div class="grid-col col-one-half">
+                            <fieldset class="checkbox__wrapper">
+                                <input type="radio" name="order_sort" value="ASC_4"  id="yPMNjMyQBo">
+                                <label for="yPMNjMyQBo">od nejstaršího</label>
+                            </fieldset>
+                        </div>
+                    </div>
+                </div>
+
+                            
+                
+            </div>
+        </div>
+    	<div class="grid-col col-two-fifth bp1-col-full bp0-col-full buttons-wrapper">
+            <div class="reorder_btn button_type_one"><div class="outer"><div class="middle">seøadit</div></div></div>
+			
+                                        <a href="https://www.maxima.cz/koupit-byt/" id="back_button_reorder_change_search" class="button_type_one" style="margin-left:25px;"><div class="outer"><div class="middle" style="line-height:1.4em;">upravit hledání</div></div></a>
+         
+        </div>
+
+        </form>
+    </div><div class="grid-wrap half-gutter half-top-gutter" style="overflow:initial;">    <div class="grid-col col-one-quarter bp3-col-one-third bp2-col-one-third bp1-col-one-half bp0-col-full floating_property_cascade_style_wrapper">
+        <a class="details-wrapper" href="https://www.maxima.cz/nemovitosti/b50070903/">
+            <span class="image-wrapper" style="background-image:url(/resize/w-640-R_s_x-B50070903-1-1604316709.jpg);">
+                                    <span class="sticker" style="background-image:url(https://www.maxima.cz/wp-content/themes/maxima_v2/pictures/stickers/novinka_cs.png);"></span>
+                                </span>
+            <span class="text-wrapper">
+                <span class="title">Prodej bytu 3 + 1</span>
+                <span class="table-wraper">
+                    <table>
+                                                    <tr>
+                                <td>Plocha:</td>
+                                <td style="padding-top:0.5rem;">68&nbsp;m<sup>2</sup></td>
+                            </tr>
+                                                    <tr>
+                            <td>Lokalita:</td>
+                            <td>Pacov</td>
+                        </tr>
+                                                        <tr>
+                                    <td>Ulice:</td>
+                                    <td>Sídlištì Míru</td>
+                                </tr>
+                                                        <tr>
+                            <td>Cena:</td>
+                            <td>2 090 000 Kè</td>
+                        </tr>
+                    </table>
+                </span>
+                <span class="button_default"><span class="outer">
+                    <span class="middle"><span>Zobrazit detail</span></span>
+                </span></span>
+            </span>
+        </a>
+    </div>
+        <div class="grid-col col-one-quarter bp3-col-one-third bp2-col-one-third bp1-col-one-half bp0-col-full floating_property_cascade_style_wrapper">
+        <a class="details-wrapper" href="https://www.maxima.cz/nemovitosti/b50071200/">
+            <span class="image-wrapper" style="background-image:url(/resize/w-640-R_s_x-B50071200-1-1604653370.jpg);">
+                                    <span class="sticker" style="background-image:url(https://www.maxima.cz/wp-content/themes/maxima_v2/pictures/stickers/novinka_cs.png);"></span>
+                                </span>
+            <span class="text-wrapper">
+                <span class="title">Prodej bytu 2 + 1</span>
+                <span class="table-wraper">
+                    <table>
+                                                    <tr>
+                                <td>Plocha:</td>
+                                <td style="padding-top:0.5rem;">54&nbsp;m<sup>2</sup></td>
+                            </tr>
+                                                    <tr>
+                            <td>Lokalita:</td>
+                            <td>Olomouc, Nový Svìt</td>
+                        </tr>
+                                                        <tr>
+                                    <td>Ulice:</td>
+                                    <td>Ruèilova</td>
+                                </tr>
+                                                        <tr>
+                            <td>Cena:</td>
+                            <td>2 520 000 Kè</td>
+                        </tr>
+                    </table>
+                </span>
+                <span class="button_default"><span class="outer">
+                    <span class="middle"><span>Zobrazit detail</span></span>
+                </span></span>
+            </span>
+        </a>
+    </div>
+        <div class="grid-col col-one-quarter bp3-col-one-third bp2-col-one-third bp1-col-one-half bp0-col-full floating_property_cascade_style_wrapper">
+        <a class="details-wrapper" href="https://www.maxima.cz/nemovitosti/b50070962/">
+            <span class="image-wrapper" style="background-image:url(/resize/w-640-R_s_x-B50070962-1-1600264032.jpg);">
+                            </span>
+            <span class="text-wrapper">
+                <span class="title">Prodej bytu 3 + 1</span>
+                <span class="table-wraper">
+                    <table>
+                                                    <tr>
+                                <td>Plocha:</td>
+                                <td style="padding-top:0.5rem;">81&nbsp;m<sup>2</sup></td>
+                            </tr>
+                                                    <tr>
+                            <td>Lokalita:</td>
+                            <td>Praha 9, Èerný Most</td>
+                        </tr>
+                                                        <tr>
+                                    <td>Ulice:</td>
+                                    <td>Vašátkova</td>
+                                </tr>
+                                                        <tr>
+                            <td>Cena:</td>
+                            <td>2 760 000 Kè</td>
+                        </tr>
+                    </table>
+                </span>
+                <span class="button_default"><span class="outer">
+                    <span class="middle"><span>Zobrazit detail</span></span>
+                </span></span>
+            </span>
+        </a>
+    </div>
+        <div class="grid-col col-one-quarter bp3-col-one-third bp2-col-one-third bp1-col-one-half bp0-col-full floating_property_cascade_style_wrapper">
+        <a class="details-wrapper" href="https://www.maxima.cz/nemovitosti/b50070656/">
+            <span class="image-wrapper" style="background-image:url(/resize/w-640-R_s_x-B50070656-1-1599564053.jpg);">
+                            </span>
+            <span class="text-wrapper">
+                <span class="title">Prodej bytu 3 + 1</span>
+                <span class="table-wraper">
+                    <table>
+                                                    <tr>
+                                <td>Plocha:</td>
+                                <td style="padding-top:0.5rem;">73&nbsp;m<sup>2</sup></td>
+                            </tr>
+                                                    <tr>
+                            <td>Lokalita:</td>
+                            <td>Pøíbram, Pøíbram I</td>
+                        </tr>
+                                                        <tr>
+                                    <td>Ulice:</td>
+                                    <td>Plzeòská</td>
+                                </tr>
+                                                        <tr>
+                            <td>Cena:</td>
+                            <td>2 810 320 Kè</td>
+                        </tr>
+                    </table>
+                </span>
+                <span class="button_default"><span class="outer">
+                    <span class="middle"><span>Zobrazit detail</span></span>
+                </span></span>
+            </span>
+        </a>
+    </div>
+        <div class="grid-col col-one-quarter bp3-col-one-third bp2-col-one-third bp1-col-one-half bp0-col-full floating_property_cascade_style_wrapper">
+        <a class="details-wrapper" href="https://www.maxima.cz/nemovitosti/b50071113/">
+            <span class="image-wrapper" style="background-image:url(/resize/w-640-R_s_x-B50071113-1-1603377609.jpg);">
+                                    <span class="sticker" style="background-image:url(https://www.maxima.cz/wp-content/themes/maxima_v2/pictures/stickers/novinka_cs.png);"></span>
+                                </span>
+            <span class="text-wrapper">
+                <span class="title">Prodej bytu 1 + kk</span>
+                <span class="table-wraper">
+                    <table>
+                                                    <tr>
+                                <td>Plocha:</td>
+                                <td style="padding-top:0.5rem;">27&nbsp;m<sup>2</sup></td>
+                            </tr>
+                                                    <tr>
+                            <td>Lokalita:</td>
+                            <td>Praha 4, Háje</td>
+                        </tr>
+                                                        <tr>
+                                    <td>Ulice:</td>
+                                    <td>Hlavatého</td>
+                                </tr>
+                                                        <tr>
+                            <td>Cena:</td>
+                            <td>2 950 000 Kè</td>
+                        </tr>
+                    </table>
+                </span>
+                <span class="button_default"><span class="outer">
+                    <span class="middle"><span>Zobrazit detail</span></span>
+                </span></span>
+            </span>
+        </a>
+    </div>
+        <div class="grid-col col-one-quarter bp3-col-one-third bp2-col-one-third bp1-col-one-half bp0-col-full floating_property_cascade_style_wrapper">
+        <a class="details-wrapper" href="https://www.maxima.cz/nemovitosti/b50070526/">
+            <span class="image-wrapper" style="background-image:url(/resize/w-640-R_s_x-B50070526-1-1604650009.jpg);">
+                                    <span class="sticker" style="background-image:url(https://www.maxima.cz/wp-content/themes/maxima_v2/pictures/stickers/novinka_cs.png);"></span>
+                                </span>
+            <span class="text-wrapper">
+                <span class="title">Prodej bytu 1 + 1</span>
+                <span class="table-wraper">
+                    <table>
+                                                    <tr>
+                                <td>Plocha:</td>
+                                <td style="padding-top:0.5rem;">38&nbsp;m<sup>2</sup></td>
+                            </tr>
+                                                    <tr>
+                            <td>Lokalita:</td>
+                            <td>Praha 3, Žižkov</td>
+                        </tr>
+                                                        <tr>
+                                    <td>Ulice:</td>
+                                    <td>Biskupcova</td>
+                                </tr>
+                                                        <tr>
+                            <td>Cena:</td>
+                            <td>3 190 000 Kè</td>
+                        </tr>
+                    </table>
+                </span>
+                <span class="button_default"><span class="outer">
+                    <span class="middle"><span>Zobrazit detail</span></span>
+                </span></span>
+            </span>
+        </a>
+    </div>
+        <div class="grid-col col-one-quarter bp3-col-one-third bp2-col-one-third bp1-col-one-half bp0-col-full floating_property_cascade_style_wrapper">
+        <a class="details-wrapper" href="https://www.maxima.cz/nemovitosti/b50070461/">
+            <span class="image-wrapper" style="background-image:url(/resize/w-640-R_s_x-B50070461-1-1600069778.jpg);">
+                            </span>
+            <span class="text-wrapper">
+                <span class="title">Prodej bytu 3 + 1</span>
+                <span class="table-wraper">
+                    <table>
+                                                    <tr>
+                                <td>Plocha:</td>
+                                <td style="padding-top:0.5rem;">74&nbsp;m<sup>2</sup></td>
+                            </tr>
+                                                    <tr>
+                            <td>Lokalita:</td>
+                            <td>Kutná Hora, Šipší</td>
+                        </tr>
+                                                        <tr>
+                                    <td>Ulice:</td>
+                                    <td>17. listopadu</td>
+                                </tr>
+                                                        <tr>
+                            <td>Cena:</td>
+                            <td>3 350 000 Kè</td>
+                        </tr>
+                    </table>
+                </span>
+                <span class="button_default"><span class="outer">
+                    <span class="middle"><span>Zobrazit detail</span></span>
+                </span></span>
+            </span>
+        </a>
+    </div>
+        <div class="grid-col col-one-quarter bp3-col-one-third bp2-col-one-third bp1-col-one-half bp0-col-full floating_property_cascade_style_wrapper">
+        <a class="details-wrapper" href="https://www.maxima.cz/nemovitosti/b50070744/">
+            <span class="image-wrapper" style="background-image:url(/resize/w-640-R_s_x-B50070744-1-1600168757.jpg);">
+                            </span>
+            <span class="text-wrapper">
+                <span class="title">Prodej bytu 4 + kk</span>
+                <span class="table-wraper">
+                    <table>
+                                                    <tr>
+                                <td>Plocha:</td>
+                                <td style="padding-top:0.5rem;">64&nbsp;m<sup>2</sup></td>
+                            </tr>
+                                                    <tr>
+                            <td>Lokalita:</td>
+                            <td>Beroun, Beroun-Mìsto</td>
+                        </tr>
+                                                        <tr>
+                                    <td>Ulice:</td>
+                                    <td>Tyršova</td>
+                                </tr>
+                                                        <tr>
+                            <td>Cena:</td>
+                            <td>3 590 000 Kè</td>
+                        </tr>
+                    </table>
+                </span>
+                <span class="button_default"><span class="outer">
+                    <span class="middle"><span>Zobrazit detail</span></span>
+                </span></span>
+            </span>
+        </a>
+    </div>
+        <div class="grid-col col-one-quarter bp3-col-one-third bp2-col-one-third bp1-col-one-half bp0-col-full floating_property_cascade_style_wrapper">
+        <a class="details-wrapper" href="https://www.maxima.cz/nemovitosti/b50071262/">
+            <span class="image-wrapper" style="background-image:url(/resize/w-640-R_s_x-B50071262-1-1603453276.jpg);">
+                                    <span class="sticker" style="background-image:url(https://www.maxima.cz/wp-content/themes/maxima_v2/pictures/stickers/novinka_cs.png);"></span>
+                                </span>
+            <span class="text-wrapper">
+                <span class="title">Prodej bytu 2 + kk</span>
+                <span class="table-wraper">
+                    <table>
+                                                    <tr>
+                                <td>Plocha:</td>
+                                <td style="padding-top:0.5rem;">42&nbsp;m<sup>2</sup></td>
+                            </tr>
+                                                    <tr>
+                            <td>Lokalita:</td>
+                            <td>Praha 5, Hluboèepy</td>
+                        </tr>
+                                                        <tr>
+                                    <td>Ulice:</td>
+                                    <td>Werichova</td>
+                                </tr>
+                                                        <tr>
+                            <td>Cena:</td>
+                            <td>3 692 000 Kè</td>
+                        </tr>
+                    </table>
+                </span>
+                <span class="button_default"><span class="outer">
+                    <span class="middle"><span>Zobrazit detail</span></span>
+                </span></span>
+            </span>
+        </a>
+    </div>
+        <div class="grid-col col-one-quarter bp3-col-one-third bp2-col-one-third bp1-col-one-half bp0-col-full floating_property_cascade_style_wrapper">
+        <a class="details-wrapper" href="https://www.maxima.cz/nemovitosti/b50071307/">
+            <span class="image-wrapper" style="background-image:url(/resize/w-640-R_s_x-B50071307-1-1604057952.jpg);">
+                                    <span class="sticker" style="background-image:url(https://www.maxima.cz/wp-content/themes/maxima_v2/pictures/stickers/novinka_cs.png);"></span>
+                                </span>
+            <span class="text-wrapper">
+                <span class="title">Prodej bytu 2 + kk</span>
+                <span class="table-wraper">
+                    <table>
+                                                    <tr>
+                                <td>Plocha:</td>
+                                <td style="padding-top:0.5rem;">42&nbsp;m<sup>2</sup></td>
+                            </tr>
+                                                    <tr>
+                            <td>Lokalita:</td>
+                            <td>Praha 5, Stodùlky</td>
+                        </tr>
+                                                        <tr>
+                                    <td>Ulice:</td>
+                                    <td>Sezemínská</td>
+                                </tr>
+                                                        <tr>
+                            <td>Cena:</td>
+                            <td>3 879 080 Kè</td>
+                        </tr>
+                    </table>
+                </span>
+                <span class="button_default"><span class="outer">
+                    <span class="middle"><span>Zobrazit detail</span></span>
+                </span></span>
+            </span>
+        </a>
+    </div>
+        <div class="grid-col col-one-quarter bp3-col-one-third bp2-col-one-third bp1-col-one-half bp0-col-full floating_property_cascade_style_wrapper">
+        <a class="details-wrapper" href="https://www.maxima.cz/nemovitosti/b50071219/">
+            <span class="image-wrapper" style="background-image:url(/resize/w-640-R_s_x-B50071219-1-1603287704.jpg);">
+                            </span>
+            <span class="text-wrapper">
+                <span class="title">Prodej bytu 1 + kk</span>
+                <span class="table-wraper">
+                    <table>
+                                                    <tr>
+                                <td>Plocha:</td>
+                                <td style="padding-top:0.5rem;">44&nbsp;m<sup>2</sup></td>
+                            </tr>
+                                                    <tr>
+                            <td>Lokalita:</td>
+                            <td>Praha 10, Dolní Mìcholupy</td>
+                        </tr>
+                                                        <tr>
+                                    <td>Ulice:</td>
+                                    <td>Honzíkova</td>
+                                </tr>
+                                                        <tr>
+                            <td>Cena:</td>
+                            <td>3 691 215 Kè</td>
+                        </tr>
+                    </table>
+                </span>
+                <span class="button_default"><span class="outer">
+                    <span class="middle"><span>Zobrazit detail</span></span>
+                </span></span>
+            </span>
+        </a>
+    </div>
+        <div class="grid-col col-one-quarter bp3-col-one-third bp2-col-one-third bp1-col-one-half bp0-col-full floating_property_cascade_style_wrapper">
+        <a class="details-wrapper" href="https://www.maxima.cz/nemovitosti/b50071077/">
+            <span class="image-wrapper" style="background-image:url(/resize/w-640-R_s_x-B50071077-1-1603975361.jpg);">
+                                    <span class="sticker" style="background-image:url(https://www.maxima.cz/wp-content/themes/maxima_v2/pictures/stickers/novinka_cs.png);"></span>
+                                </span>
+            <span class="text-wrapper">
+                <span class="title">Prodej bytu 1 + kk</span>
+                <span class="table-wraper">
+                    <table>
+                                                    <tr>
+                                <td>Plocha:</td>
+                                <td style="padding-top:0.5rem;">49&nbsp;m<sup>2</sup></td>
+                            </tr>
+                                                    <tr>
+                            <td>Lokalita:</td>
+                            <td>Praha 6, Bøevnov</td>
+                        </tr>
+                                                        <tr>
+                                    <td>Ulice:</td>
+                                    <td>Radimova</td>
+                                </tr>
+                                                        <tr>
+                            <td>Cena:</td>
+                            <td>3 790 000 Kè</td>
+                        </tr>
+                    </table>
+                </span>
+                <span class="button_default"><span class="outer">
+                    <span class="middle"><span>Zobrazit detail</span></span>
+                </span></span>
+            </span>
+        </a>
+    </div>
+        <div class="grid-col col-one-quarter bp3-col-one-third bp2-col-one-third bp1-col-one-half bp0-col-full floating_property_cascade_style_wrapper">
+        <a class="details-wrapper" href="https://www.maxima.cz/nemovitosti/b50070790/">
+            <span class="image-wrapper" style="background-image:url(/resize/w-640-R_s_x-B50070790-1-1599125635.jpg);">
+                            </span>
+            <span class="text-wrapper">
+                <span class="title">Prodej bytu 1 + 1</span>
+                <span class="table-wraper">
+                    <table>
+                                                    <tr>
+                                <td>Plocha:</td>
+                                <td style="padding-top:0.5rem;">42&nbsp;m<sup>2</sup></td>
+                            </tr>
+                                                    <tr>
+                            <td>Lokalita:</td>
+                            <td>Praha 4, Chodov</td>
+                        </tr>
+                                                        <tr>
+                                    <td>Ulice:</td>
+                                    <td>Leopoldova</td>
+                                </tr>
+                                                        <tr>
+                            <td>Cena:</td>
+                            <td>4 190 000 Kè</td>
+                        </tr>
+                    </table>
+                </span>
+                <span class="button_default"><span class="outer">
+                    <span class="middle"><span>Zobrazit detail</span></span>
+                </span></span>
+            </span>
+        </a>
+    </div>
+        <div class="grid-col col-one-quarter bp3-col-one-third bp2-col-one-third bp1-col-one-half bp0-col-full floating_property_cascade_style_wrapper">
+        <a class="details-wrapper" href="https://www.maxima.cz/nemovitosti/b50070849/">
+            <span class="image-wrapper" style="background-image:url(/resize/w-640-R_s_x-B50070849-1-1600331073.jpg);">
+                            </span>
+            <span class="text-wrapper">
+                <span class="title">Prodej bytu 2 + 1</span>
+                <span class="table-wraper">
+                    <table>
+                                                    <tr>
+                                <td>Plocha:</td>
+                                <td style="padding-top:0.5rem;">60&nbsp;m<sup>2</sup></td>
+                            </tr>
+                                                    <tr>
+                            <td>Lokalita:</td>
+                            <td>Praha 10, Malešice</td>
+                        </tr>
+                                                        <tr>
+                                    <td>Ulice:</td>
+                                    <td>Pøistoupimská</td>
+                                </tr>
+                                                        <tr>
+                            <td>Cena:</td>
+                            <td>4 300 000 Kè</td>
+                        </tr>
+                    </table>
+                </span>
+                <span class="button_default"><span class="outer">
+                    <span class="middle"><span>Zobrazit detail</span></span>
+                </span></span>
+            </span>
+        </a>
+    </div>
+        <div class="grid-col col-one-quarter bp3-col-one-third bp2-col-one-third bp1-col-one-half bp0-col-full floating_property_cascade_style_wrapper">
+        <a class="details-wrapper" href="https://www.maxima.cz/nemovitosti/b50070575/">
+            <span class="image-wrapper" style="background-image:url(/resize/w-640-R_s_x-B50070575-1-1595582617.jpg);">
+                            </span>
+            <span class="text-wrapper">
+                <span class="title">Prodej bytu 2 + kk</span>
+                <span class="table-wraper">
+                    <table>
+                                                    <tr>
+                                <td>Plocha:</td>
+                                <td style="padding-top:0.5rem;">59&nbsp;m<sup>2</sup></td>
+                            </tr>
+                                                    <tr>
+                            <td>Lokalita:</td>
+                            <td>Harrachov</td>
+                        </tr>
+                                                        <tr>
+                                    <td>Ulice:</td>
+                                    <td>Harrachov</td>
+                                </tr>
+                                                        <tr>
+                            <td>Cena:</td>
+                            <td>4 400 000 Kè</td>
+                        </tr>
+                    </table>
+                </span>
+                <span class="button_default"><span class="outer">
+                    <span class="middle"><span>Zobrazit detail</span></span>
+                </span></span>
+            </span>
+        </a>
+    </div>
+        <div class="grid-col col-one-quarter bp3-col-one-third bp2-col-one-third bp1-col-one-half bp0-col-full floating_property_cascade_style_wrapper">
+        <a class="details-wrapper" href="https://www.maxima.cz/nemovitosti/b50070566/">
+            <span class="image-wrapper" style="background-image:url(/resize/w-640-R_s_x-B50070566-1-1597924840.jpg);">
+                            </span>
+            <span class="text-wrapper">
+                <span class="title">Prodej bytu 3 + 1</span>
+                <span class="table-wraper">
+                    <table>
+                                                    <tr>
+                                <td>Plocha:</td>
+                                <td style="padding-top:0.5rem;">86&nbsp;m<sup>2</sup></td>
+                            </tr>
+                                                    <tr>
+                            <td>Lokalita:</td>
+                            <td>Olomouc, Chválkovice</td>
+                        </tr>
+                                                        <tr>
+                                    <td>Ulice:</td>
+                                    <td>Chválkovická</td>
+                                </tr>
+                                                        <tr>
+                            <td>Cena:</td>
+                            <td>4 470 000 Kè</td>
+                        </tr>
+                    </table>
+                </span>
+                <span class="button_default"><span class="outer">
+                    <span class="middle"><span>Zobrazit detail</span></span>
+                </span></span>
+            </span>
+        </a>
+    </div>
+        <div class="grid-col col-one-quarter bp3-col-one-third bp2-col-one-third bp1-col-one-half bp0-col-full floating_property_cascade_style_wrapper">
+        <a class="details-wrapper" href="https://www.maxima.cz/nemovitosti/b50070977/">
+            <span class="image-wrapper" style="background-image:url(/resize/w-640-R_s_x-B50070977-1-1602255282.jpg);">
+                            </span>
+            <span class="text-wrapper">
+                <span class="title">Prodej bytu 2 + kk</span>
+                <span class="table-wraper">
+                    <table>
+                                                    <tr>
+                                <td>Plocha:</td>
+                                <td style="padding-top:0.5rem;">55&nbsp;m<sup>2</sup></td>
+                            </tr>
+                                                    <tr>
+                            <td>Lokalita:</td>
+                            <td>Modletice</td>
+                        </tr>
+                                                        <tr>
+                                    <td>Ulice:</td>
+                                    <td>Modletice</td>
+                                </tr>
+                                                        <tr>
+                            <td>Cena:</td>
+                            <td>4 500 000 Kè</td>
+                        </tr>
+                    </table>
+                </span>
+                <span class="button_default"><span class="outer">
+                    <span class="middle"><span>Zobrazit detail</span></span>
+                </span></span>
+            </span>
+        </a>
+    </div>
+        <div class="grid-col col-one-quarter bp3-col-one-third bp2-col-one-third bp1-col-one-half bp0-col-full floating_property_cascade_style_wrapper">
+        <a class="details-wrapper" href="https://www.maxima.cz/nemovitosti/b50070011/">
+            <span class="image-wrapper" style="background-image:url(/resize/w-640-R_s_x-B50070011-1-1593178263.jpg);">
+                            </span>
+            <span class="text-wrapper">
+                <span class="title">Prodej bytu 2 + kk</span>
+                <span class="table-wraper">
+                    <table>
+                                                    <tr>
+                                <td>Plocha:</td>
+                                <td style="padding-top:0.5rem;">64&nbsp;m<sup>2</sup></td>
+                            </tr>
+                                                    <tr>
+                            <td>Lokalita:</td>
+                            <td>Klíèany</td>
+                        </tr>
+                                                        <tr>
+                                    <td>Ulice:</td>
+                                    <td>Klíèany</td>
+                                </tr>
+                                                        <tr>
+                            <td>Cena:</td>
+                            <td>4 630 000 Kè</td>
+                        </tr>
+                    </table>
+                </span>
+                <span class="button_default"><span class="outer">
+                    <span class="middle"><span>Zobrazit detail</span></span>
+                </span></span>
+            </span>
+        </a>
+    </div>
+        <div class="grid-col col-one-quarter bp3-col-one-third bp2-col-one-third bp1-col-one-half bp0-col-full floating_property_cascade_style_wrapper">
+        <a class="details-wrapper" href="https://www.maxima.cz/nemovitosti/b50070829/">
+            <span class="image-wrapper" style="background-image:url(/resize/w-640-R_s_x-B50070829-1-1600850974.jpg);">
+                            </span>
+            <span class="text-wrapper">
+                <span class="title">Prodej bytu 1 + kk</span>
+                <span class="table-wraper">
+                    <table>
+                                                    <tr>
+                                <td>Plocha:</td>
+                                <td style="padding-top:0.5rem;">42&nbsp;m<sup>2</sup></td>
+                            </tr>
+                                                    <tr>
+                            <td>Lokalita:</td>
+                            <td>Praha 4, Michle</td>
+                        </tr>
+                                                        <tr>
+                                    <td>Ulice:</td>
+                                    <td>Nuselská</td>
+                                </tr>
+                                                        <tr>
+                            <td>Cena:</td>
+                            <td>4 766 000 Kè</td>
+                        </tr>
+                    </table>
+                </span>
+                <span class="button_default"><span class="outer">
+                    <span class="middle"><span>Zobrazit detail</span></span>
+                </span></span>
+            </span>
+        </a>
+    </div>
+        <div class="grid-col col-one-quarter bp3-col-one-third bp2-col-one-third bp1-col-one-half bp0-col-full floating_property_cascade_style_wrapper">
+        <a class="details-wrapper" href="https://www.maxima.cz/nemovitosti/b50070821/">
+            <span class="image-wrapper" style="background-image:url(/resize/w-640-R_s_x-B50070821-1-1599054220.jpg);">
+                            </span>
+            <span class="text-wrapper">
+                <span class="title">Prodej bytu 2 + 1</span>
+                <span class="table-wraper">
+                    <table>
+                                                    <tr>
+                                <td>Plocha:</td>
+                                <td style="padding-top:0.5rem;">58&nbsp;m<sup>2</sup></td>
+                            </tr>
+                                                    <tr>
+                            <td>Lokalita:</td>
+                            <td>Praha 3, Žižkov</td>
+                        </tr>
+                                                        <tr>
+                                    <td>Ulice:</td>
+                                    <td>Buková</td>
+                                </tr>
+                                                        <tr>
+                            <td>Cena:</td>
+                            <td>4 790 000 Kè</td>
+                        </tr>
+                    </table>
+                </span>
+                <span class="button_default"><span class="outer">
+                    <span class="middle"><span>Zobrazit detail</span></span>
+                </span></span>
+            </span>
+        </a>
+    </div>
+        <div class="grid-col col-one-quarter bp3-col-one-third bp2-col-one-third bp1-col-one-half bp0-col-full floating_property_cascade_style_wrapper">
+        <a class="details-wrapper" href="https://www.maxima.cz/nemovitosti/b50070787/">
+            <span class="image-wrapper" style="background-image:url(/resize/w-640-R_s_x-B50070787-1-1601628247.jpg);">
+                            </span>
+            <span class="text-wrapper">
+                <span class="title">Prodej bytu 2 + 1</span>
+                <span class="table-wraper">
+                    <table>
+                                                    <tr>
+                                <td>Plocha:</td>
+                                <td style="padding-top:0.5rem;">52&nbsp;m<sup>2</sup></td>
+                            </tr>
+                                                    <tr>
+                            <td>Lokalita:</td>
+                            <td>Praha 9, Prosek</td>
+                        </tr>
+                                                        <tr>
+                                    <td>Ulice:</td>
+                                    <td>Kytlická</td>
+                                </tr>
+                                                        <tr>
+                            <td>Cena:</td>
+                            <td>4 830 000 Kè</td>
+                        </tr>
+                    </table>
+                </span>
+                <span class="button_default"><span class="outer">
+                    <span class="middle"><span>Zobrazit detail</span></span>
+                </span></span>
+            </span>
+        </a>
+    </div>
+        <div class="grid-col col-one-quarter bp3-col-one-third bp2-col-one-third bp1-col-one-half bp0-col-full floating_property_cascade_style_wrapper">
+        <a class="details-wrapper" href="https://www.maxima.cz/nemovitosti/b50070684/">
+            <span class="image-wrapper" style="background-image:url(/resize/w-640-R_s_x-B50070684-1-1598442129.jpg);">
+                            </span>
+            <span class="text-wrapper">
+                <span class="title">Prodej bytu 1 + kk</span>
+                <span class="table-wraper">
+                    <table>
+                                                    <tr>
+                                <td>Plocha:</td>
+                                <td style="padding-top:0.5rem;">48&nbsp;m<sup>2</sup></td>
+                            </tr>
+                                                    <tr>
+                            <td>Lokalita:</td>
+                            <td>Praha 9, Vysoèany</td>
+                        </tr>
+                                                        <tr>
+                                    <td>Ulice:</td>
+                                    <td>bratøí Dohalských</td>
+                                </tr>
+                                                        <tr>
+                            <td>Cena:</td>
+                            <td>4 890 000 Kè</td>
+                        </tr>
+                    </table>
+                </span>
+                <span class="button_default"><span class="outer">
+                    <span class="middle"><span>Zobrazit detail</span></span>
+                </span></span>
+            </span>
+        </a>
+    </div>
+        <div class="grid-col col-one-quarter bp3-col-one-third bp2-col-one-third bp1-col-one-half bp0-col-full floating_property_cascade_style_wrapper">
+        <a class="details-wrapper" href="https://www.maxima.cz/nemovitosti/b50070770/">
+            <span class="image-wrapper" style="background-image:url(/resize/w-640-R_s_x-B50070770-1-1599474891.jpg);">
+                            </span>
+            <span class="text-wrapper">
+                <span class="title">Prodej bytu 2 + 1</span>
+                <span class="table-wraper">
+                    <table>
+                                                    <tr>
+                                <td>Plocha:</td>
+                                <td style="padding-top:0.5rem;">66&nbsp;m<sup>2</sup></td>
+                            </tr>
+                                                    <tr>
+                            <td>Lokalita:</td>
+                            <td>Praha 10, Vršovice</td>
+                        </tr>
+                                                        <tr>
+                                    <td>Ulice:</td>
+                                    <td>Èeljabinská</td>
+                                </tr>
+                                                        <tr>
+                            <td>Cena:</td>
+                            <td>4 990 000 Kè</td>
+                        </tr>
+                    </table>
+                </span>
+                <span class="button_default"><span class="outer">
+                    <span class="middle"><span>Zobrazit detail</span></span>
+                </span></span>
+            </span>
+        </a>
+    </div>
+        <div class="grid-col col-one-quarter bp3-col-one-third bp2-col-one-third bp1-col-one-half bp0-col-full floating_property_cascade_style_wrapper">
+        <a class="details-wrapper" href="https://www.maxima.cz/nemovitosti/b50070760/">
+            <span class="image-wrapper" style="background-image:url(/resize/w-640-R_s_x-B50070760-1-1603441759.jpg);">
+                                    <span class="sticker" style="background-image:url(https://www.maxima.cz/wp-content/themes/maxima_v2/pictures/stickers/novinka_cs.png);"></span>
+                                </span>
+            <span class="text-wrapper">
+                <span class="title">Prodej bytu 2 + kk</span>
+                <span class="table-wraper">
+                    <table>
+                                                    <tr>
+                                <td>Plocha:</td>
+                                <td style="padding-top:0.5rem;">52&nbsp;m<sup>2</sup></td>
+                            </tr>
+                                                    <tr>
+                            <td>Lokalita:</td>
+                            <td>Praha 3, Vinohrady</td>
+                        </tr>
+                                                        <tr>
+                                    <td>Ulice:</td>
+                                    <td>Vinohradská</td>
+                                </tr>
+                                                        <tr>
+                            <td>Cena:</td>
+                            <td>4 993 600 Kè</td>
+                        </tr>
+                    </table>
+                </span>
+                <span class="button_default"><span class="outer">
+                    <span class="middle"><span>Zobrazit detail</span></span>
+                </span></span>
+            </span>
+        </a>
+    </div>
+    </div><div class="grid-wrap half-gutter no-top-gutter"><div class="navigation"><div><div class="paenituit_page_navigation"><ul>
+<li class="active"><a href="https://www.maxima.cz/nabidka-nemovitosti/?advert_function=1&#038;advert_type=1&#038;advert_price-min&#038;advert_price-max&#038;floor_number-min&#038;floor_number-max&#038;usable_area-min&#038;usable_area-max&#038;estate_area-min&#038;estate_area-max">1</a></li>
+<li><a href="https://www.maxima.cz/nabidka-nemovitosti/page/2/?advert_function=1&#038;advert_type=1&#038;advert_price-min&#038;advert_price-max&#038;floor_number-min&#038;floor_number-max&#038;usable_area-min&#038;usable_area-max&#038;estate_area-min&#038;estate_area-max">2</a></li>
+<li><a href="https://www.maxima.cz/nabidka-nemovitosti/page/3/?advert_function=1&#038;advert_type=1&#038;advert_price-min&#038;advert_price-max&#038;floor_number-min&#038;floor_number-max&#038;usable_area-min&#038;usable_area-max&#038;estate_area-min&#038;estate_area-max">3</a></li>
+<li><a href="https://www.maxima.cz/nabidka-nemovitosti/page/2/?advert_function=1&#038;advert_type=1&#038;advert_price-min&#038;advert_price-max&#038;floor_number-min&#038;floor_number-max&#038;usable_area-min&#038;usable_area-max&#038;estate_area-min&#038;estate_area-max" >>></a></li></ul></div>
+</div></div></div>
+
+    	<div class="clearfix"></div>
+        <div class="pes_under_filter-wrapper clearfix">
+        	<div class="title">NENAŠLI JSTE SVÉ VYSNÌNÉ BYDLENÍ?</div>
+            <p>Nechte si posílat novinky z naší nabídky a mìjte stále pøehled o nových nemovitostech.</p>
+            <div style="text-align:center;"><a href="https://www.maxima.cz/novinky-do-e-mailu/" class="button_type_thirteen"><div class="outer">
+                <div class="middle"><i class="ct-icon-dog icon"></i></div><div class="middle"><span>NASTAVTE SI NOVINKY DO E-MAILU!</span></div>
+            </div></a></div>
+        </div>
+
+</div>
+        </div><!-- .page_main_content_wrapper -->
+    </div><!-- .page_wrapper -->
+    
+
+
+
+<div class="footer_about_us-margin_top"><div class="inside-content"><div class="padding"></div></div></div>
+<div class="footer_about_us-wrapper">
+	<div class="inside-content">
+		<div class="info_circle-wrapper">
+			<div>Více než<br><strong>22 let</strong><br>na&nbsp;realitním<br>trhu</div>
+		</div>
+		<div class="info_circle-wrapper">
+			<div>Více než<br><strong>55 000</strong><br>spokojených<br>klientù</div>
+		</div>
+		<div class="info_circle-wrapper">
+			<img src="https://www.maxima.cz/wp-content/themes/maxima_v2/pictures/icon-footer-asociace.png">
+		</div>
+		
+		
+	</div>
+</div>
+
+
+
+
+
+<div class="page_wrapper footer">
+<script>
+jQuery(function(){
+    "use strict";
+    
+
+    
+	jQuery('footer .navigation_wrapper div > ul > li > a').on('click',function(e){
+		
+		e.preventDefault();
+        
+		var elThis = jQuery(this);
+		var elParent = elThis.parent('li');
+		
+		if( !elParent.hasClass('menu-item-has-children') ){
+			return true;
+		}
+		
+		
+		if( elParent.hasClass('sub-menu-opened') ){
+			elParent.removeClass('sub-menu-opened');
+			elParent.find('> ul').slideUp(400);
+			return;
+			
+		}
+
+		if( jQuery('footer .navigation_wrapper div > ul > li.sub-menu-opened').length ){
+			jQuery('footer .navigation_wrapper div > ul > li.sub-menu-opened > ul').slideUp(400);
+			jQuery('footer .navigation_wrapper div > ul > li.sub-menu-opened').removeClass('sub-menu-opened');
+		}
+		
+		
+		elParent.addClass('sub-menu-opened');
+		elParent.find('> ul').slideDown(400);
+	});
+    
+    
+    
+});
+</script>
+
+	<footer>
+		<div class="navigation_wrapper">
+			<div class="menu-footer-main-nav-container"><ul id="menu-footer-main-nav" class="nav"><li id="menu-item-60025" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-60025"><a>PRODÁVÁM NEMOVITOST</a>
+<ul class="sub-menu">
+	<li id="menu-item-105466" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-105466"><a href="https://www.maxima.cz/online-odhad-nemovitosti/">Online odhad ceny zdarma</a></li>
+	<li id="menu-item-105465" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-105465"><a href="https://www.maxima.cz/bonusove-sluzby-pri-prodeji-nemovitosti/">Bonusy pro majitele</a></li>
+</ul>
+</li>
+<li id="menu-item-102612" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-102612"><a>KUPUJI NEMOVITOST</a>
+<ul class="sub-menu">
+	<li id="menu-item-65612" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65612"><a href="https://www.maxima.cz/novinky-do-e-mailu/">Novinky do e-mailu</a></li>
+	<li id="menu-item-105461" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105461"><a href="https://novostavby.maxima.cz/projekty/">Developerské centrum</a></li>
+</ul>
+</li>
+<li id="menu-item-102614" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-102614"><a>SERVIS A BEZPEÈÍ</a>
+<ul class="sub-menu">
+	<li id="menu-item-114468" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-114468"><a href="https://www.maxima.cz/financovani-s-maximou/">Financování s MAXIMOU</a></li>
+	<li id="menu-item-122997" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-122997"><a href="/blog/pronajimate-byt-jaka-jsou-vase-prava-a-povinnosti/">Právní dotazy</a></li>
+	<li id="menu-item-122998" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-122998"><a href="https://www.maxima.cz/sluzby/">Všechny služby</a></li>
+</ul>
+</li>
+<li id="menu-item-105457" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-105457"><a>MAXIMA REALITY</a>
+<ul class="sub-menu">
+	<li id="menu-item-72212" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-72212"><a href="/reference/">Reference od klientù</a></li>
+	<li id="menu-item-121167" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121167"><a href="https://www.maxima.cz/kariera/">Kariéra v Maximì</a></li>
+	<li id="menu-item-102282" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-102282"><a href="/blog/">MAXIMA BLOG</a></li>
+	<li id="menu-item-120369" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-120369"><a href="https://www.maxima.cz/mapa-webu/">Mapa webu</a></li>
+	<li id="menu-item-114032" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-114032"><a href="https://www.maxima.cz/zasady-zpracovani-osobnich-udaju/">Zásady zpracování<br>osobních údajù</a></li>
+</ul>
+</li>
+</ul></div>		</div>
+	</footer>
+
+
+    <div class="footer-socials">
+        <div class="title">Buïte s námi v kontaktu!</div>
+        <div class="icons-wrapper">
+            <a href="https://www.facebook.com/MAXIMAREALITY/" target="_blank" class="icon fb"></a>
+            <a href="https://www.instagram.com/maxima.cz/" target="_blank" class="icon insta"></a>
+            <a href="https://www.youtube.com/channel/UCVagixK2jPssy8kTIUFfDfw" target="_blank" class="icon yt"></a>
+            <a href="https://cz.linkedin.com/company/maxima-reality-s-r-o-" target="_blank" class="icon in"></a>
+        </div>
+    </div>
+
+
+	<div id="copyright">
+		<a href="https://www.maxima.cz"><img src="https://www.maxima.cz/wp-content/themes/maxima_v2/pictures/logo-maxima-reality-gray.png" alt="MAXIMA REALITY"></a>
+		<p>&copy; 2020 MAXIMA REALITY s.r.o. | developed&nbsp;by&nbsp;<a href="http://irej.cz/?ref=maxima.cz" target="_blank">iREJ.cz</a></p>
+	</div>
+
+</div><!-- .page_wrapper --><div id="floating_global_contact_us" class="hidden">
+	<div class="trigger"><span class="first" data-show-me="contact_form" style="display:none;">Poslat zprávu</span></div>
+	
+    <div class="content_wrapper clearfix contact_form" style="display:none;"><form class="form-poptavkovy_v2" id="form_bocni" onSubmit="paenituitSubmitForm(this); return false;" style="padding:1.5rem 0.5rem 0;">
+    <div class="grid-wrap half-gutter">
+        <div class="grid-col col-full bp4-col-display-none bp3-col-display-none bp2-col-display-none text-align-right"><a href="#" onclick="jQuery('#floating_global_contact_us').removeClass('show'); return false;" class="close_form"><i class="ct-icon-close-o"></i></a></div>
+        <div class="grid-col col-one-half bp0-col-full bp1-col-full">
+            <span class="input">
+                <input class="input__field" type="text" name="given-name" id="YwQ2PBG2p2">
+                <label class="input__label" for="YwQ2PBG2p2">
+                    <span class="input__label-content">Jméno</span>
+                </label>
+            </span>
+		</div>
+        <div class="grid-col col-one-half bp0-col-full bp1-col-full">
+            <span class="input">
+                <input class="input__field required" type="text" name="family-name" id="ngBkpisVQX" data-placeholder="Vyplòte prosím Vaše pøíjmení">
+                <label class="input__label" for="ngBkpisVQX">
+                    <span class="input__label-content">Pøíjmení*</span>
+                </label>
+            </span>
+		</div>
+        <div class="grid-col col-one-half bp0-col-full bp1-col-full">
+            <span class="input">
+                <input class="input__field required" type="tel" name="tel" id="ABPhi5FZko" data-placeholder="Vyplòte prosím Vaš telefon">
+                <label class="input__label" for="ABPhi5FZko">
+                    <span class="input__label-content">Telefon*</span>
+                </label>
+            </span>
+		</div>
+        <div class="grid-col col-one-half bp0-col-full bp1-col-full">
+            <span class="input">
+                <input class="input__field" type="email" name="email" id="v7oQq3Tbnk">
+                <label class="input__label" for="v7oQq3Tbnk">
+                    <span class="input__label-content">E-mail</span>
+                </label>
+            </span>
+		</div>
+        <div class="grid-col col-one-half bp0-col-full bp1-col-full">           
+            <span class="input">
+                <input class="input__field" type="text" name="form_for_mail" readonly value="info@maxima.cz" id="0NSw3RiTjQ">
+                <label class="input__label" for="0NSw3RiTjQ">
+                    <span class="input__label-content">Komu</span>
+                </label>
+            </span>
+            <span class="input">
+                <input class="input__field" type="text" name="subject" id="e6pF0EtEJP">
+                <label class="input__label" for="e6pF0EtEJP">
+                    <span class="input__label-content">Pøedmìt</span>
+                </label>
+            </span>
+		</div>
+        <div class="grid-col col-one-half bp0-col-full bp1-col-full">
+            <span class="input input__type--textarea">
+                <textarea class="input__field" name="question" id="Y7uepyCZGS"></textarea>
+                <label class="input__label" for="Y7uepyCZGS">
+                    <span class="input__label-content">Text</span>
+                </label>
+            </span>
+		</div>
+        <div class="grid-col col-full"></div>
+        <div class="grid-col col-one-half bp0-col-full bp1-col-full">
+                        <fieldset class="checkbox__wrapper">
+                <p class="checkbox__label__text small">Vaše osobní údaje zpracováváme v&nbsp;souladu s&nbsp;<a href="#" onclick="paenituit_termsAndConditionsShow( 'zasady-o-zpracovani-osobnich-udaju' ); return false;">GDPR</a>.</p>
+            </fieldset>            
+
+        </div>
+        <div class="grid-col col-one-half bp0-col-full bp1-col-full">
+            
+            <div style="text-align:right;">
+                <a href="#" onClick="jQuery(this).parents('form').submit(); return false;" class="button_type_submit_form submit_form" style="width:100%; margin-top:0.7rem; padding-left:0; padding-right: 0;"><div class="outer">
+                    <div class="middle msg text"><span>odeslat zprávu</span></div>
+                </div><div class="loading"><div class="spinner-loader">Odesílám…</div></div></a>
+            </div>
+        </div>
+        <div class="grid-col col-full">
+            
+        </div>
+    </div>
+    
+    <input type="hidden" name="event_title" value="Odeslání kontaktního formuláøe">
+ 
+    <input type="hidden" name="form_t" value="poptavkovy">
+    <input type="hidden" name="form_type" value="pravý">
+            
+</form>
+</div>
+</div>
+<div id="cookie-popup-alert-wrapper">
+    <div class="overlay-trigger"></div>
+    <div class="default_content-wrapper default_content_spacing extra_content_spacing_top wwow fadeInUp clearfix" data-wow-duration="0.5s" data-wow-delay="0.2s">
+        <div class="com-contact_form_with_info_top-wrapper">
+            <a href="#" class="close-trigger">X</a>
+
+            <div class="content_top-wrapper">
+                <div class="content-left"><div class="h1 form_title-target" style="margin:0 0 0.5rem;" data-form_title_default="BUÏME V KONTAKTU">BUÏME V KONTAKTU</div>Poradíme vám, jak nejlépe prodat.<br>Nezávaznì, zadarmo a&nbsp;pøátelsky.</div>
+                <div class="content-right">
+                    <div class="text-1"><strong>22 LET</strong>&nbsp;&nbsp;zkušeností</div>
+                    <div class="text-2"><strong>55 000</strong>&nbsp;&nbsp;spokojených klientù</div>
+                </div>
+            </div>
+
+                    
+
+<div class="global_content-contact_form-offer_property-wrapper wwow fadeInUp">
+    <div class="grid-wrap default-gutter bg_cafe_mug clearfix wwow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.2s" style="display:block;">
+        <div class="grid-col col-full">
+            <form class="form-offer_property_v2" onSubmit="paenituitSubmitForm(this); return false;" id="offer_property_popup" data-conversion="true" data-adwords_id="963330719" data-adwords_label="cF9BCJKHslcQn4WtywM" data-sklik_id="100008064"data-submit_success_text="">
+                <div class="grid-wrap default-gutter clearfix" data-wow-duration="0.5s" data-wow-delay="0.2s" style="display:block;">
+                    <div class="grid-col col-one-half bp0-col-full bp1-col-full">
+                        
+                        
+                        
+
+
+
+
+                                                    
+
+                            <div class="fields-wrapper">
+                                <div class="grid-wrap half-gutter wwow fadeInUp">
+                                    <div class="grid-col col-full">
+                                                                                
+
+                                           
+            <span class="input dropdown">
+                <input class="input__field required dropdown-list" type="text" name="advert_type" id="F2nB2V4ADE" data-placeholder="Vyberte typ nemovitosti" readonly="readonly">
+                <label class="input__label" for="F2nB2V4ADE">
+                    <span class="input__label-content">Vyberte typ nemovitosti</span>
+                </label>
+                <span class="dropdown-list-wrapper">
+                    <span class="content-wrapper">
+                        <span class="item" data-value="1">Byt</span>
+                        <span class="item" data-value="2">Dùm</span>
+                    </span>
+                </span>
+            </span>
+
+                                           
+                                                                                                                        </div>
+                                    <div class="grid-col col-full">
+                                        <span class="input">
+                                            <input class="input__field" type="text" name="lokalita" id="U0I0BXXQow">
+                                            <label class="input__label" for="U0I0BXXQow">
+                                                <span class="input__label-content">Mìsto, oblast a nebo kraj</span>
+                                            </label>
+                                        </span>
+                                    </div>
+                                                                    </div>
+
+                            </div>
+                        
+
+                        
+
+                        <div class="fields-wrapper">
+                            <div class="grid-wrap half-gutter wwow fadeInUp">
+                                                                <div class="grid-col col-full">
+                                    <span class="input">
+                                        <input class="input__field required" type="text" name="family-name" id="3A6N24IoYA" data-placeholder="Vyplòte prosím Vaše pøíjmení">
+                                        <label class="input__label" for="3A6N24IoYA">
+                                            <span class="input__label-content">Pøíjmení*</span>
+                                        </label>
+                                    </span>
+                                </div>
+                                <div class="grid-col col-full">
+                                    <span class="input">
+                                        <input class="input__field required" type="tel" name="tel" id="2GG1rFZXfd" data-placeholder="Vyplòte prosím Vaš telefon">
+                                        <label class="input__label" for="2GG1rFZXfd">
+                                            <span class="input__label-content">Telefon*</span>
+                                        </label>
+                                    </span>
+                                </div>
+                                <div class="grid-col col-full">
+                                    <span class="input">
+                                        <input class="input__field" type="email" name="email" id="FQFvHgip48">
+                                        <label class="input__label" for="FQFvHgip48">
+                                            <span class="input__label-content">E-mail</span>
+                                        </label>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+
+
+                        
+
+
+                        
+                        <div class="text-align-center wwow fadeInUp">
+                            <a href="#" onClick="jQuery(this).parents('form').submit(); return false;" class="button_type_submit_form submit_form full-width green"><div class="outer">
+                                <div class="middle msg text"><span>Odeslat</span></div>
+                            </div><div class="loading"><div class="spinner-loader">Odesílám…</div></div></a>
+                        </div>
+
+
+                        <div class="fields-wrapper">
+
+                            <div class="grid-wrap half-gutter">
+                                <div class="grid-col col-full"><div style="height:2rem"></div></div>
+                                <div class="grid-col col-full">
+                                                                        <fieldset class="checkbox__wrapper" style="margin-top:0rem;">
+                                        <p class="checkbox__label__text small">* Povinný údaj<br>Vaše osobní údaje zpracováváme v&nbsp;souladu s&nbsp;<a href="#" onclick="paenituit_termsAndConditionsShow( 'zasady-o-zpracovani-osobnich-udaju' ); return false;">GDPR</a>.</p>
+                                    </fieldset>            
+                                </div>
+                            </div>
+                        </div>
+
+
+                                                    <input type="hidden" name="advert_function" value="1">
+                        
+
+                        
+
+
+                        <input type="hidden" name="form_t" value="naborovy">
+                        <input type="hidden" name="form_type" value="popup">
+                        <input type="hidden" name="druhotny_zdroj_t" value="1100661">
+
+                                            </div>
+                    <div class="grid-col col-one-half bp0-col-display-none bp1-col-display-none">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>        </div>
+    </div>
+</div>
+<!-- Behavee A/B Test -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(['AbTesting::create', {
+        name: 'CTA_green_orange', // you can also use '16' (ID of the experiment) to hide the name
+        percentage: 100,
+        includedTargets: [{"attribute":"url","inverted":"0","type":"any","value":""}],
+        excludedTargets: [],
+        startDateTime: '2020/09/17 00:00:00 UTC',
+        endDateTime: '2020/10/18 23:59:59 UTC',
+        variations: [
+            {
+                name: 'original',
+                activate: function (event) {
+                    // usually nothing needs to be done here
+                    console.log("act AB 1", jQuery('.button_default'));
+                }
+            },
+            {
+                name: 'orange', // you can also use '30' (ID of the variation) to hide the name
+                activate: function(event) {
+                    jQuery('.button_default').removeClass('green');
+                    jQuery('.button_type_submit_form').removeClass('green');
+                    console.log("act AB 2", jQuery('.button_default'));
+                }
+            }             
+        ],
+        trigger: function () {
+            return true; // here you can further customize which of your visitors will participate in this experiment
+        }
+    }]);
+</script>
+<!-- Behavee A/B Test -->
+<script>
+jQuery(function(){
+    jQuery('#cookie-popup-alert-wrapper a.close-trigger, #cookie-popup-alert-wrapper .overlay-trigger').on('click',function(event){
+        event.preventDefault();
+        cookie_popup_alert_wrapper__hide();
+    });
+    document.body.addEventListener('mouseout', function(e){
+        if( !e.relatedTarget && !e.toElement ){
+            var cookie_popup_alert_show = jQuery.cookie.get('cookie-popup-leave-online-odhad');
+            if(typeof cookie_popup_alert_show == 'undefined' || cookie_popup_alert_show == '' ){
+                if( jQuery('#cookie-popup-alert-wrapper').is(':visible') == false ){
+                    var formSettings = {};
+                    formSettings['id'] = 'form_popup_on_mouse_leave';
+                    formSettings['druhotny_zdroj_t'] = '1100661';
+                    formSettings['form_title'] = SiteParameters.lang['JAKOU CENU MÁ TEÏ MOJE NEMOVITOST?'];
+                    formSettings['submit_success_text'] = SiteParameters.lang['Na odhadu pracujeme a ozveme se vám.'];
+
+                    cookie_popup_alert_wrapper__show( formSettings );
+
+                    jQuery.cookie.set('cookie-popup-leave-online-odhad', 'show', { expires: 1, path: '/' });
+                }
+            }
+        }
+    });
+
+    
+    var cookie_popup_alert_show = jQuery.cookie.get('cookie-popup-leave-online-odhad');
+    if(typeof cookie_popup_alert_show == 'undefined' || cookie_popup_alert_show == '' ){
+        window.setTimout_popup_alert_show = 0;
+        jQuery(window).mousemove(function() {
+            clearTimeout(window.setTimout_popup_alert_show);
+            window.setTimout_popup_alert_show = setTimeout(function(){
+                cookie_popup_alert_show = jQuery.cookie.get('cookie-popup-leave-online-odhad');
+                if( cookie_popup_alert_show != 'show' ){
+                    if( jQuery('#cookie-popup-alert-wrapper').is(':visible') == false ){
+                        var formSettings = {};
+                        formSettings['id'] = 'form_popup_on_timeout';
+                        formSettings['druhotny_zdroj_t'] = '1100661';
+                        formSettings['form_title'] = SiteParameters.lang['JAKOU CENU MÁ TEÏ MOJE NEMOVITOST?'];
+                        formSettings['submit_success_text'] = SiteParameters.lang['Na odhadu pracujeme a ozveme se vám.'];
+
+                        cookie_popup_alert_wrapper__show( formSettings );
+
+                        jQuery.cookie.set('cookie-popup-leave-online-odhad', 'show', { expires: 1, path: '/' });
+                    }
+                }
+            }, 45000);
+        });
+    }
+    
+    
+    jQuery('[href="#zajima-me-prodej-nemovitosti-f"]').on('click',function(event){
+        event.preventDefault();
+        var elThis = jQuery(this);
+        
+        var formSettings = {};
+        
+        if( elThis.data('id') != 'undefined' && elThis.data('id') != '' ){
+            formSettings['id'] = elThis.data('id');
+            if( elThis.data('add_slug') == true ){
+                var slug = window.location.pathname.replace(/\//g, "").replace(/-/g, "_");
+                if( slug == '' ){
+                    slug = 'homepage';
+                }
+                formSettings['id'] += slug;
+            }
+        }
+        if( elThis.data('druhotny_zdroj_t') != 'undefined' && elThis.data('druhotny_zdroj_t') != '' ){
+            formSettings['druhotny_zdroj_t'] = elThis.data('druhotny_zdroj_t');
+        }
+        
+        
+        //if (window.console) {console.log(formSettings);}
+        
+        
+        cookie_popup_alert_wrapper__show( formSettings );
+    });
+    
+    
+});
+function cookie_popup_alert_wrapper__show( formSettings ){
+    
+    var elForm = jQuery('#cookie-popup-alert-wrapper form');
+    
+    if(typeof formSettings != 'undefined'){
+        if( formSettings['id'] != 'undefined' && formSettings['id'] != '' ){
+            elForm.prop('id', formSettings['id']);
+        }
+        if( formSettings['druhotny_zdroj_t'] != 'undefined' && formSettings['druhotny_zdroj_t'] != '' ){
+            elForm.find('input[name="druhotny_zdroj_t"]').val(formSettings['druhotny_zdroj_t']);
+        }
+        
+        if( formSettings['form_title'] != 'undefined' && formSettings['form_title'] != '' ){
+            jQuery('#cookie-popup-alert-wrapper .form_title-target').html(formSettings['form_title']);
+        }
+
+        if( formSettings['submit_success_text'] != 'undefined' && formSettings['submit_success_text'] != '' ){
+            elForm.data('submit_success_text', formSettings['submit_success_text']);
+        }
+        
+    }else{
+        elForm.prop('id', 'form_default');
+        elForm.find('input[name="druhotny_zdroj_t"]').val('1100661');
+        jQuery('#cookie-popup-alert-wrapper .form_title-target').html(jQuery('#cookie-popup-alert-wrapper .form_title-target').data('form_title_default'));
+        elForm.data('submit_success_text', '');
+    }
+
+
+
+	//získávání dat visitora
+    var _paq = _paq || [];
+    function createUUID() {
+        return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+        var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+        return v.toString(16);
+        });
+    }
+    var unique_id = createUUID();
+    _paq.push(['setUserId', unique_id]);
+    _paq.push(['trackPageView']);
+
+    var formPAQ = elForm;
+    var hfExist = formPAQ.find('[name="_paq_unique_id"]');
+    if (hfExist.length > 0)
+    {
+        hfExist.remove();
+    }
+
+    var hfPAQ = jQuery('<input type="hidden" name="_paq_unique_id" />');
+    hfPAQ.val(unique_id);
+    formPAQ.append(hfPAQ);
+
+    
+    jQuery('#cookie-popup-alert-wrapper').stop(true,true).fadeIn(300);
+}
+function cookie_popup_alert_wrapper__hide(){
+    jQuery('#cookie-popup-alert-wrapper').stop(true,true).fadeOut(300);
+}
+</script>
+
+
+
+
+
+
+
+<script type='text/javascript' src='https://www.maxima.cz/wp-content/themes/maxima_v2/js/masonry.min.js?ver=20201030-1' id='jquery-masonry-js'></script>
+<script type='text/javascript' src='https://www.maxima.cz/wp-includes/js/wp-embed.min.js?ver=41efc462d991d3e9dae03bf8a09758db' id='wp-embed-js'></script>
+
+
+
+
+
+
+
+<style>
+#chat-application-iframe .message .message-text {
+    word-break: normal !important;
+}
+</style>
+
+</body>
+</html>
