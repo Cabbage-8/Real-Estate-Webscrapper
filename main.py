@@ -1,9 +1,14 @@
-import csv
+from picachu import *
+import datetime
 
-def generator_matousu():
-    print("Matous 1")
-    print("Matous 2")
+location = ["Praha 8", "Praha 7"]
+object = "Byt"
+offer = "Prodej"
 
-print("Matouš je moc pěkný!")
-print("Tuhy je BOREC!")
-generator_matousu()
+
+import_time = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
+
+new_data = get_properties(location, offer, object)
+add_new_prop_to_db("database.csv", new_data)
+filter_top_properties("database.csv")
+#notifikace()
