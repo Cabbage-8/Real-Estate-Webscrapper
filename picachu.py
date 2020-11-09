@@ -1,4 +1,5 @@
 from sreality import *
+import pandas as pd
 
 def get_properties(location, offer, object):
     list_prop = []
@@ -22,3 +23,8 @@ def add_new_prop_to_db(database, list_property):
         w = csv.DictWriter(f, dict_prop.keys())
         w.writeheader()
         w.writerows(list_property)
+
+def filter_top_properties(database):
+    df_prop = pd.read_csv(database) #index_col = 0
+    df_prop["COUNTRY"] = df_prop["str_address"].apply(str.upper)
+    df_prop.to_csv("tuan_test.csv", index = False, header=True)
