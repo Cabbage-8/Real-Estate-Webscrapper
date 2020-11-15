@@ -1,0 +1,25 @@
+Link;Type;Size;Location;Street;Price
+https://www.maxima.cz/nemovitosti/b50070015/;Prodej bytu 2 + kk;64 m2;Klíèany;Klíèany;1 142 500 Kè
+https://www.maxima.cz/nemovitosti/b50070903/;Prodej bytu 3 + 1;68 m2;Pacov;Sídlištì Míru;2 090 000 Kè
+https://www.maxima.cz/nemovitosti/b50071200/;Prodej bytu 2 + 1;54 m2;Olomouc, Nový Svìt;Ruèilova;2 520 000 Kè
+https://www.maxima.cz/nemovitosti/b50070962/;Prodej bytu 3 + 1;81 m2;Praha 9, Èerný Most;Vašátkova;2 760 000 Kè
+https://www.maxima.cz/nemovitosti/b50070656/;Prodej bytu 3 + 1;73 m2;Pøíbram, Pøíbram I;Plzeòská;2 810 320 Kè
+https://www.maxima.cz/nemovitosti/b50071309/;Prodej bytu 3 + 1;80 m2;Tursko;Nová;2 829 900 Kè
+https://www.maxima.cz/nemovitosti/b50070526/;Prodej bytu 1 + 1;38 m2;Praha 3, Žižkov;Biskupcova;3 190 000 Kè
+https://www.maxima.cz/nemovitosti/b50070461/;Prodej bytu 3 + 1;74 m2;Kutná Hora, Šipší;17. listopadu;3 350 000 Kè
+https://www.maxima.cz/nemovitosti/b50070744/;Prodej bytu 4 + kk;64 m2;Beroun, Beroun-Mìsto;Tyršova;3 590 000 Kè
+https://www.maxima.cz/nemovitosti/b50071262/;Prodej bytu 2 + kk;42 m2;Praha 5, Hluboèepy;Werichova;3 692 000 Kè
+https://www.maxima.cz/nemovitosti/b50071307/;Prodej bytu 2 + kk;42 m2;Praha 5, Stodùlky;Sezemínská;3 879 080 Kè
+https://www.maxima.cz/nemovitosti/b50071219/;Prodej bytu 1 + kk;44 m2;Praha 10, Dolní Mìcholupy;Honzíkova;3 691 215 Kè
+https://www.maxima.cz/nemovitosti/b50071077/;Prodej bytu 1 + kk;49 m2;Praha 6, Bøevnov;Radimova;3 790 000 Kè
+https://www.maxima.cz/nemovitosti/b50070790/;Prodej bytu 1 + 1;42 m2;Praha 4, Chodov;Leopoldova;4 190 000 Kè
+https://www.maxima.cz/nemovitosti/b50070849/;Prodej bytu 2 + 1;60 m2;Praha 10, Malešice;Pøistoupimská;4 300 000 Kè
+https://www.maxima.cz/nemovitosti/b50070575/;Prodej bytu 2 + kk;59 m2;Harrachov;Harrachov;4 400 000 Kè
+https://www.maxima.cz/nemovitosti/b50070829/;Prodej bytu 1 + kk;42 m2;Praha 4, Michle;Nuselská;4 456 000 Kè
+https://www.maxima.cz/nemovitosti/b50070566/;Prodej bytu 3 + 1;86 m2;Olomouc, Chválkovice;Chválkovická;4 470 000 Kè
+https://www.maxima.cz/nemovitosti/b50070977/;Prodej bytu 2 + kk;55 m2;Modletice;Modletice;4 500 000 Kè
+https://www.maxima.cz/nemovitosti/b50070011/;Prodej bytu 2 + kk;64 m2;Klíèany;Klíèany;4 630 000 Kè
+https://www.maxima.cz/nemovitosti/b50071156/;Prodej bytu 3 + 1;82 m2;Praha 4, Libuš;V Rohu;4 790 000 Kè
+https://www.maxima.cz/nemovitosti/b50070821/;Prodej bytu 2 + 1;58 m2;Praha 3, Žižkov;Buková;4 790 000 Kè
+https://www.maxima.cz/nemovitosti/b50070684/;Prodej bytu 1 + kk;48 m2;Praha 9, Vysoèany;bratøí Dohalských;4 890 000 Kè
+https://www.maxima.cz/nemovitosti/b50070770/;Prodej bytu 2 + 1;66 m2;Praha 10, Vršovice;Èeljabinská;4 990 000 Kè
