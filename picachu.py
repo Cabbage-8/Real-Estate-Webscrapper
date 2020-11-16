@@ -1,5 +1,5 @@
-from sreality import *
-from maxima import *
+from metapod.sreality import *
+from metapod.maxima import *
 import pandas as pd
 
 def get_properties(location, offer, object):
