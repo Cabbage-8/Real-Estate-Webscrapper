@@ -1,0 +1,1 @@
+Link;Type;Size;Location;Street;Price

@@ -37,6 +37,9 @@ file_Output.close()
 # Get all offers on page
 tag_Offers = soup_MaximaSearch.find_all('a', class_="details-wrapper")
 
+dict_prop_maxima = {}
+list_prop_maxima = []
+
 for tag_Offer in tag_Offers:
     # Link
     str_Link = tag_Offer.get('href')
@@ -51,6 +54,7 @@ for tag_Offer in tag_Offers:
     tag_Table = tag_Offer.find('table')
     tag_Rows = tag_Table.find_all('td')
 
+
     int_Iter = 0
     str_Size = ''
     str_Location = ''
@@ -64,7 +68,17 @@ for tag_Offer in tag_Offers:
         if int_Iter == 7: str_Price = tag_Row.getText()
         int_Iter += 1
 
-    WriteLineToOutput(str_Link, str_Type, str_Size, str_Location, str_Street, str_Price, str_OutputFilename)
+    #WriteLineToOutput(str_Link, str_Type, str_Size, str_Location, str_Street, str_Price, str_OutputFilename)
+
+    dict_prop_maxima["int_metry"] = str_Size
+    dict_prop_maxima["str_typ"] = str_Type
+    dict_prop_maxima["str_address"] = str_Location + ', ' + str_Street
+    dict_prop_maxima["int_cena"] = str_Price
+    dict_prop_maxima["str_url"] = str_Link
+    list_prop_maxima.append(dict_prop_maxima.copy())
+    
+return list_prop_maxima
+
     #break
 
  #raise SystemExit(0)
