@@ -10,6 +10,7 @@ def get_prop_sreality(location, offer, object):
     with open("sreality_html.txt", 'w', encoding="utf-8") as out_file:
          #out_file.write(soup.prettify())
          out_file.write(str_html)
+
     soup = BeautifulSoup(str_html, "html.parser")
 
     all_properties = soup.find_all('div', class_='property ng-scope')

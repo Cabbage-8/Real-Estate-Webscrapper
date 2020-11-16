@@ -38,7 +38,7 @@
 	<!-- ngIf: rss.url --><link rel="alternate" type="application/rss+xml" ng-href="/api/cs/v2/estates/rss?category_main_cb=1&amp;locality_district_id=5008|5007&amp;category_sub_cb=5|6&amp;suggested_regionId=-1&amp;czk_price_summary_order2=0|6000000&amp;suggested_districtId=-1&amp;locality_region_id=10&amp;category_type_cb=1" ng-if="rss.url" class="ng-scope" href="/api/cs/v2/estates/rss?category_main_cb=1&amp;locality_district_id=5008|5007&amp;category_sub_cb=5|6&amp;suggested_regionId=-1&amp;czk_price_summary_order2=0|6000000&amp;suggested_districtId=-1&amp;locality_region_id=10&amp;category_type_cb=1"><!-- end ngIf: rss.url -->
 	<!-- ngRepeat: lang in metaSeo.languages --><link ng-repeat="lang in metaSeo.languages" rel="alternate" hreflang="cs" ng-href="https://www.sreality.cz/hledani/prodej/byty/praha-8,praha-7?velikost=2%2B1,3%2Bkk&amp;cena-od=0&amp;cena-do=6000000" class="ng-scope" href="https://www.sreality.cz/hledani/prodej/byty/praha-8,praha-7?velikost=2%2B1,3%2Bkk&amp;cena-od=0&amp;cena-do=6000000"><!-- end ngRepeat: lang in metaSeo.languages --><link ng-repeat="lang in metaSeo.languages" rel="alternate" hreflang="en" ng-href="https://www.sreality.cz/en/search/for-sale/apartments/praha-8,praha-7?disposition=2%2B1,3%2Bkt&amp;min-price=0&amp;max-price=6000000" class="ng-scope" href="https://www.sreality.cz/en/search/for-sale/apartments/praha-8,praha-7?disposition=2%2B1,3%2Bkt&amp;min-price=0&amp;max-price=6000000"><!-- end ngRepeat: lang in metaSeo.languages --><link ng-repeat="lang in metaSeo.languages" rel="alternate" hreflang="ru" ng-href="https://www.sreality.cz/ru/search/for-sale/apartments/praha-8,praha-7?disposition=2%2B1,3%2Bkt&amp;min-price=0&amp;max-price=6000000" class="ng-scope" href="https://www.sreality.cz/ru/search/for-sale/apartments/praha-8,praha-7?disposition=2%2B1,3%2Bkt&amp;min-price=0&amp;max-price=6000000"><!-- end ngRepeat: lang in metaSeo.languages -->
 
-	<link rel="stylesheet" href="/css/all.css?1a02fa6">
+	<link rel="stylesheet" href="/css/all.css?0f88827">
 
 	<!-- Begin Inspectlet Embed Code -->
 	<script type="text/javascript" async="" src="https://static.hotjar.com/c/hotjar-1672095.js?sv=7"></script><script type="text/javascript" async="" id="inspsync" src="https://cdn.inspectlet.com/inspectlet.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-5Z296JF"></script><script type="text/javascript" id="inspectletjs">
@@ -122,12 +122,12 @@
 	<script nomodule="" src="/js/fetch.umd.js"></script>
 
 	<!-- KONFIGURACE -->
-	<script src="/js/conf/config.js?1a02fa6"></script>
+	<script src="/js/conf/config.js?0f88827"></script>
 
 	<script src="/js/advert.js"></script>
 	<script src="/js/maps.js?1"></script>
-	<script src="/js/new-src.js?1a02fa6"></script>
-	<script src="/js/all.js?1a02fa6"></script>
+	<script src="/js/new-src.js?0f88827"></script>
+	<script src="/js/all.js?0f88827"></script>
 
 	<script type="text/javascript">
 		if (window.DOT) {
@@ -135,8 +135,8 @@
 				service: 'sreality',
 				lazyLoadingEnabled: true
 			};
-			if (window.SrealityABTest && window.SrealityABTest.getVariant()) {
-				dotCfg.abtest = window.SrealityABTest.getVariant();
+			if (window.SrealityNew && window.SrealityNew.abTestHelper) {
+				dotCfg.abtest = window.SrealityNew.abTestHelper.getVariant();
 			}
 			DOT.cfg(dotCfg);
 		}
@@ -597,7 +597,12 @@
 					'move': !item.disabled &amp;&amp; $index == selectedIndex,
 					'separate': item.separator_after,
 					'disabled': item.disabled
-				}">Egypt</li><!-- end ngIf: !item.hide --><!-- end ngRepeat: item in options --><!-- ngIf: !item.hide --><li ng-if="!item.hide" ng-repeat="item in options" ng-click="!item.disabled ? set($event, item.value) : ''" value="380" class="item ng-binding ng-scope" ng-class="{
+				}">Egypt</li><!-- end ngIf: !item.hide --><!-- end ngRepeat: item in options --><!-- ngIf: !item.hide --><li ng-if="!item.hide" ng-repeat="item in options" ng-click="!item.disabled ? set($event, item.value) : ''" value="268" class="item ng-binding ng-scope" ng-class="{
+					'active': !item.disabled &amp;&amp; item.value == model.value,
+					'move': !item.disabled &amp;&amp; $index == selectedIndex,
+					'separate': item.separator_after,
+					'disabled': item.disabled
+				}">Gruzie</li><!-- end ngIf: !item.hide --><!-- end ngRepeat: item in options --><!-- ngIf: !item.hide --><li ng-if="!item.hide" ng-repeat="item in options" ng-click="!item.disabled ? set($event, item.value) : ''" value="380" class="item ng-binding ng-scope" ng-class="{
 					'active': !item.disabled &amp;&amp; item.value == model.value,
 					'move': !item.disabled &amp;&amp; $index == selectedIndex,
 					'separate': item.separator_after,
@@ -680,7 +685,7 @@
 				}">Velká Británie</li><!-- end ngIf: !item.hide --><!-- end ngRepeat: item in options -->
 		</ul>
 	</div>
-	<select class="default-select ng-pristine ng-valid" ng-change="change()" ng-model="model" ng-options="item.value as item.name for item in options track by item.value"><option value="10001" selected="selected">Vše</option><option value="112">Česká republika</option><option value="10000">V zahraničí</option><option value="100">Bulharsko</option><option value="191">Chorvatsko</option><option value="214">Dominikánská republika</option><option value="818">Egypt</option><option value="380">Itálie</option><option value="132">Kapverdy</option><option value="348">Maďarsko</option><option value="484">Mexiko</option><option value="276">Německo</option><option value="616">Polsko</option><option value="620">Portugalsko</option><option value="40">Rakousko</option><option value="300">Řecko</option><option value="703">Slovenská Republika</option><option value="724">Španělsko</option><option value="784">Spojené arabské emiráty</option><option value="840">Spojené státy americké</option><option value="792">Turecko</option><option value="804">Ukrajina</option><option value="826">Velká Británie</option></select>
+	<select class="default-select ng-pristine ng-valid" ng-change="change()" ng-model="model" ng-options="item.value as item.name for item in options track by item.value"><option value="10001" selected="selected">Vše</option><option value="112">Česká republika</option><option value="10000">V zahraničí</option><option value="100">Bulharsko</option><option value="191">Chorvatsko</option><option value="214">Dominikánská republika</option><option value="818">Egypt</option><option value="268">Gruzie</option><option value="380">Itálie</option><option value="132">Kapverdy</option><option value="348">Maďarsko</option><option value="484">Mexiko</option><option value="276">Německo</option><option value="616">Polsko</option><option value="620">Portugalsko</option><option value="40">Rakousko</option><option value="300">Řecko</option><option value="703">Slovenská Republika</option><option value="724">Španělsko</option><option value="784">Spojené arabské emiráty</option><option value="840">Spojené státy americké</option><option value="792">Turecko</option><option value="804">Ukrajina</option><option value="826">Velká Británie</option></select>
 </div>
 </div>
 </div><!-- end ngIf: item.visual == VISUAL.SINGLECHOICE -->
@@ -1048,7 +1053,7 @@
 
 	<!-- naseptavac -->
 	<!-- ngIf: tmpl.suggest --><span class="suggest-wrap ng-scope suggest-wrap-locality" ng-class="tmpl.typeahead.wrapClass" ng-if="tmpl.suggest">
-		<input type="text" class="input ng-pristine ng-valid" placeholder="město, městská část, ulice" ng-model="tmpl.model" ng-blur="blur()" ng-focus="focus()" typeahead="tmpl.typeahead.labelFormatter(value) as value for value in getTypeaheadResults($viewValue)" typeahead-on-select="tmpl.typeahead.selectCallback($item)" typeahead-wait-ms="250" sreality-typeahead-input-class="suggested" aria-autocomplete="list" aria-expanded="false" aria-owns="typeahead-0A8-57"><div typehead="" typeahead-popup="" id="typeahead-0A8-57" matches="matches" active="activeIdx" select="select(activeIdx, locality)" query="query" position="position" class="ng-isolate-scope">
+		<input type="text" class="input ng-pristine ng-valid" placeholder="město, městská část, ulice" ng-model="tmpl.model" ng-blur="blur()" ng-focus="focus()" typeahead="tmpl.typeahead.labelFormatter(value) as value for value in getTypeaheadResults($viewValue)" typeahead-on-select="tmpl.typeahead.selectCallback($item)" typeahead-wait-ms="250" sreality-typeahead-input-class="suggested" aria-autocomplete="list" aria-expanded="false" aria-owns="typeahead-0AB-2155"><div typehead="" typeahead-popup="" id="typeahead-0AB-2155" matches="matches" active="activeIdx" select="select(activeIdx, locality)" query="query" position="position" class="ng-isolate-scope">
 <!-- ngIf: isInputFocused() -->
 <!-- ngIf: showGeoLoading || showGeoNotFound() || showGeoError() -->
 <!-- ngIf: isOpen() && isInputFocused() -->
@@ -1824,16 +1829,16 @@
 
 			<!-- direktiva pro vypis inzeratu (sdilena s oblibenymi) -->
 			<div property-list="estatesResource" type="property" class="ng-isolate-scope"><div class="dir-property-list">
-	<!-- ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index != 1 ? $index: $index + 1}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;3197566044&quot;, &quot;stitky&quot;: &quot;Lodžie,Vybavený,Pošta 6 min. pěšky&quot;, &quot;pudorys&quot;: &quot;false&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 0;"><a ng-href="/detail/prodej/byt/3+kk/praha-bohnice-lodzska/3197566044" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/3+kk/praha-bohnice-lodzska/3197566044">
+	<!-- ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;4015939420&quot;, &quot;stitky&quot;: &quot;Balkon,Sportoviště 6 min. pěšky&quot;, &quot;pudorys&quot;: &quot;true&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 0;"><a ng-href="/detail/prodej/byt/3+kk/praha-bohnice-cafourkova/4015939420" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/3+kk/praha-bohnice-cafourkova/4015939420">
 	<!-- ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
 		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_F_Bd/ajwBugZ.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_F_Bd/ajwBugZ.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_QR_Lg/wKzaDS.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_QR_Lg/wKzaDS.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
 	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
 		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_E_Bj/1mR7QI.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_E_Bj/1mR7QI.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_QP_KR/kCXaDG.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_QP_KR/kCXaDG.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
 	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
 		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_E_Bk/ZZM0vD.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_E_Bk/ZZM0vD.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_QI_I9/6ykaHz.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_QI_I9/6ykaHz.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
 	</span><!-- end ngRepeat: img in i.images track by $index --><!--
 	--><!-- ngIf: i.note.length -->
 	<!-- ngIf: i.regionTip -->
@@ -1843,32 +1848,30 @@
 	<div class="text-wrap">
 		<span class="basic">
 			<h2>
-				<a ng-href="/detail/prodej/byt/3+kk/praha-bohnice-lodzska/3197566044" ng-click="beforeOpen(i.iterator, i.regionTip)" class="title" href="/detail/prodej/byt/3+kk/praha-bohnice-lodzska/3197566044">
-					<span class="name ng-binding">Prodej bytu 3+kk 58&nbsp;m²</span>
+				<a ng-href="/detail/prodej/byt/3+kk/praha-bohnice-cafourkova/4015939420" ng-click="beforeOpen(i.iterator, i.regionTip)" class="title" href="/detail/prodej/byt/3+kk/praha-bohnice-cafourkova/4015939420">
+					<span class="name ng-binding">Prodej bytu 3+kk 54&nbsp;m²</span>
 					<!-- ngIf: i.isNew -->
 				</a>
 			</h2>
-			<span class="locality ng-binding">Lodžská, Praha 8 - Bohnice</span>
+			<span class="locality ng-binding">Cafourkova, Praha 8 - Bohnice</span>
 			<!-- ngIf: i.price --><span class="price ng-scope" ng-if="i.price">
 				<!-- ngIf: i.isAuction -->
-				<span class="norm-price ng-binding">4&nbsp;890&nbsp;000&nbsp;Kč</span>
+				<span class="norm-price ng-binding">4&nbsp;900&nbsp;000&nbsp;Kč</span>
 				<!-- ngIf: i.price.alternative -->
 				<!-- ngIf: i.auctionPrice -->
 			</span><!-- end ngIf: i.price -->
 			<!-- ngIf: i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive --><span class="labels ng-scope" ng-if="i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive">
-				<!-- ngIf: i.isExclusive --><span ng-if="i.isExclusive" class="label highlight ng-binding ng-scope">
-					Exkluzivní zastoupení
-				</span><!-- end ngIf: i.isExclusive --><!--
+				<!-- ngIf: i.isExclusive --><!--
 				--><!-- ngIf: i.hasVirtualTour --><!--
 				--><!-- ngRepeat: label in i.labels --><span ng-repeat="label in i.labels" class="label ng-binding ng-scope">
-					Lodžie
+					Balkon
 				</span><!-- end ngRepeat: label in i.labels --><span ng-repeat="label in i.labels" class="label ng-binding ng-scope">
-					Vybavený
-				</span><!-- end ngRepeat: label in i.labels --><span ng-repeat="label in i.labels" class="label ng-binding ng-scope">
-					Pošta 6 min. pěšky
+					Sportoviště 6 min. pěšky
 				</span><!-- end ngRepeat: label in i.labels --><!--
 				--><!-- ngIf: i.hasPanorama --><!--
-				--><!-- ngIf: i.hasGroundPlan -->
+				--><!-- ngIf: i.hasGroundPlan --><span ng-if="i.hasGroundPlan" class="label highlight ng-binding ng-scope">
+					Půdorys
+				</span><!-- end ngIf: i.hasGroundPlan -->
 			</span><!-- end ngIf: i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive -->
 		</span>
 
@@ -1879,14 +1882,74 @@
 		</span>-->
 	</div>
 
-	<!-- ngIf: i.showAgencyLogo --><a ng-if="i.showAgencyLogo" ng-href="/adresar/archer-reality-praha-praha-zizkov/17673" class="agency-logo ng-scope" href="/adresar/archer-reality-praha-praha-zizkov/17673">
-		<!-- ngIf: i.agencyData.logo --><img class="image ng-scope" ng-if="i.agencyData.logo" ng-src="https://d48-a.sdn.cz/d_48/c_img_H_H/P1pMP.png?fl=res,140,140,3,ffffff" alt="ARCHER reality Praha" src="https://d48-a.sdn.cz/d_48/c_img_H_H/P1pMP.png?fl=res,140,140,3,ffffff"><!-- end ngIf: i.agencyData.logo -->
+	<!-- ngIf: i.showAgencyLogo --><a ng-if="i.showAgencyLogo" ng-href="/adresar/duna-house-franchise-s-r-o-praha-michle/19696" class="agency-logo ng-scope" href="/adresar/duna-house-franchise-s-r-o-praha-michle/19696">
+		<!-- ngIf: i.agencyData.logo --><img class="image ng-scope" ng-if="i.agencyData.logo" ng-src="https://d48-a.sdn.cz/d_48/c_img_G_H/V5RT2j.png?fl=res,140,140,3,ffffff" alt="DUNA HOUSE FRANCHISE, s.r.o." src="https://d48-a.sdn.cz/d_48/c_img_G_H/V5RT2j.png?fl=res,140,140,3,ffffff"><!-- end ngIf: i.agencyData.logo -->
 		<!-- ngIf: !i.agencyData.logo -->
 	</a><!-- end ngIf: i.showAgencyLogo -->
 </div>
 
 <!-- ngIf: i.annotation -->
-</div><!-- end ngIf: type != 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index != 1 ? $index: $index + 1}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;1038966620&quot;, &quot;stitky&quot;: &quot;Lodžie&quot;, &quot;pudorys&quot;: &quot;false&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 2;"><a ng-href="/detail/prodej/byt/3+kk/praha-bohnice-cafourkova/1038966620" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/3+kk/praha-bohnice-cafourkova/1038966620">
+</div><!-- end ngIf: type != 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;1236925532&quot;, &quot;stitky&quot;: &quot;Vybavený&quot;, &quot;pudorys&quot;: &quot;true&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 1;"><a ng-href="/detail/prodej/byt/3+kk/praha-karlin-prvniho-pluku/1236925532" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/3+kk/praha-karlin-prvniho-pluku/1236925532">
+	<!-- ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
+		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_E_Bk/6IspKP.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_E_Bk/6IspKP.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
+		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_E_Bj/GsuvoC.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_E_Bj/GsuvoC.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
+		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_F_Bd/JsOBWwY.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_F_Bd/JsOBWwY.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+	</span><!-- end ngRepeat: img in i.images track by $index --><!--
+	--><!-- ngIf: i.note.length -->
+	<!-- ngIf: i.regionTip -->
+</a>
+
+<div class="info clear ng-scope with-logo" ng-class="{'project-info': type == 'project', 'with-logo': i.showAgencyLogo, 'with-project-items': i.projectDates &amp;&amp; i.projectDates.length, 'with-guide-btn': type == 'favorite'}">
+	<div class="text-wrap">
+		<span class="basic">
+			<h2>
+				<a ng-href="/detail/prodej/byt/3+kk/praha-karlin-prvniho-pluku/1236925532" ng-click="beforeOpen(i.iterator, i.regionTip)" class="title" href="/detail/prodej/byt/3+kk/praha-karlin-prvniho-pluku/1236925532">
+					<span class="name ng-binding">Prodej bytu 3+kk 70&nbsp;m²</span>
+					<!-- ngIf: i.isNew -->
+				</a>
+			</h2>
+			<span class="locality ng-binding">Prvního pluku, Praha 8 - Karlín</span>
+			<!-- ngIf: i.price --><span class="price ng-scope" ng-if="i.price">
+				<!-- ngIf: i.isAuction -->
+				<span class="norm-price ng-binding">5&nbsp;490&nbsp;000&nbsp;Kč</span>
+				<!-- ngIf: i.price.alternative -->
+				<!-- ngIf: i.auctionPrice -->
+			</span><!-- end ngIf: i.price -->
+			<!-- ngIf: i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive --><span class="labels ng-scope" ng-if="i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive">
+				<!-- ngIf: i.isExclusive --><span ng-if="i.isExclusive" class="label highlight ng-binding ng-scope">
+					Exkluzivní zastoupení
+				</span><!-- end ngIf: i.isExclusive --><!--
+				--><!-- ngIf: i.hasVirtualTour --><!--
+				--><!-- ngRepeat: label in i.labels --><span ng-repeat="label in i.labels" class="label ng-binding ng-scope">
+					Vybavený
+				</span><!-- end ngRepeat: label in i.labels --><!--
+				--><!-- ngIf: i.hasPanorama --><!--
+				--><!-- ngIf: i.hasGroundPlan --><span ng-if="i.hasGroundPlan" class="label highlight ng-binding ng-scope">
+					Půdorys
+				</span><!-- end ngIf: i.hasGroundPlan -->
+			</span><!-- end ngIf: i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive -->
+		</span>
+
+		<!-- ngIf: i.projectDates && i.projectDates.length -->
+
+		<!--<span ng-if="(type == 'favorite' && (i.seo.category_main_cb == 1 || i.seo.category_main_cb == 2))" class="to-guide-btn">
+			<button ng-click="openGuide(i)" class="btn">Prověřit nemovitost</button>
+		</span>-->
+	</div>
+
+	<!-- ngIf: i.showAgencyLogo --><a ng-if="i.showAgencyLogo" ng-href="/adresar/dumrealit-cz-progres-kralupy-nad-vltavou/2285" class="agency-logo ng-scope" href="/adresar/dumrealit-cz-progres-kralupy-nad-vltavou/2285">
+		<!-- ngIf: i.agencyData.logo --><img class="image ng-scope" ng-if="i.agencyData.logo" ng-src="https://d48-a.sdn.cz/d_48/c_img_G_C/dZaBeVY.png?fl=res,140,140,3,ffffff" alt="Dumrealit.cz Progres" src="https://d48-a.sdn.cz/d_48/c_img_G_C/dZaBeVY.png?fl=res,140,140,3,ffffff"><!-- end ngIf: i.agencyData.logo -->
+		<!-- ngIf: !i.agencyData.logo -->
+	</a><!-- end ngIf: i.showAgencyLogo -->
+</div>
+
+<!-- ngIf: i.annotation -->
+</div><!-- end ngIf: type != 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;1038966620&quot;, &quot;stitky&quot;: &quot;Lodžie&quot;, &quot;pudorys&quot;: &quot;false&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 2;"><a ng-href="/detail/prodej/byt/3+kk/praha-bohnice-cafourkova/1038966620" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/3+kk/praha-bohnice-cafourkova/1038966620">
 	<!-- ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
 		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
 		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_QO_KJ/qcJHKx.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_QO_KJ/qcJHKx.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
@@ -1913,7 +1976,7 @@
 			<span class="locality ng-binding">Cafourkova, Praha 8 - Bohnice</span>
 			<!-- ngIf: i.price --><span class="price ng-scope" ng-if="i.price">
 				<!-- ngIf: i.isAuction -->
-				<span class="norm-price ng-binding">4&nbsp;540&nbsp;000&nbsp;Kč</span>
+				<span class="norm-price ng-binding">4&nbsp;890&nbsp;000&nbsp;Kč</span>
 				<!-- ngIf: i.price.alternative -->
 				<!-- ngIf: i.auctionPrice -->
 			</span><!-- end ngIf: i.price -->
@@ -1939,16 +2002,80 @@
 </div>
 
 <!-- ngIf: i.annotation -->
-</div><!-- end ngIf: type != 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index != 1 ? $index: $index + 1}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;688320092&quot;, &quot;stitky&quot;: &quot;Balkon,Pošta 1 min. pěšky&quot;, &quot;pudorys&quot;: &quot;true&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 2;"><a ng-href="/detail/prodej/byt/2+1/praha-karlin-sokolovska/688320092" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/2+1/praha-karlin-sokolovska/688320092">
+</div><!-- end ngIf: type != 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;3197566044&quot;, &quot;stitky&quot;: &quot;Lodžie,Vybavený,Pošta 6 min. pěšky,Sportoviště 6 min. pěšky&quot;, &quot;pudorys&quot;: &quot;false&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 3;"><a ng-href="/detail/prodej/byt/3+kk/praha-bohnice-lodzska/3197566044" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/3+kk/praha-bohnice-lodzska/3197566044">
 	<!-- ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
 		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_G_BU/M1KPz.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_G_BU/M1KPz.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_F_Bd/ajwBugZ.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_F_Bd/ajwBugZ.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
 	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
 		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_G_BU/hSNP1.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_G_BU/hSNP1.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_E_Bj/1mR7QI.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_E_Bj/1mR7QI.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
 	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
 		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_H_BQ/uJBBSA.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_H_BQ/uJBBSA.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_E_Bk/ZZM0vD.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_E_Bk/ZZM0vD.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+	</span><!-- end ngRepeat: img in i.images track by $index --><!--
+	--><!-- ngIf: i.note.length -->
+	<!-- ngIf: i.regionTip -->
+</a>
+
+<div class="info clear ng-scope with-logo" ng-class="{'project-info': type == 'project', 'with-logo': i.showAgencyLogo, 'with-project-items': i.projectDates &amp;&amp; i.projectDates.length, 'with-guide-btn': type == 'favorite'}">
+	<div class="text-wrap">
+		<span class="basic">
+			<h2>
+				<a ng-href="/detail/prodej/byt/3+kk/praha-bohnice-lodzska/3197566044" ng-click="beforeOpen(i.iterator, i.regionTip)" class="title" href="/detail/prodej/byt/3+kk/praha-bohnice-lodzska/3197566044">
+					<span class="name ng-binding">Prodej bytu 3+kk 58&nbsp;m²</span>
+					<!-- ngIf: i.isNew -->
+				</a>
+			</h2>
+			<span class="locality ng-binding">Lodžská, Praha 8 - Bohnice</span>
+			<!-- ngIf: i.price --><span class="price ng-scope" ng-if="i.price">
+				<!-- ngIf: i.isAuction -->
+				<span class="norm-price ng-binding">4&nbsp;665&nbsp;000&nbsp;Kč</span>
+				<!-- ngIf: i.price.alternative -->
+				<!-- ngIf: i.auctionPrice -->
+			</span><!-- end ngIf: i.price -->
+			<!-- ngIf: i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive --><span class="labels ng-scope" ng-if="i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive">
+				<!-- ngIf: i.isExclusive --><span ng-if="i.isExclusive" class="label highlight ng-binding ng-scope">
+					Exkluzivní zastoupení
+				</span><!-- end ngIf: i.isExclusive --><!--
+				--><!-- ngIf: i.hasVirtualTour --><!--
+				--><!-- ngRepeat: label in i.labels --><span ng-repeat="label in i.labels" class="label ng-binding ng-scope">
+					Lodžie
+				</span><!-- end ngRepeat: label in i.labels --><span ng-repeat="label in i.labels" class="label ng-binding ng-scope">
+					Vybavený
+				</span><!-- end ngRepeat: label in i.labels --><span ng-repeat="label in i.labels" class="label ng-binding ng-scope">
+					Pošta 6 min. pěšky
+				</span><!-- end ngRepeat: label in i.labels --><span ng-repeat="label in i.labels" class="label ng-binding ng-scope">
+					Sportoviště 6 min. pěšky
+				</span><!-- end ngRepeat: label in i.labels --><!--
+				--><!-- ngIf: i.hasPanorama --><!--
+				--><!-- ngIf: i.hasGroundPlan -->
+			</span><!-- end ngIf: i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive -->
+		</span>
+
+		<!-- ngIf: i.projectDates && i.projectDates.length -->
+
+		<!--<span ng-if="(type == 'favorite' && (i.seo.category_main_cb == 1 || i.seo.category_main_cb == 2))" class="to-guide-btn">
+			<button ng-click="openGuide(i)" class="btn">Prověřit nemovitost</button>
+		</span>-->
+	</div>
+
+	<!-- ngIf: i.showAgencyLogo --><a ng-if="i.showAgencyLogo" ng-href="/adresar/archer-reality-praha-praha-zizkov/17673" class="agency-logo ng-scope" href="/adresar/archer-reality-praha-praha-zizkov/17673">
+		<!-- ngIf: i.agencyData.logo --><img class="image ng-scope" ng-if="i.agencyData.logo" ng-src="https://d48-a.sdn.cz/d_48/c_img_H_H/P1pMP.png?fl=res,140,140,3,ffffff" alt="ARCHER reality Praha" src="https://d48-a.sdn.cz/d_48/c_img_H_H/P1pMP.png?fl=res,140,140,3,ffffff"><!-- end ngIf: i.agencyData.logo -->
+		<!-- ngIf: !i.agencyData.logo -->
+	</a><!-- end ngIf: i.showAgencyLogo -->
+</div>
+
+<!-- ngIf: i.annotation -->
+</div><!-- end ngIf: type != 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;3475520604&quot;, &quot;stitky&quot;: &quot;&quot;, &quot;pudorys&quot;: &quot;true&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 4;"><a ng-href="/detail/prodej/byt/3+kk/praha-troja-pomoranska/3475520604" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/3+kk/praha-troja-pomoranska/3475520604">
+	<!-- ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
+		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_gV_P/yhYXUX.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_gV_P/yhYXUX.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
+		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_QQ_K6/DdFVkz.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_QQ_K6/DdFVkz.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
+		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_QJ_JG/qZkJc9.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_QJ_JG/qZkJc9.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
 	</span><!-- end ngRepeat: img in i.images track by $index --><!--
 	--><!-- ngIf: i.note.length -->
 	<!-- ngIf: i.regionTip -->
@@ -1958,26 +2085,22 @@
 	<div class="text-wrap">
 		<span class="basic">
 			<h2>
-				<a ng-href="/detail/prodej/byt/2+1/praha-karlin-sokolovska/688320092" ng-click="beforeOpen(i.iterator, i.regionTip)" class="title" href="/detail/prodej/byt/2+1/praha-karlin-sokolovska/688320092">
-					<span class="name ng-binding">Prodej bytu 2+1&nbsp;71&nbsp;m²</span>
+				<a ng-href="/detail/prodej/byt/3+kk/praha-troja-pomoranska/3475520604" ng-click="beforeOpen(i.iterator, i.regionTip)" class="title" href="/detail/prodej/byt/3+kk/praha-troja-pomoranska/3475520604">
+					<span class="name ng-binding">Prodej bytu 3+kk 67&nbsp;m²</span>
 					<!-- ngIf: i.isNew -->
 				</a>
 			</h2>
-			<span class="locality ng-binding">Sokolovská, Praha 8 - Karlín</span>
+			<span class="locality ng-binding">Pomořanská, Praha 8 - Troja</span>
 			<!-- ngIf: i.price --><span class="price ng-scope" ng-if="i.price">
 				<!-- ngIf: i.isAuction -->
-				<span class="norm-price ng-binding">5&nbsp;990&nbsp;000&nbsp;Kč</span>
+				<span class="norm-price ng-binding">5&nbsp;500&nbsp;000&nbsp;Kč</span>
 				<!-- ngIf: i.price.alternative -->
 				<!-- ngIf: i.auctionPrice -->
 			</span><!-- end ngIf: i.price -->
 			<!-- ngIf: i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive --><span class="labels ng-scope" ng-if="i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive">
 				<!-- ngIf: i.isExclusive --><!--
 				--><!-- ngIf: i.hasVirtualTour --><!--
-				--><!-- ngRepeat: label in i.labels --><span ng-repeat="label in i.labels" class="label ng-binding ng-scope">
-					Balkon
-				</span><!-- end ngRepeat: label in i.labels --><span ng-repeat="label in i.labels" class="label ng-binding ng-scope">
-					Pošta 1 min. pěšky
-				</span><!-- end ngRepeat: label in i.labels --><!--
+				--><!-- ngRepeat: label in i.labels --><!--
 				--><!-- ngIf: i.hasPanorama --><!--
 				--><!-- ngIf: i.hasGroundPlan --><span ng-if="i.hasGroundPlan" class="label highlight ng-binding ng-scope">
 					Půdorys
@@ -1996,7 +2119,7 @@
 </div>
 
 <!-- ngIf: i.annotation -->
-</div><!-- end ngIf: type != 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index != 1 ? $index: $index + 1}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;1829310300&quot;, &quot;stitky&quot;: &quot;Vybavený&quot;, &quot;pudorys&quot;: &quot;false&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 3;"><a ng-href="/detail/prodej/byt/2+1/praha-liben-zenklova/1829310300" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/2+1/praha-liben-zenklova/1829310300">
+</div><!-- end ngIf: type != 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;1829310300&quot;, &quot;stitky&quot;: &quot;Vybavený&quot;, &quot;pudorys&quot;: &quot;false&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 5;"><a ng-href="/detail/prodej/byt/2+1/praha-liben-zenklova/1829310300" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/2+1/praha-liben-zenklova/1829310300">
 	<!-- ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
 		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
 		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_F_Bd/xCuBiyb.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_F_Bd/xCuBiyb.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
@@ -2049,7 +2172,278 @@
 </div>
 
 <!-- ngIf: i.annotation -->
-</div><!-- end ngIf: type != 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index != 1 ? $index: $index + 1}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;3050102620&quot;, &quot;stitky&quot;: &quot;Parkování&quot;, &quot;pudorys&quot;: &quot;false&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 4;"><a ng-href="/detail/prodej/byt/2+1/praha-holesovice-veverkova/3050102620" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/2+1/praha-holesovice-veverkova/3050102620">
+</div><!-- end ngIf: type != 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;1326172&quot;, &quot;stitky&quot;: &quot;Po rekonstrukci&quot;, &quot;pudorys&quot;: &quot;false&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 6;"><a ng-href="/detail/prodej/byt/3+kk/praha-bohnice-katovicka/1326172" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/3+kk/praha-bohnice-katovicka/1326172">
+	<!-- ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
+		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_gU_Q/nqMbNY.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_gU_Q/nqMbNY.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
+		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_gZ_R/sIgBE2.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_gZ_R/sIgBE2.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
+		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_gQ_Q/wPKKe5.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_gQ_Q/wPKKe5.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+	</span><!-- end ngRepeat: img in i.images track by $index --><!--
+	--><!-- ngIf: i.note.length -->
+	<!-- ngIf: i.regionTip -->
+</a>
+
+<div class="info clear ng-scope" ng-class="{'project-info': type == 'project', 'with-logo': i.showAgencyLogo, 'with-project-items': i.projectDates &amp;&amp; i.projectDates.length, 'with-guide-btn': type == 'favorite'}">
+	<div class="text-wrap">
+		<span class="basic">
+			<h2>
+				<a ng-href="/detail/prodej/byt/3+kk/praha-bohnice-katovicka/1326172" ng-click="beforeOpen(i.iterator, i.regionTip)" class="title" href="/detail/prodej/byt/3+kk/praha-bohnice-katovicka/1326172">
+					<span class="name ng-binding">Prodej bytu 3+kk 72&nbsp;m²</span>
+					<!-- ngIf: i.isNew -->
+				</a>
+			</h2>
+			<span class="locality ng-binding">Katovická, Praha - Bohnice</span>
+			<!-- ngIf: i.price --><span class="price ng-scope" ng-if="i.price">
+				<!-- ngIf: i.isAuction -->
+				<span class="norm-price ng-binding">5&nbsp;840&nbsp;000&nbsp;Kč</span>
+				<!-- ngIf: i.price.alternative -->
+				<!-- ngIf: i.auctionPrice -->
+			</span><!-- end ngIf: i.price -->
+			<!-- ngIf: i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive --><span class="labels ng-scope" ng-if="i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive">
+				<!-- ngIf: i.isExclusive --><!--
+				--><!-- ngIf: i.hasVirtualTour --><!--
+				--><!-- ngRepeat: label in i.labels --><span ng-repeat="label in i.labels" class="label ng-binding ng-scope">
+					Po rekonstrukci
+				</span><!-- end ngRepeat: label in i.labels --><!--
+				--><!-- ngIf: i.hasPanorama --><!--
+				--><!-- ngIf: i.hasGroundPlan -->
+			</span><!-- end ngIf: i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive -->
+		</span>
+
+		<!-- ngIf: i.projectDates && i.projectDates.length -->
+
+		<!--<span ng-if="(type == 'favorite' && (i.seo.category_main_cb == 1 || i.seo.category_main_cb == 2))" class="to-guide-btn">
+			<button ng-click="openGuide(i)" class="btn">Prověřit nemovitost</button>
+		</span>-->
+	</div>
+
+	<!-- ngIf: i.showAgencyLogo -->
+</div>
+
+<!-- ngIf: i.annotation -->
+</div><!-- end ngIf: type != 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;171195484&quot;, &quot;stitky&quot;: &quot;Po rekonstrukci,Lékař 4 min. pěšky&quot;, &quot;pudorys&quot;: &quot;false&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 7;"><a ng-href="/detail/prodej/byt/3+kk/praha-kobylisy-havrankova/171195484" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/3+kk/praha-kobylisy-havrankova/171195484">
+	<!-- ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
+		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_gW_Q/51HBOu.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_gW_Q/51HBOu.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
+		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_gZ_R/GMkBDq.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_gZ_R/GMkBDq.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
+		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_gV_P/Tq0bNO.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_gV_P/Tq0bNO.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+	</span><!-- end ngRepeat: img in i.images track by $index --><!--
+	--><!-- ngIf: i.note.length -->
+	<!-- ngIf: i.regionTip -->
+</a>
+
+<div class="info clear ng-scope" ng-class="{'project-info': type == 'project', 'with-logo': i.showAgencyLogo, 'with-project-items': i.projectDates &amp;&amp; i.projectDates.length, 'with-guide-btn': type == 'favorite'}">
+	<div class="text-wrap">
+		<span class="basic">
+			<h2>
+				<a ng-href="/detail/prodej/byt/3+kk/praha-kobylisy-havrankova/171195484" ng-click="beforeOpen(i.iterator, i.regionTip)" class="title" href="/detail/prodej/byt/3+kk/praha-kobylisy-havrankova/171195484">
+					<span class="name ng-binding">Prodej bytu 3+kk 63&nbsp;m²</span>
+					<!-- ngIf: i.isNew -->
+				</a>
+			</h2>
+			<span class="locality ng-binding">Havránkova, Praha - Kobylisy</span>
+			<!-- ngIf: i.price --><span class="price ng-scope" ng-if="i.price">
+				<!-- ngIf: i.isAuction -->
+				<span class="norm-price ng-binding">5&nbsp;590&nbsp;000&nbsp;Kč</span>
+				<!-- ngIf: i.price.alternative -->
+				<!-- ngIf: i.auctionPrice -->
+			</span><!-- end ngIf: i.price -->
+			<!-- ngIf: i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive --><span class="labels ng-scope" ng-if="i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive">
+				<!-- ngIf: i.isExclusive --><!--
+				--><!-- ngIf: i.hasVirtualTour --><!--
+				--><!-- ngRepeat: label in i.labels --><span ng-repeat="label in i.labels" class="label ng-binding ng-scope">
+					Po rekonstrukci
+				</span><!-- end ngRepeat: label in i.labels --><span ng-repeat="label in i.labels" class="label ng-binding ng-scope">
+					Lékař 4 min. pěšky
+				</span><!-- end ngRepeat: label in i.labels --><!--
+				--><!-- ngIf: i.hasPanorama --><!--
+				--><!-- ngIf: i.hasGroundPlan -->
+			</span><!-- end ngIf: i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive -->
+		</span>
+
+		<!-- ngIf: i.projectDates && i.projectDates.length -->
+
+		<!--<span ng-if="(type == 'favorite' && (i.seo.category_main_cb == 1 || i.seo.category_main_cb == 2))" class="to-guide-btn">
+			<button ng-click="openGuide(i)" class="btn">Prověřit nemovitost</button>
+		</span>-->
+	</div>
+
+	<!-- ngIf: i.showAgencyLogo -->
+</div>
+
+<!-- ngIf: i.annotation -->
+</div><!-- end ngIf: type != 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;504446044&quot;, &quot;stitky&quot;: &quot;&quot;, &quot;pudorys&quot;: &quot;true&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 8;"><a ng-href="/detail/prodej/byt/2+1/praha-holesovice-osadni/504446044" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/2+1/praha-holesovice-osadni/504446044">
+	<!-- ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
+		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_gZ_Q/KqhZoe.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_gZ_Q/KqhZoe.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
+		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_gQ_Q/nIUI2l.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_gQ_Q/nIUI2l.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
+		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_gV_P/rrbZoV.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_gV_P/rrbZoV.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+	</span><!-- end ngRepeat: img in i.images track by $index --><!--
+	--><!-- ngIf: i.note.length -->
+	<!-- ngIf: i.regionTip -->
+</a>
+
+<div class="info clear ng-scope" ng-class="{'project-info': type == 'project', 'with-logo': i.showAgencyLogo, 'with-project-items': i.projectDates &amp;&amp; i.projectDates.length, 'with-guide-btn': type == 'favorite'}">
+	<div class="text-wrap">
+		<span class="basic">
+			<h2>
+				<a ng-href="/detail/prodej/byt/2+1/praha-holesovice-osadni/504446044" ng-click="beforeOpen(i.iterator, i.regionTip)" class="title" href="/detail/prodej/byt/2+1/praha-holesovice-osadni/504446044">
+					<span class="name ng-binding">Prodej bytu 2+1&nbsp;42&nbsp;m²</span>
+					<!-- ngIf: i.isNew -->
+				</a>
+			</h2>
+			<span class="locality ng-binding">Osadní, Praha 7 - Holešovice</span>
+			<!-- ngIf: i.price --><span class="price ng-scope" ng-if="i.price">
+				<!-- ngIf: i.isAuction -->
+				<span class="norm-price ng-binding">4&nbsp;520&nbsp;000&nbsp;Kč</span>
+				<!-- ngIf: i.price.alternative -->
+				<!-- ngIf: i.auctionPrice -->
+			</span><!-- end ngIf: i.price -->
+			<!-- ngIf: i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive --><span class="labels ng-scope" ng-if="i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive">
+				<!-- ngIf: i.isExclusive --><!--
+				--><!-- ngIf: i.hasVirtualTour --><!--
+				--><!-- ngRepeat: label in i.labels --><!--
+				--><!-- ngIf: i.hasPanorama --><!--
+				--><!-- ngIf: i.hasGroundPlan --><span ng-if="i.hasGroundPlan" class="label highlight ng-binding ng-scope">
+					Půdorys
+				</span><!-- end ngIf: i.hasGroundPlan -->
+			</span><!-- end ngIf: i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive -->
+		</span>
+
+		<!-- ngIf: i.projectDates && i.projectDates.length -->
+
+		<!--<span ng-if="(type == 'favorite' && (i.seo.category_main_cb == 1 || i.seo.category_main_cb == 2))" class="to-guide-btn">
+			<button ng-click="openGuide(i)" class="btn">Prověřit nemovitost</button>
+		</span>-->
+	</div>
+
+	<!-- ngIf: i.showAgencyLogo -->
+</div>
+
+<!-- ngIf: i.annotation -->
+</div><!-- end ngIf: type != 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;688320092&quot;, &quot;stitky&quot;: &quot;Balkon&quot;, &quot;pudorys&quot;: &quot;true&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 9;"><a ng-href="/detail/prodej/byt/2+1/praha-karlin-sokolovska/688320092" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/2+1/praha-karlin-sokolovska/688320092">
+	<!-- ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
+		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_G_BU/M1KPz.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_G_BU/M1KPz.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
+		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_G_BU/hSNP1.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_G_BU/hSNP1.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
+		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_H_BQ/uJBBSA.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_H_BQ/uJBBSA.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+	</span><!-- end ngRepeat: img in i.images track by $index --><!--
+	--><!-- ngIf: i.note.length -->
+	<!-- ngIf: i.regionTip -->
+</a>
+
+<div class="info clear ng-scope" ng-class="{'project-info': type == 'project', 'with-logo': i.showAgencyLogo, 'with-project-items': i.projectDates &amp;&amp; i.projectDates.length, 'with-guide-btn': type == 'favorite'}">
+	<div class="text-wrap">
+		<span class="basic">
+			<h2>
+				<a ng-href="/detail/prodej/byt/2+1/praha-karlin-sokolovska/688320092" ng-click="beforeOpen(i.iterator, i.regionTip)" class="title" href="/detail/prodej/byt/2+1/praha-karlin-sokolovska/688320092">
+					<span class="name ng-binding">Prodej bytu 2+1&nbsp;71&nbsp;m²</span>
+					<!-- ngIf: i.isNew -->
+				</a>
+			</h2>
+			<span class="locality ng-binding">Sokolovská, Praha 8 - Karlín</span>
+			<!-- ngIf: i.price --><span class="price ng-scope" ng-if="i.price">
+				<!-- ngIf: i.isAuction -->
+				<span class="norm-price ng-binding">5&nbsp;990&nbsp;000&nbsp;Kč</span>
+				<!-- ngIf: i.price.alternative -->
+				<!-- ngIf: i.auctionPrice -->
+			</span><!-- end ngIf: i.price -->
+			<!-- ngIf: i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive --><span class="labels ng-scope" ng-if="i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive">
+				<!-- ngIf: i.isExclusive --><!--
+				--><!-- ngIf: i.hasVirtualTour --><!--
+				--><!-- ngRepeat: label in i.labels --><span ng-repeat="label in i.labels" class="label ng-binding ng-scope">
+					Balkon
+				</span><!-- end ngRepeat: label in i.labels --><!--
+				--><!-- ngIf: i.hasPanorama --><!--
+				--><!-- ngIf: i.hasGroundPlan --><span ng-if="i.hasGroundPlan" class="label highlight ng-binding ng-scope">
+					Půdorys
+				</span><!-- end ngIf: i.hasGroundPlan -->
+			</span><!-- end ngIf: i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive -->
+		</span>
+
+		<!-- ngIf: i.projectDates && i.projectDates.length -->
+
+		<!--<span ng-if="(type == 'favorite' && (i.seo.category_main_cb == 1 || i.seo.category_main_cb == 2))" class="to-guide-btn">
+			<button ng-click="openGuide(i)" class="btn">Prověřit nemovitost</button>
+		</span>-->
+	</div>
+
+	<!-- ngIf: i.showAgencyLogo -->
+</div>
+
+<!-- ngIf: i.annotation -->
+</div><!-- end ngIf: type != 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;2236415068&quot;, &quot;stitky&quot;: &quot;Sportoviště 6 min. pěšky,Lékař 4 min. pěšky&quot;, &quot;pudorys&quot;: &quot;false&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 10;"><a ng-href="/detail/prodej/byt/3+kk/praha-liben-kotlaska/2236415068" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/3+kk/praha-liben-kotlaska/2236415068">
+	<!-- ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
+		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_H_BX/NEuB6d1.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_H_BX/NEuB6d1.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
+		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_H_BX/hR9B6d2.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_H_BX/hR9B6d2.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
+		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_G_Bi/OrTBdak.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_G_Bi/OrTBdak.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+	</span><!-- end ngRepeat: img in i.images track by $index --><!--
+	--><!-- ngIf: i.note.length -->
+	<!-- ngIf: i.regionTip -->
+</a>
+
+<div class="info clear ng-scope" ng-class="{'project-info': type == 'project', 'with-logo': i.showAgencyLogo, 'with-project-items': i.projectDates &amp;&amp; i.projectDates.length, 'with-guide-btn': type == 'favorite'}">
+	<div class="text-wrap">
+		<span class="basic">
+			<h2>
+				<a ng-href="/detail/prodej/byt/3+kk/praha-liben-kotlaska/2236415068" ng-click="beforeOpen(i.iterator, i.regionTip)" class="title" href="/detail/prodej/byt/3+kk/praha-liben-kotlaska/2236415068">
+					<span class="name ng-binding">Prodej bytu 3+kk 55&nbsp;m²</span>
+					<!-- ngIf: i.isNew -->
+				</a>
+			</h2>
+			<span class="locality ng-binding">Kotlaska, Praha 8 - Libeň</span>
+			<!-- ngIf: i.price --><span class="price ng-scope" ng-if="i.price">
+				<!-- ngIf: i.isAuction -->
+				<span class="norm-price ng-binding">5&nbsp;650&nbsp;000&nbsp;Kč</span>
+				<!-- ngIf: i.price.alternative -->
+				<!-- ngIf: i.auctionPrice -->
+			</span><!-- end ngIf: i.price -->
+			<!-- ngIf: i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive --><span class="labels ng-scope" ng-if="i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive">
+				<!-- ngIf: i.isExclusive --><!--
+				--><!-- ngIf: i.hasVirtualTour --><!--
+				--><!-- ngRepeat: label in i.labels --><span ng-repeat="label in i.labels" class="label ng-binding ng-scope">
+					Sportoviště 6 min. pěšky
+				</span><!-- end ngRepeat: label in i.labels --><span ng-repeat="label in i.labels" class="label ng-binding ng-scope">
+					Lékař 4 min. pěšky
+				</span><!-- end ngRepeat: label in i.labels --><!--
+				--><!-- ngIf: i.hasPanorama --><!--
+				--><!-- ngIf: i.hasGroundPlan -->
+			</span><!-- end ngIf: i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive -->
+		</span>
+
+		<!-- ngIf: i.projectDates && i.projectDates.length -->
+
+		<!--<span ng-if="(type == 'favorite' && (i.seo.category_main_cb == 1 || i.seo.category_main_cb == 2))" class="to-guide-btn">
+			<button ng-click="openGuide(i)" class="btn">Prověřit nemovitost</button>
+		</span>-->
+	</div>
+
+	<!-- ngIf: i.showAgencyLogo -->
+</div>
+
+<!-- ngIf: i.annotation -->
+</div><!-- end ngIf: type != 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;3050102620&quot;, &quot;stitky&quot;: &quot;Parkování,Lékař 4 min. pěšky&quot;, &quot;pudorys&quot;: &quot;false&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 11;"><a ng-href="/detail/prodej/byt/2+1/praha-holesovice-veverkova/3050102620" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/2+1/praha-holesovice-veverkova/3050102620">
 	<!-- ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
 		<!-- ngIf: $parent.i.hasVideo && $index == 0 --><span ng-if="$parent.i.hasVideo &amp;&amp; $index == 0" class="video-icon ng-scope"></span><!-- end ngIf: $parent.i.hasVideo && $index == 0 -->
 		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_gR_N/OOjDKY.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_gR_N/OOjDKY.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
@@ -2085,6 +2479,8 @@
 				--><!-- ngIf: i.hasVirtualTour --><!--
 				--><!-- ngRepeat: label in i.labels --><span ng-repeat="label in i.labels" class="label ng-binding ng-scope">
 					Parkování
+				</span><!-- end ngRepeat: label in i.labels --><span ng-repeat="label in i.labels" class="label ng-binding ng-scope">
+					Lékař 4 min. pěšky
 				</span><!-- end ngRepeat: label in i.labels --><!--
 				--><!-- ngIf: i.hasPanorama --><!--
 				--><!-- ngIf: i.hasGroundPlan -->
@@ -2105,121 +2501,16 @@
 </div>
 
 <!-- ngIf: i.annotation -->
-</div><!-- end ngIf: type != 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index != 1 ? $index: $index + 1}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;1236925532&quot;, &quot;stitky&quot;: &quot;Vybavený&quot;, &quot;pudorys&quot;: &quot;true&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 5;"><a ng-href="/detail/prodej/byt/3+kk/praha-karlin-prvniho-pluku/1236925532" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/3+kk/praha-karlin-prvniho-pluku/1236925532">
-	<!-- ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
-		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_E_Bk/6IspKP.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_E_Bk/6IspKP.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
-	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
-		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_E_Bj/GsuvoC.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_E_Bj/GsuvoC.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
-	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
-		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_F_Bd/JsOBWwY.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_F_Bd/JsOBWwY.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
-	</span><!-- end ngRepeat: img in i.images track by $index --><!--
-	--><!-- ngIf: i.note.length -->
-	<!-- ngIf: i.regionTip -->
-</a>
-
-<div class="info clear ng-scope with-logo" ng-class="{'project-info': type == 'project', 'with-logo': i.showAgencyLogo, 'with-project-items': i.projectDates &amp;&amp; i.projectDates.length, 'with-guide-btn': type == 'favorite'}">
-	<div class="text-wrap">
-		<span class="basic">
-			<h2>
-				<a ng-href="/detail/prodej/byt/3+kk/praha-karlin-prvniho-pluku/1236925532" ng-click="beforeOpen(i.iterator, i.regionTip)" class="title" href="/detail/prodej/byt/3+kk/praha-karlin-prvniho-pluku/1236925532">
-					<span class="name ng-binding">Prodej bytu 3+kk 70&nbsp;m²</span>
-					<!-- ngIf: i.isNew -->
-				</a>
-			</h2>
-			<span class="locality ng-binding">Prvního pluku, Praha 8 - Karlín</span>
-			<!-- ngIf: i.price --><span class="price ng-scope" ng-if="i.price">
-				<!-- ngIf: i.isAuction -->
-				<span class="norm-price ng-binding">5&nbsp;790&nbsp;000&nbsp;Kč</span>
-				<!-- ngIf: i.price.alternative -->
-				<!-- ngIf: i.auctionPrice -->
-			</span><!-- end ngIf: i.price -->
-			<!-- ngIf: i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive --><span class="labels ng-scope" ng-if="i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive">
-				<!-- ngIf: i.isExclusive --><span ng-if="i.isExclusive" class="label highlight ng-binding ng-scope">
-					Exkluzivní zastoupení
-				</span><!-- end ngIf: i.isExclusive --><!--
-				--><!-- ngIf: i.hasVirtualTour --><!--
-				--><!-- ngRepeat: label in i.labels --><span ng-repeat="label in i.labels" class="label ng-binding ng-scope">
-					Vybavený
-				</span><!-- end ngRepeat: label in i.labels --><!--
-				--><!-- ngIf: i.hasPanorama --><!--
-				--><!-- ngIf: i.hasGroundPlan --><span ng-if="i.hasGroundPlan" class="label highlight ng-binding ng-scope">
-					Půdorys
-				</span><!-- end ngIf: i.hasGroundPlan -->
-			</span><!-- end ngIf: i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive -->
-		</span>
-
-		<!-- ngIf: i.projectDates && i.projectDates.length -->
-
-		<!--<span ng-if="(type == 'favorite' && (i.seo.category_main_cb == 1 || i.seo.category_main_cb == 2))" class="to-guide-btn">
-			<button ng-click="openGuide(i)" class="btn">Prověřit nemovitost</button>
-		</span>-->
-	</div>
-
-	<!-- ngIf: i.showAgencyLogo --><a ng-if="i.showAgencyLogo" ng-href="/adresar/dumrealit-cz-progres-kralupy-nad-vltavou/2285" class="agency-logo ng-scope" href="/adresar/dumrealit-cz-progres-kralupy-nad-vltavou/2285">
-		<!-- ngIf: i.agencyData.logo --><img class="image ng-scope" ng-if="i.agencyData.logo" ng-src="https://d48-a.sdn.cz/d_48/c_img_G_C/dZaBeVY.png?fl=res,140,140,3,ffffff" alt="Dumrealit.cz Progres" src="https://d48-a.sdn.cz/d_48/c_img_G_C/dZaBeVY.png?fl=res,140,140,3,ffffff"><!-- end ngIf: i.agencyData.logo -->
-		<!-- ngIf: !i.agencyData.logo -->
-	</a><!-- end ngIf: i.showAgencyLogo -->
-</div>
-
-<!-- ngIf: i.annotation -->
-</div><!-- end ngIf: type != 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index != 1 ? $index: $index + 1}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;2236415068&quot;, &quot;stitky&quot;: &quot;&quot;, &quot;pudorys&quot;: &quot;false&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 6;"><a ng-href="/detail/prodej/byt/3+kk/praha-liben-kotlaska/2236415068" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/3+kk/praha-liben-kotlaska/2236415068">
-	<!-- ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
-		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_H_BX/NEuB6d1.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_H_BX/NEuB6d1.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
-	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
-		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_H_BX/hR9B6d2.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_H_BX/hR9B6d2.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
-	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
-		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_G_Bi/OrTBdak.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_G_Bi/OrTBdak.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
-	</span><!-- end ngRepeat: img in i.images track by $index --><!--
-	--><!-- ngIf: i.note.length -->
-	<!-- ngIf: i.regionTip -->
-</a>
-
-<div class="info clear ng-scope" ng-class="{'project-info': type == 'project', 'with-logo': i.showAgencyLogo, 'with-project-items': i.projectDates &amp;&amp; i.projectDates.length, 'with-guide-btn': type == 'favorite'}">
-	<div class="text-wrap">
-		<span class="basic">
-			<h2>
-				<a ng-href="/detail/prodej/byt/3+kk/praha-liben-kotlaska/2236415068" ng-click="beforeOpen(i.iterator, i.regionTip)" class="title" href="/detail/prodej/byt/3+kk/praha-liben-kotlaska/2236415068">
-					<span class="name ng-binding">Prodej bytu 3+kk 55&nbsp;m²</span>
-					<!-- ngIf: i.isNew -->
-				</a>
-			</h2>
-			<span class="locality ng-binding">Kotlaska, Praha 8 - Libeň</span>
-			<!-- ngIf: i.price --><span class="price ng-scope" ng-if="i.price">
-				<!-- ngIf: i.isAuction -->
-				<span class="norm-price ng-binding">5&nbsp;650&nbsp;000&nbsp;Kč</span>
-				<!-- ngIf: i.price.alternative -->
-				<!-- ngIf: i.auctionPrice -->
-			</span><!-- end ngIf: i.price -->
-			<!-- ngIf: i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive -->
-		</span>
-
-		<!-- ngIf: i.projectDates && i.projectDates.length -->
-
-		<!--<span ng-if="(type == 'favorite' && (i.seo.category_main_cb == 1 || i.seo.category_main_cb == 2))" class="to-guide-btn">
-			<button ng-click="openGuide(i)" class="btn">Prověřit nemovitost</button>
-		</span>-->
-	</div>
-
-	<!-- ngIf: i.showAgencyLogo -->
-</div>
-
-<!-- ngIf: i.annotation -->
-</div><!-- end ngIf: type != 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index != 1 ? $index: $index + 1}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;2848513116&quot;, &quot;stitky&quot;: &quot;Po rekonstrukci,Lodžie&quot;, &quot;pudorys&quot;: &quot;true&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 7;"><a ng-href="/detail/prodej/byt/3+kk/praha-bohnice-poznanska/2848513116" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/3+kk/praha-bohnice-poznanska/2848513116">
+</div><!-- end ngIf: type != 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;2848513116&quot;, &quot;stitky&quot;: &quot;Po rekonstrukci,Lodžie&quot;, &quot;pudorys&quot;: &quot;false&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 12;"><a ng-href="/detail/prodej/byt/3+kk/praha-bohnice-poznanska/2848513116" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/3+kk/praha-bohnice-poznanska/2848513116">
 	<!-- ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
 		<!-- ngIf: $parent.i.hasVideo && $index == 0 --><span ng-if="$parent.i.hasVideo &amp;&amp; $index == 0" class="video-icon ng-scope"></span><!-- end ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_gS_P/MXhOj1.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_gS_P/MXhOj1.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_QQ_K6/zVjcRa.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_QQ_K6/zVjcRa.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
 	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
 		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_gT_P/LuCOlY.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_gT_P/LuCOlY.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_QJ_JG/xOmQF6.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_QJ_JG/xOmQF6.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
 	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
 		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_gU_Q/U0hOnv.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_gU_Q/U0hOnv.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_QP_KR/HvRcLG.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_QP_KR/HvRcLG.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
 	</span><!-- end ngRepeat: img in i.images track by $index --><!--
 	--><!-- ngIf: i.note.length -->
 	<!-- ngIf: i.regionTip -->
@@ -2252,120 +2543,6 @@
 					Lodžie
 				</span><!-- end ngRepeat: label in i.labels --><!--
 				--><!-- ngIf: i.hasPanorama --><!--
-				--><!-- ngIf: i.hasGroundPlan --><span ng-if="i.hasGroundPlan" class="label highlight ng-binding ng-scope">
-					Půdorys
-				</span><!-- end ngIf: i.hasGroundPlan -->
-			</span><!-- end ngIf: i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive -->
-		</span>
-
-		<!-- ngIf: i.projectDates && i.projectDates.length -->
-
-		<!--<span ng-if="(type == 'favorite' && (i.seo.category_main_cb == 1 || i.seo.category_main_cb == 2))" class="to-guide-btn">
-			<button ng-click="openGuide(i)" class="btn">Prověřit nemovitost</button>
-		</span>-->
-	</div>
-
-	<!-- ngIf: i.showAgencyLogo -->
-</div>
-
-<!-- ngIf: i.annotation -->
-</div><!-- end ngIf: type != 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index != 1 ? $index: $index + 1}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;442625116&quot;, &quot;stitky&quot;: &quot;Parkování,Pošta 5 min. pěšky&quot;, &quot;pudorys&quot;: &quot;true&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 8;"><a ng-href="/detail/prodej/byt/2+1/praha-holesovice-jatecni/442625116" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/2+1/praha-holesovice-jatecni/442625116">
-	<!-- ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
-		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_QM_J3/dENM0T.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_QM_J3/dENM0T.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
-	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
-		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_QL_JV/8PkMzG.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_QL_JV/8PkMzG.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
-	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
-		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_QI_I9/QmCM5z.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_QI_I9/QmCM5z.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
-	</span><!-- end ngRepeat: img in i.images track by $index --><!--
-	--><!-- ngIf: i.note.length -->
-	<!-- ngIf: i.regionTip -->
-</a>
-
-<div class="info clear ng-scope" ng-class="{'project-info': type == 'project', 'with-logo': i.showAgencyLogo, 'with-project-items': i.projectDates &amp;&amp; i.projectDates.length, 'with-guide-btn': type == 'favorite'}">
-	<div class="text-wrap">
-		<span class="basic">
-			<h2>
-				<a ng-href="/detail/prodej/byt/2+1/praha-holesovice-jatecni/442625116" ng-click="beforeOpen(i.iterator, i.regionTip)" class="title" href="/detail/prodej/byt/2+1/praha-holesovice-jatecni/442625116">
-					<span class="name ng-binding">Prodej bytu 2+1&nbsp;58&nbsp;m²</span>
-					<!-- ngIf: i.isNew -->
-				</a>
-			</h2>
-			<span class="locality ng-binding">Jateční, Praha 7 - Holešovice</span>
-			<!-- ngIf: i.price --><span class="price ng-scope" ng-if="i.price">
-				<!-- ngIf: i.isAuction -->
-				<span class="norm-price ng-binding">5&nbsp;990&nbsp;000&nbsp;Kč</span>
-				<!-- ngIf: i.price.alternative -->
-				<!-- ngIf: i.auctionPrice -->
-			</span><!-- end ngIf: i.price -->
-			<!-- ngIf: i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive --><span class="labels ng-scope" ng-if="i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive">
-				<!-- ngIf: i.isExclusive --><!--
-				--><!-- ngIf: i.hasVirtualTour --><!--
-				--><!-- ngRepeat: label in i.labels --><span ng-repeat="label in i.labels" class="label ng-binding ng-scope">
-					Parkování
-				</span><!-- end ngRepeat: label in i.labels --><span ng-repeat="label in i.labels" class="label ng-binding ng-scope">
-					Pošta 5 min. pěšky
-				</span><!-- end ngRepeat: label in i.labels --><!--
-				--><!-- ngIf: i.hasPanorama --><!--
-				--><!-- ngIf: i.hasGroundPlan --><span ng-if="i.hasGroundPlan" class="label highlight ng-binding ng-scope">
-					Půdorys
-				</span><!-- end ngIf: i.hasGroundPlan -->
-			</span><!-- end ngIf: i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive -->
-		</span>
-
-		<!-- ngIf: i.projectDates && i.projectDates.length -->
-
-		<!--<span ng-if="(type == 'favorite' && (i.seo.category_main_cb == 1 || i.seo.category_main_cb == 2))" class="to-guide-btn">
-			<button ng-click="openGuide(i)" class="btn">Prověřit nemovitost</button>
-		</span>-->
-	</div>
-
-	<!-- ngIf: i.showAgencyLogo -->
-</div>
-
-<!-- ngIf: i.annotation -->
-</div><!-- end ngIf: type != 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index != 1 ? $index: $index + 1}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;2862861404&quot;, &quot;stitky&quot;: &quot;Po rekonstrukci,Lodžie&quot;, &quot;pudorys&quot;: &quot;false&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 9;"><a ng-href="/detail/prodej/byt/3+kk/praha-bohnice-stetinska/2862861404" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/3+kk/praha-bohnice-stetinska/2862861404">
-	<!-- ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
-		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_gY_P/n9QRX1.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_gY_P/n9QRX1.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
-	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
-		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_QR_Lg/tnmQyi.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_QR_Lg/tnmQyi.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
-	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
-		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_gW_P/vGARXo.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_gW_P/vGARXo.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
-	</span><!-- end ngRepeat: img in i.images track by $index --><!--
-	--><!-- ngIf: i.note.length -->
-	<!-- ngIf: i.regionTip -->
-</a>
-
-<div class="info clear ng-scope" ng-class="{'project-info': type == 'project', 'with-logo': i.showAgencyLogo, 'with-project-items': i.projectDates &amp;&amp; i.projectDates.length, 'with-guide-btn': type == 'favorite'}">
-	<div class="text-wrap">
-		<span class="basic">
-			<h2>
-				<a ng-href="/detail/prodej/byt/3+kk/praha-bohnice-stetinska/2862861404" ng-click="beforeOpen(i.iterator, i.regionTip)" class="title" href="/detail/prodej/byt/3+kk/praha-bohnice-stetinska/2862861404">
-					<span class="name ng-binding">Prodej bytu 3+kk 58&nbsp;m²</span>
-					<!-- ngIf: i.isNew -->
-				</a>
-			</h2>
-			<span class="locality ng-binding">Štětínská, Praha - Bohnice</span>
-			<!-- ngIf: i.price --><span class="price ng-scope" ng-if="i.price">
-				<!-- ngIf: i.isAuction -->
-				<span class="norm-price ng-binding">5&nbsp;990&nbsp;000&nbsp;Kč</span>
-				<!-- ngIf: i.price.alternative -->
-				<!-- ngIf: i.auctionPrice -->
-			</span><!-- end ngIf: i.price -->
-			<!-- ngIf: i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive --><span class="labels ng-scope" ng-if="i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive">
-				<!-- ngIf: i.isExclusive --><!--
-				--><!-- ngIf: i.hasVirtualTour --><!--
-				--><!-- ngRepeat: label in i.labels --><span ng-repeat="label in i.labels" class="label ng-binding ng-scope">
-					Po rekonstrukci
-				</span><!-- end ngRepeat: label in i.labels --><span ng-repeat="label in i.labels" class="label ng-binding ng-scope">
-					Lodžie
-				</span><!-- end ngRepeat: label in i.labels --><!--
-				--><!-- ngIf: i.hasPanorama --><!--
 				--><!-- ngIf: i.hasGroundPlan -->
 			</span><!-- end ngIf: i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive -->
 		</span>
@@ -2381,7 +2558,7 @@
 </div>
 
 <!-- ngIf: i.annotation -->
-</div><!-- end ngIf: type != 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index != 1 ? $index: $index + 1}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;3211852892&quot;, &quot;stitky&quot;: &quot;Lodžie&quot;, &quot;pudorys&quot;: &quot;true&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 10;"><a ng-href="/detail/prodej/byt/3+kk/praha-karlin-u-sluncove/3211852892" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/3+kk/praha-karlin-u-sluncove/3211852892">
+</div><!-- end ngIf: type != 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;3211852892&quot;, &quot;stitky&quot;: &quot;Lodžie&quot;, &quot;pudorys&quot;: &quot;true&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 13;"><a ng-href="/detail/prodej/byt/3+kk/praha-karlin-u-sluncove/3211852892" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/3+kk/praha-karlin-u-sluncove/3211852892">
 	<!-- ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
 		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
 		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_E_Bj/M5H4u1.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_E_Bj/M5H4u1.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
@@ -2436,62 +2613,7 @@
 </div>
 
 <!-- ngIf: i.annotation -->
-</div><!-- end ngIf: type != 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index != 1 ? $index: $index + 1}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;543591516&quot;, &quot;stitky&quot;: &quot;Pošta 3 min. pěšky&quot;, &quot;pudorys&quot;: &quot;false&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 11;"><a ng-href="/detail/prodej/byt/2+1/praha-liben-vacinova/543591516" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/2+1/praha-liben-vacinova/543591516">
-	<!-- ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
-		<!-- ngIf: $parent.i.hasVideo && $index == 0 --><span ng-if="$parent.i.hasVideo &amp;&amp; $index == 0" class="video-icon ng-scope"></span><!-- end ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_G_Bh/5VJBSAH.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_G_Bh/5VJBSAH.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
-	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
-		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_G_Bh/5j1BSAI.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_G_Bh/5j1BSAI.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
-	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
-		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_G_Bi/dyPBRFF.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_G_Bi/dyPBRFF.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
-	</span><!-- end ngRepeat: img in i.images track by $index --><!--
-	--><!-- ngIf: i.note.length -->
-	<!-- ngIf: i.regionTip -->
-</a>
-
-<div class="info clear ng-scope" ng-class="{'project-info': type == 'project', 'with-logo': i.showAgencyLogo, 'with-project-items': i.projectDates &amp;&amp; i.projectDates.length, 'with-guide-btn': type == 'favorite'}">
-	<div class="text-wrap">
-		<span class="basic">
-			<h2>
-				<a ng-href="/detail/prodej/byt/2+1/praha-liben-vacinova/543591516" ng-click="beforeOpen(i.iterator, i.regionTip)" class="title" href="/detail/prodej/byt/2+1/praha-liben-vacinova/543591516">
-					<span class="name ng-binding">Prodej bytu 2+1&nbsp;50&nbsp;m²</span>
-					<!-- ngIf: i.isNew -->
-				</a>
-			</h2>
-			<span class="locality ng-binding">Vacínova, Praha - Libeň</span>
-			<!-- ngIf: i.price --><span class="price ng-scope" ng-if="i.price">
-				<!-- ngIf: i.isAuction -->
-				<span class="norm-price ng-binding">5&nbsp;290&nbsp;000&nbsp;Kč</span>
-				<!-- ngIf: i.price.alternative -->
-				<!-- ngIf: i.auctionPrice -->
-			</span><!-- end ngIf: i.price -->
-			<!-- ngIf: i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive --><span class="labels ng-scope" ng-if="i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive">
-				<!-- ngIf: i.isExclusive --><span ng-if="i.isExclusive" class="label highlight ng-binding ng-scope">
-					Exkluzivní zastoupení
-				</span><!-- end ngIf: i.isExclusive --><!--
-				--><!-- ngIf: i.hasVirtualTour --><!--
-				--><!-- ngRepeat: label in i.labels --><span ng-repeat="label in i.labels" class="label ng-binding ng-scope">
-					Pošta 3 min. pěšky
-				</span><!-- end ngRepeat: label in i.labels --><!--
-				--><!-- ngIf: i.hasPanorama --><!--
-				--><!-- ngIf: i.hasGroundPlan -->
-			</span><!-- end ngIf: i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive -->
-		</span>
-
-		<!-- ngIf: i.projectDates && i.projectDates.length -->
-
-		<!--<span ng-if="(type == 'favorite' && (i.seo.category_main_cb == 1 || i.seo.category_main_cb == 2))" class="to-guide-btn">
-			<button ng-click="openGuide(i)" class="btn">Prověřit nemovitost</button>
-		</span>-->
-	</div>
-
-	<!-- ngIf: i.showAgencyLogo -->
-</div>
-
-<!-- ngIf: i.annotation -->
-</div><!-- end ngIf: type != 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index != 1 ? $index: $index + 1}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;719162460&quot;, &quot;stitky&quot;: &quot;Pošta 8 min. pěšky&quot;, &quot;pudorys&quot;: &quot;false&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 12;"><a ng-href="/detail/prodej/byt/3+kk/praha-liben-zenklova/719162460" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/3+kk/praha-liben-zenklova/719162460">
+</div><!-- end ngIf: type != 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;719162460&quot;, &quot;stitky&quot;: &quot;Pošta 8 min. pěšky,Sportoviště 6 min. pěšky&quot;, &quot;pudorys&quot;: &quot;false&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 14;"><a ng-href="/detail/prodej/byt/3+kk/praha-liben-zenklova/719162460" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/3+kk/praha-liben-zenklova/719162460">
 	<!-- ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
 		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
 		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_G_Bi/w75BNjU.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_G_Bi/w75BNjU.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
@@ -2527,6 +2649,8 @@
 				--><!-- ngIf: i.hasVirtualTour --><!--
 				--><!-- ngRepeat: label in i.labels --><span ng-repeat="label in i.labels" class="label ng-binding ng-scope">
 					Pošta 8 min. pěšky
+				</span><!-- end ngRepeat: label in i.labels --><span ng-repeat="label in i.labels" class="label ng-binding ng-scope">
+					Sportoviště 6 min. pěšky
 				</span><!-- end ngRepeat: label in i.labels --><!--
 				--><!-- ngIf: i.hasPanorama --><!--
 				--><!-- ngIf: i.hasGroundPlan -->
@@ -2544,7 +2668,7 @@
 </div>
 
 <!-- ngIf: i.annotation -->
-</div><!-- end ngIf: type != 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index != 1 ? $index: $index + 1}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;3756170332&quot;, &quot;stitky&quot;: &quot;&quot;, &quot;pudorys&quot;: &quot;false&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 13;"><a ng-href="/detail/prodej/byt/2+1/praha-liben-chlumcanskeho/3756170332" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/2+1/praha-liben-chlumcanskeho/3756170332">
+</div><!-- end ngIf: type != 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;3756170332&quot;, &quot;stitky&quot;: &quot;&quot;, &quot;pudorys&quot;: &quot;false&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 15;"><a ng-href="/detail/prodej/byt/2+1/praha-liben-chlumcanskeho/3756170332" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/2+1/praha-liben-chlumcanskeho/3756170332">
 	<!-- ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
 		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
 		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_E_Bj/SResno.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_E_Bj/SResno.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
@@ -2597,71 +2721,16 @@
 </div>
 
 <!-- ngIf: i.annotation -->
-</div><!-- end ngIf: type != 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index != 1 ? $index: $index + 1}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;3729079900&quot;, &quot;stitky&quot;: &quot;Po rekonstrukci&quot;, &quot;pudorys&quot;: &quot;true&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 14;"><a ng-href="/detail/prodej/byt/3+kk/praha-karlin-nekvasilova/3729079900" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/3+kk/praha-karlin-nekvasilova/3729079900">
+</div><!-- end ngIf: type != 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;1766088540&quot;, &quot;stitky&quot;: &quot;&quot;, &quot;pudorys&quot;: &quot;false&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 16;"><a ng-href="/detail/prodej/byt/3+kk/praha-bohnice-hlivicka/1766088540" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/3+kk/praha-bohnice-hlivicka/1766088540">
 	<!-- ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
 		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_G_Bf/t3jUN5.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_G_Bf/t3jUN5.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_QK_JB/JvWWAB.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_QK_JB/JvWWAB.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
 	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
 		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_G_Be/6jpBbiO.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_G_Be/6jpBbiO.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_QO_KJ/pqKWG8.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_QO_KJ/pqKWG8.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
 	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
 		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_G_Be/rFtBbiP.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_G_Be/rFtBbiP.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
-	</span><!-- end ngRepeat: img in i.images track by $index --><!--
-	--><!-- ngIf: i.note.length -->
-	<!-- ngIf: i.regionTip -->
-</a>
-
-<div class="info clear ng-scope" ng-class="{'project-info': type == 'project', 'with-logo': i.showAgencyLogo, 'with-project-items': i.projectDates &amp;&amp; i.projectDates.length, 'with-guide-btn': type == 'favorite'}">
-	<div class="text-wrap">
-		<span class="basic">
-			<h2>
-				<a ng-href="/detail/prodej/byt/3+kk/praha-karlin-nekvasilova/3729079900" ng-click="beforeOpen(i.iterator, i.regionTip)" class="title" href="/detail/prodej/byt/3+kk/praha-karlin-nekvasilova/3729079900">
-					<span class="name ng-binding">Prodej bytu 3+kk 56&nbsp;m²</span>
-					<!-- ngIf: i.isNew -->
-				</a>
-			</h2>
-			<span class="locality ng-binding">Nekvasilova, Praha 8 - Karlín</span>
-			<!-- ngIf: i.price --><span class="price ng-scope" ng-if="i.price">
-				<!-- ngIf: i.isAuction -->
-				<span class="norm-price ng-binding">5&nbsp;780&nbsp;000&nbsp;Kč</span>
-				<!-- ngIf: i.price.alternative -->
-				<!-- ngIf: i.auctionPrice -->
-			</span><!-- end ngIf: i.price -->
-			<!-- ngIf: i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive --><span class="labels ng-scope" ng-if="i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive">
-				<!-- ngIf: i.isExclusive --><!--
-				--><!-- ngIf: i.hasVirtualTour --><!--
-				--><!-- ngRepeat: label in i.labels --><span ng-repeat="label in i.labels" class="label ng-binding ng-scope">
-					Po rekonstrukci
-				</span><!-- end ngRepeat: label in i.labels --><!--
-				--><!-- ngIf: i.hasPanorama --><!--
-				--><!-- ngIf: i.hasGroundPlan --><span ng-if="i.hasGroundPlan" class="label highlight ng-binding ng-scope">
-					Půdorys
-				</span><!-- end ngIf: i.hasGroundPlan -->
-			</span><!-- end ngIf: i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive -->
-		</span>
-
-		<!-- ngIf: i.projectDates && i.projectDates.length -->
-
-		<!--<span ng-if="(type == 'favorite' && (i.seo.category_main_cb == 1 || i.seo.category_main_cb == 2))" class="to-guide-btn">
-			<button ng-click="openGuide(i)" class="btn">Prověřit nemovitost</button>
-		</span>-->
-	</div>
-
-	<!-- ngIf: i.showAgencyLogo -->
-</div>
-
-<!-- ngIf: i.annotation -->
-</div><!-- end ngIf: type != 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index != 1 ? $index: $index + 1}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;1766088540&quot;, &quot;stitky&quot;: &quot;&quot;, &quot;pudorys&quot;: &quot;false&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 15;"><a ng-href="/detail/prodej/byt/3+kk/praha-bohnice-hlivicka/1766088540" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/3+kk/praha-bohnice-hlivicka/1766088540">
-	<!-- ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
-		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_QP_KR/SQEHl.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_QP_KR/SQEHl.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
-	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
-		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_QI_I9/Sq7Gk.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_QI_I9/Sq7Gk.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
-	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
-		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_QK_JB/II9Gs.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_QK_JB/II9Gs.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_QM_J3/2s4V9o.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_QM_J3/2s4V9o.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
 	</span><!-- end ngRepeat: img in i.images track by $index --><!--
 	--><!-- ngIf: i.note.length -->
 	<!-- ngIf: i.regionTip -->
@@ -2697,65 +2766,7 @@
 </div>
 
 <!-- ngIf: i.annotation -->
-</div><!-- end ngIf: type != 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index != 1 ? $index: $index + 1}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;4015939420&quot;, &quot;stitky&quot;: &quot;Balkon&quot;, &quot;pudorys&quot;: &quot;true&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 16;"><a ng-href="/detail/prodej/byt/3+kk/praha-bohnice-cafourkova/4015939420" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/3+kk/praha-bohnice-cafourkova/4015939420">
-	<!-- ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
-		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_QL_JV/P47Q56.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_QL_JV/P47Q56.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
-	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
-		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_QI_I9/NgYRBC.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_QI_I9/NgYRBC.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
-	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
-		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_QJ_JG/AQRE3O.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_QJ_JG/AQRE3O.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
-	</span><!-- end ngRepeat: img in i.images track by $index --><!--
-	--><!-- ngIf: i.note.length -->
-	<!-- ngIf: i.regionTip -->
-</a>
-
-<div class="info clear ng-scope with-logo" ng-class="{'project-info': type == 'project', 'with-logo': i.showAgencyLogo, 'with-project-items': i.projectDates &amp;&amp; i.projectDates.length, 'with-guide-btn': type == 'favorite'}">
-	<div class="text-wrap">
-		<span class="basic">
-			<h2>
-				<a ng-href="/detail/prodej/byt/3+kk/praha-bohnice-cafourkova/4015939420" ng-click="beforeOpen(i.iterator, i.regionTip)" class="title" href="/detail/prodej/byt/3+kk/praha-bohnice-cafourkova/4015939420">
-					<span class="name ng-binding">Prodej bytu 3+kk 54&nbsp;m²</span>
-					<!-- ngIf: i.isNew -->
-				</a>
-			</h2>
-			<span class="locality ng-binding">Cafourkova, Praha 8 - Bohnice</span>
-			<!-- ngIf: i.price --><span class="price ng-scope" ng-if="i.price">
-				<!-- ngIf: i.isAuction -->
-				<span class="norm-price ng-binding">4&nbsp;900&nbsp;000&nbsp;Kč</span>
-				<!-- ngIf: i.price.alternative -->
-				<!-- ngIf: i.auctionPrice -->
-			</span><!-- end ngIf: i.price -->
-			<!-- ngIf: i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive --><span class="labels ng-scope" ng-if="i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive">
-				<!-- ngIf: i.isExclusive --><!--
-				--><!-- ngIf: i.hasVirtualTour --><!--
-				--><!-- ngRepeat: label in i.labels --><span ng-repeat="label in i.labels" class="label ng-binding ng-scope">
-					Balkon
-				</span><!-- end ngRepeat: label in i.labels --><!--
-				--><!-- ngIf: i.hasPanorama --><!--
-				--><!-- ngIf: i.hasGroundPlan --><span ng-if="i.hasGroundPlan" class="label highlight ng-binding ng-scope">
-					Půdorys
-				</span><!-- end ngIf: i.hasGroundPlan -->
-			</span><!-- end ngIf: i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive -->
-		</span>
-
-		<!-- ngIf: i.projectDates && i.projectDates.length -->
-
-		<!--<span ng-if="(type == 'favorite' && (i.seo.category_main_cb == 1 || i.seo.category_main_cb == 2))" class="to-guide-btn">
-			<button ng-click="openGuide(i)" class="btn">Prověřit nemovitost</button>
-		</span>-->
-	</div>
-
-	<!-- ngIf: i.showAgencyLogo --><a ng-if="i.showAgencyLogo" ng-href="/adresar/duna-house-franchise-s-r-o-praha-michle/19696" class="agency-logo ng-scope" href="/adresar/duna-house-franchise-s-r-o-praha-michle/19696">
-		<!-- ngIf: i.agencyData.logo --><img class="image ng-scope" ng-if="i.agencyData.logo" ng-src="https://d48-a.sdn.cz/d_48/c_img_G_H/V5RT2j.png?fl=res,140,140,3,ffffff" alt="DUNA HOUSE FRANCHISE, s.r.o." src="https://d48-a.sdn.cz/d_48/c_img_G_H/V5RT2j.png?fl=res,140,140,3,ffffff"><!-- end ngIf: i.agencyData.logo -->
-		<!-- ngIf: !i.agencyData.logo -->
-	</a><!-- end ngIf: i.showAgencyLogo -->
-</div>
-
-<!-- ngIf: i.annotation -->
-</div><!-- end ngIf: type != 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index != 1 ? $index: $index + 1}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;551841628&quot;, &quot;stitky&quot;: &quot;&quot;, &quot;pudorys&quot;: &quot;false&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 17;"><a ng-href="/detail/prodej/byt/3+kk/praha-karlin-molakova/551841628" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/3+kk/praha-karlin-molakova/551841628">
+</div><!-- end ngIf: type != 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;551841628&quot;, &quot;stitky&quot;: &quot;&quot;, &quot;pudorys&quot;: &quot;false&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 17;"><a ng-href="/detail/prodej/byt/3+kk/praha-karlin-molakova/551841628" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/3+kk/praha-karlin-molakova/551841628">
 	<!-- ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
 		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
 		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_G_Bh/8XsBbB0.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_G_Bh/8XsBbB0.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
@@ -2800,16 +2811,16 @@
 </div>
 
 <!-- ngIf: i.annotation -->
-</div><!-- end ngIf: type != 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index != 1 ? $index: $index + 1}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;3849535324&quot;, &quot;stitky&quot;: &quot;&quot;, &quot;pudorys&quot;: &quot;true&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 18;"><a ng-href="/detail/prodej/byt/2+1/praha-holesovice-bubenska/3849535324" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/2+1/praha-holesovice-bubenska/3849535324">
+</div><!-- end ngIf: type != 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;3849535324&quot;, &quot;stitky&quot;: &quot;Vlak 6 min. pěšky,Lékař 3 min. pěšky&quot;, &quot;pudorys&quot;: &quot;true&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 18;"><a ng-href="/detail/prodej/byt/2+1/praha-holesovice-bubenska/3849535324" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/2+1/praha-holesovice-bubenska/3849535324">
 	<!-- ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
 		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_QI_I9/ZWVSxV.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_QI_I9/ZWVSxV.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_gU_Q/BCFa9f.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_gU_Q/BCFa9f.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
 	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
 		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_QJ_JG/33qGn6.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_QJ_JG/33qGn6.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_gZ_R/8nn0Z.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_gZ_R/8nn0Z.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
 	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
 		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_gV_P/YO6T4M.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_gV_P/YO6T4M.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_QN_JV/Rw5ZQ2.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_QN_JV/Rw5ZQ2.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
 	</span><!-- end ngRepeat: img in i.images track by $index --><!--
 	--><!-- ngIf: i.note.length -->
 	<!-- ngIf: i.regionTip -->
@@ -2834,7 +2845,11 @@
 			<!-- ngIf: i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive --><span class="labels ng-scope" ng-if="i.labels.length || i.hasPanorama || i.hasGroundPlan || i.hasVirtualTour || i.isExclusive">
 				<!-- ngIf: i.isExclusive --><!--
 				--><!-- ngIf: i.hasVirtualTour --><!--
-				--><!-- ngRepeat: label in i.labels --><!--
+				--><!-- ngRepeat: label in i.labels --><span ng-repeat="label in i.labels" class="label ng-binding ng-scope">
+					Vlak 6 min. pěšky
+				</span><!-- end ngRepeat: label in i.labels --><span ng-repeat="label in i.labels" class="label ng-binding ng-scope">
+					Lékař 3 min. pěšky
+				</span><!-- end ngRepeat: label in i.labels --><!--
 				--><!-- ngIf: i.hasPanorama --><!--
 				--><!-- ngIf: i.hasGroundPlan --><span ng-if="i.hasGroundPlan" class="label highlight ng-binding ng-scope">
 					Půdorys
@@ -2856,16 +2871,16 @@
 </div>
 
 <!-- ngIf: i.annotation -->
-</div><!-- end ngIf: type != 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index != 1 ? $index: $index + 1}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;2615914332&quot;, &quot;stitky&quot;: &quot;Terasa&quot;, &quot;pudorys&quot;: &quot;false&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 19;"><a ng-href="/detail/prodej/byt/2+1/praha-holesovice-delnicka/2615914332" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/2+1/praha-holesovice-delnicka/2615914332">
+</div><!-- end ngIf: type != 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type != 'project' --><!-- ngInclude: '/templates/_property-list-item.html' --><div ng-if="type != 'project'" ng-repeat="i in properties" class="property ng-scope" ng-class="{visited: i.visited, deleted: i.deleted}" ng-style="{order: $index}" ng-include="'/templates/_property-list-item.html'" data-dot-data="{&quot;id&quot;: &quot;2615914332&quot;, &quot;stitky&quot;: &quot;Terasa,Sportoviště 3 min. pěšky&quot;, &quot;pudorys&quot;: &quot;false&quot;, &quot;virtualniprohlidka&quot;: &quot;false&quot;}" style="order: 19;"><a ng-href="/detail/prodej/byt/2+1/praha-holesovice-delnicka/2615914332" class="images count3 clear" ng-click="beforeOpen(i.iterator, i.regionTip, i.projectBanner)" href="/detail/prodej/byt/2+1/praha-holesovice-delnicka/2615914332">
 	<!-- ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
 		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_gW_P/NWuSLp.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_gW_P/NWuSLp.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_QM_J3/xpnamU.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_QM_J3/xpnamU.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
 	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
 		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_gZ_Q/r1JSJ8.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_gZ_Q/r1JSJ8.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_QI_I9/N9Ear3.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_QI_I9/N9Ear3.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
 	</span><!-- end ngRepeat: img in i.images track by $index --><span class="image-wrap ng-scope" ng-repeat="img in i.images track by $index">
 		<!-- ngIf: $parent.i.hasVideo && $index == 0 -->
-		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_gY_P/LerSLr.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_gY_P/LerSLr.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
+		<img ng-src="https://d18-a.sdn.cz/d_18/c_img_QL_JV/fjIalH.jpeg?fl=res,400,300,3|shr,,20|jpg,90" class="img" src="https://d18-a.sdn.cz/d_18/c_img_QL_JV/fjIalH.jpeg?fl=res,400,300,3|shr,,20|jpg,90">
 	</span><!-- end ngRepeat: img in i.images track by $index --><!--
 	--><!-- ngIf: i.note.length -->
 	<!-- ngIf: i.regionTip -->
@@ -2892,6 +2907,8 @@
 				--><!-- ngIf: i.hasVirtualTour --><!--
 				--><!-- ngRepeat: label in i.labels --><span ng-repeat="label in i.labels" class="label ng-binding ng-scope">
 					Terasa
+				</span><!-- end ngRepeat: label in i.labels --><span ng-repeat="label in i.labels" class="label ng-binding ng-scope">
+					Sportoviště 3 min. pěšky
 				</span><!-- end ngRepeat: label in i.labels --><!--
 				--><!-- ngIf: i.hasPanorama --><!--
 				--><!-- ngIf: i.hasGroundPlan -->
@@ -2925,6 +2942,10 @@
 		Chci zjistit víc
 	</a>
 </div><!-- end ngIf: type == 'property' && actLang == 'cs' -->
+
+	<div ng-style="{order: 1}" style="order: 1;">
+		<preact component="ssp" data="{type: 'square'}" class="ng-isolate-scope"><div id="square-est-list-wrap" class="_65ChjeC0VnetITcRYYlz5"><div id="square-est-list" class="_3J3_H6sveFW_GV5k1-0InA"></div></div></preact>
+	</div>
 	
 	<!-- ngRepeat: i in properties --><!-- ngIf: type == 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type == 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type == 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type == 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type == 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type == 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type == 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type == 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type == 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type == 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type == 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type == 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type == 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type == 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type == 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type == 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type == 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type == 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type == 'project' --><!-- end ngRepeat: i in properties --><!-- ngIf: type == 'project' --><!-- end ngRepeat: i in properties -->
 	<!-- ngIf: bannerSeller && !notFound -->
@@ -3095,9 +3116,9 @@
 
     <!-- ngIf: open -->
 </div>
-	<div map="" id="s-map" class="s-map smap"><div style="position: absolute; width: 0px; height: 0px; margin: 0px; padding: 0px; left: 389.5px; top: 60px;"><div><div id="1-0-0.8268191163504377"><div style="transform: translateZ(0px);"><img alt="" style="position: absolute; opacity: 1; transition: opacity 600ms ease 0s; left: -442.068px; top: -198.479px; height: 256px; width: 256px;" src="https://mapserver.mapy.cz/base-m/6-33-21" srcset="https://mapserver.mapy.cz/base-m/6-33-21, https://mapserver.mapy.cz/base-m/retina/6-33-21 2x"><img alt="" style="position: absolute; opacity: 1; transition: opacity 600ms ease 0s; left: -186.068px; top: -198.479px; height: 256px; width: 256px;" src="https://mapserver.mapy.cz/base-m/6-34-21" srcset="https://mapserver.mapy.cz/base-m/6-34-21, https://mapserver.mapy.cz/base-m/retina/6-34-21 2x"><img alt="" style="position: absolute; opacity: 1; transition: opacity 600ms ease 0s; left: 69.9321px; top: -198.479px; height: 256px; width: 256px;" src="https://mapserver.mapy.cz/base-m/6-35-21" srcset="https://mapserver.mapy.cz/base-m/6-35-21, https://mapserver.mapy.cz/base-m/retina/6-35-21 2x"><img alt="" style="position: absolute; opacity: 1; transition: opacity 600ms ease 0s; left: 325.932px; top: -198.479px; height: 256px; width: 256px;" src="https://mapserver.mapy.cz/base-m/6-36-21" srcset="https://mapserver.mapy.cz/base-m/6-36-21, https://mapserver.mapy.cz/base-m/retina/6-36-21 2x"><img alt="" style="position: absolute; opacity: 1; transition: opacity 600ms ease 0s; left: 581.932px; top: -198.479px; height: 256px; width: 256px;" src="https://mapserver.mapy.cz/base-m/6-37-21" srcset="https://mapserver.mapy.cz/base-m/6-37-21, https://mapserver.mapy.cz/base-m/retina/6-37-21 2x"></div><div style="transform: translateZ(0px);"><img alt="" style="position: absolute; opacity: 1; transition: opacity 600ms ease 0s; left: -442.068px; top: -198.479px; height: 256px; width: 256px;" src="https://mapserver.mapy.cz/base-m/6-33-21" srcset="https://mapserver.mapy.cz/base-m/6-33-21, https://mapserver.mapy.cz/base-m/retina/6-33-21 2x"><img alt="" style="position: absolute; opacity: 1; transition: opacity 600ms ease 0s; left: -442.068px; top: 57.5209px; height: 256px; width: 256px;" src="https://mapserver.mapy.cz/base-m/6-33-22" srcset="https://mapserver.mapy.cz/base-m/6-33-22, https://mapserver.mapy.cz/base-m/retina/6-33-22 2x"><img alt="" style="position: absolute; opacity: 1; transition: opacity 600ms ease 0s; left: -186.068px; top: -198.479px; height: 256px; width: 256px;" src="https://mapserver.mapy.cz/base-m/6-34-21" srcset="https://mapserver.mapy.cz/base-m/6-34-21, https://mapserver.mapy.cz/base-m/retina/6-34-21 2x"><img alt="" style="position: absolute; opacity: 1; transition: opacity 600ms ease 0s; left: -186.068px; top: 57.5209px; height: 256px; width: 256px;" src="https://mapserver.mapy.cz/base-m/6-34-22" srcset="https://mapserver.mapy.cz/base-m/6-34-22, https://mapserver.mapy.cz/base-m/retina/6-34-22 2x"><img alt="" style="position: absolute; opacity: 1; transition: opacity 600ms ease 0s; left: 69.9321px; top: -198.479px; height: 256px; width: 256px;" src="https://mapserver.mapy.cz/base-m/6-35-21" srcset="https://mapserver.mapy.cz/base-m/6-35-21, https://mapserver.mapy.cz/base-m/retina/6-35-21 2x"><img alt="" style="position: absolute; opacity: 1; transition: opacity 600ms ease 0s; left: 69.9321px; top: 57.5209px; height: 256px; width: 256px;" src="https://mapserver.mapy.cz/base-m/6-35-22" srcset="https://mapserver.mapy.cz/base-m/6-35-22, https://mapserver.mapy.cz/base-m/retina/6-35-22 2x"><img alt="" style="position: absolute; opacity: 1; transition: opacity 600ms ease 0s; left: 325.932px; top: -198.479px; height: 256px; width: 256px;" src="https://mapserver.mapy.cz/base-m/6-36-21" srcset="https://mapserver.mapy.cz/base-m/6-36-21, https://mapserver.mapy.cz/base-m/retina/6-36-21 2x"><img alt="" style="position: absolute; opacity: 1; transition: opacity 600ms ease 0s; left: 325.932px; top: 57.5209px; height: 256px; width: 256px;" src="https://mapserver.mapy.cz/base-m/6-36-22" srcset="https://mapserver.mapy.cz/base-m/6-36-22, https://mapserver.mapy.cz/base-m/retina/6-36-22 2x"><img alt="" style="position: absolute; opacity: 1; transition: opacity 600ms ease 0s; left: 581.932px; top: -198.479px; height: 256px; width: 256px;" src="https://mapserver.mapy.cz/base-m/6-37-21" srcset="https://mapserver.mapy.cz/base-m/6-37-21, https://mapserver.mapy.cz/base-m/retina/6-37-21 2x"><img alt="" style="position: absolute; opacity: 1; transition: opacity 600ms ease 0s; left: 581.932px; top: 57.5209px; height: 256px; width: 256px;" src="https://mapserver.mapy.cz/base-m/6-37-22" srcset="https://mapserver.mapy.cz/base-m/6-37-22, https://mapserver.mapy.cz/base-m/retina/6-37-22 2x"></div></div><div id="3-0-0.7445565604292261"></div><div id="4-0-0.732652764182147"></div><div id="2-0-0.3243158264417445"></div></div><div><div id="0.5106595057070358-1"></div><div id="0.026858549267808174-1"></div><div id="0.7430295018792086-1"></div></div><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="779" height="120" style="position: absolute; left: -389.5px; top: -60px;"><g><g id="0.506152632547791-2" style="transform: scale(1);"></g></g></svg><div><div id="0.5106595057070358-3" style="transform: none;"></div><div id="0.026858549267808174-3" style="transform: none;"></div><div id="0.7430295018792086-3" style="transform: none;"></div></div><div><div id="0.5106595057070358-4"></div><div id="0.026858549267808174-4"></div><div id="0.7430295018792086-4"></div></div></div><div class="hud"><div class="noprint"><div class="copyright print" title=" Seznam.cz, a.s., 2020 |  OpenStreetMap |  NASA" style="position: absolute; left: 5px; bottom: 3px; right: auto; top: auto; margin-bottom: 0px;">© <a href="https://o.seznam.cz" target="_blank" rel="noopener">Seznam.cz, a.s.</a>, 2020 a <a href="#" data-others="1">další</a></div><a class="print" target="_blank" href="https://mapy.cz/?x=15.338406&amp;y=49.746077&amp;z=6" style="position: absolute; right: 0px; bottom: 0px; left: auto; top: auto;"><img src="https://api.mapy.cz/img/api/logo.svg" alt="Zobrazit na Mapy.cz" style="margin-bottom: 0px;"></a><div class="selection" style="border-width: 2px; visibility: hidden; position: absolute;"></div><div class="zoom" style="position: absolute; right: 1rem; top: 1rem; left: auto; bottom: auto; margin-top: 0px;"><div class="button-group"><button class="minus" type="button" aria-label="Oddálit" title="Oddálit">-</button><button class="plus" type="button" aria-label="Přiblížit" title="Přiblížit">+</button></div></div><div class="layer-switch" style="position: absolute; left: 1rem; top: 1rem; right: auto; bottom: auto; margin-top: 0px;"><button type="button"><span>Změnit mapu</span></button><div class="window" style="display: none;"><div class="port" style="position: relative; overflow: hidden; width: 195px;"><div style="position: relative; width: 195px; left: 0px;"><div class="item active" style="width: 65px; overflow: hidden;"><div><img src="https://api.mapy.cz/img/api/preview-zakladni.png" alt="Obecná" title="Obecná"><div class="border"></div></div><p>Obecná</p></div><div class="item" style="width: 65px; overflow: hidden;"><div><img src="https://api.mapy.cz/img/api/preview-letecka.png" alt="Letecká" title="Letecká"><div class="border"></div></div><p>Letecká</p></div><div class="item" style="width: 65px; overflow: hidden;"><div><img src="https://api.mapy.cz/img/api/preview-turisticka.png" alt="Turistická" title="Turistická"><div class="border"></div></div><p>Turistická</p></div></div></div><div class="left"><div class="arrow" style="display: none;"></div></div><div class="right"><div class="arrow" style="display: none;"></div></div></div></div></div></div></div>
+	<div map="" id="s-map" class="s-map smap"><div style="position: absolute; width: 0px; height: 0px; margin: 0px; padding: 0px; left: 389.5px; top: 60px;"><div><div id="1-0-0.764328589767769"><div style="transform: translateZ(0px);"><img alt="" style="position: absolute; opacity: 1; transition: opacity 600ms ease 0s; left: -442.068px; top: -198.479px; height: 256px; width: 256px;" src="https://mapserver.mapy.cz/base-m/6-33-21" srcset="https://mapserver.mapy.cz/base-m/6-33-21, https://mapserver.mapy.cz/base-m/retina/6-33-21 2x"><img alt="" style="position: absolute; opacity: 1; transition: opacity 600ms ease 0s; left: -442.068px; top: 57.5209px; height: 256px; width: 256px;" src="https://mapserver.mapy.cz/base-m/6-33-22" srcset="https://mapserver.mapy.cz/base-m/6-33-22, https://mapserver.mapy.cz/base-m/retina/6-33-22 2x"><img alt="" style="position: absolute; opacity: 1; transition: opacity 600ms ease 0s; left: -186.068px; top: -198.479px; height: 256px; width: 256px;" src="https://mapserver.mapy.cz/base-m/6-34-21" srcset="https://mapserver.mapy.cz/base-m/6-34-21, https://mapserver.mapy.cz/base-m/retina/6-34-21 2x"><img alt="" style="position: absolute; opacity: 1; transition: opacity 600ms ease 0s; left: -186.068px; top: 57.5209px; height: 256px; width: 256px;" src="https://mapserver.mapy.cz/base-m/6-34-22" srcset="https://mapserver.mapy.cz/base-m/6-34-22, https://mapserver.mapy.cz/base-m/retina/6-34-22 2x"><img alt="" style="position: absolute; opacity: 1; transition: opacity 600ms ease 0s; left: 69.9321px; top: -198.479px; height: 256px; width: 256px;" src="https://mapserver.mapy.cz/base-m/6-35-21" srcset="https://mapserver.mapy.cz/base-m/6-35-21, https://mapserver.mapy.cz/base-m/retina/6-35-21 2x"><img alt="" style="position: absolute; opacity: 1; transition: opacity 600ms ease 0s; left: 69.9321px; top: 57.5209px; height: 256px; width: 256px;" src="https://mapserver.mapy.cz/base-m/6-35-22" srcset="https://mapserver.mapy.cz/base-m/6-35-22, https://mapserver.mapy.cz/base-m/retina/6-35-22 2x"><img alt="" style="position: absolute; opacity: 1; transition: opacity 600ms ease 0s; left: 325.932px; top: -198.479px; height: 256px; width: 256px;" src="https://mapserver.mapy.cz/base-m/6-36-21" srcset="https://mapserver.mapy.cz/base-m/6-36-21, https://mapserver.mapy.cz/base-m/retina/6-36-21 2x"><img alt="" style="position: absolute; opacity: 1; transition: opacity 600ms ease 0s; left: 325.932px; top: 57.5209px; height: 256px; width: 256px;" src="https://mapserver.mapy.cz/base-m/6-36-22" srcset="https://mapserver.mapy.cz/base-m/6-36-22, https://mapserver.mapy.cz/base-m/retina/6-36-22 2x"><img alt="" style="position: absolute; opacity: 1; transition: opacity 600ms ease 0s; left: 581.932px; top: -198.479px; height: 256px; width: 256px;" src="https://mapserver.mapy.cz/base-m/6-37-21" srcset="https://mapserver.mapy.cz/base-m/6-37-21, https://mapserver.mapy.cz/base-m/retina/6-37-21 2x"><img alt="" style="position: absolute; opacity: 1; transition: opacity 600ms ease 0s; left: 581.932px; top: 57.5209px; height: 256px; width: 256px;" src="https://mapserver.mapy.cz/base-m/6-37-22" srcset="https://mapserver.mapy.cz/base-m/6-37-22, https://mapserver.mapy.cz/base-m/retina/6-37-22 2x"></div></div><div id="3-0-0.6046573477693"></div><div id="4-0-0.7315085987317103"></div><div id="2-0-0.11759212593531543"></div></div><div><div id="0.9558576726956693-1"></div><div id="0.9696263161323029-1"></div><div id="0.7640138877471039-1"></div></div><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="779" height="120" style="position: absolute; left: -389.5px; top: -60px;"><g><g id="0.22423174508229637-2" style="transform: scale(1);"></g></g></svg><div><div id="0.9558576726956693-3" style="transform: none;"></div><div id="0.9696263161323029-3" style="transform: none;"></div><div id="0.7640138877471039-3" style="transform: none;"></div></div><div><div id="0.9558576726956693-4"></div><div id="0.9696263161323029-4"></div><div id="0.7640138877471039-4"></div></div></div><div class="hud"><div class="noprint"><div class="copyright print" title=" Seznam.cz, a.s., 2020 |  OpenStreetMap |  NASA" style="position: absolute; left: 5px; bottom: 3px; right: auto; top: auto; margin-bottom: 0px;">© <a href="https://o.seznam.cz" target="_blank" rel="noopener">Seznam.cz, a.s.</a>, 2020 a <a href="#" data-others="1">další</a></div><a class="print" target="_blank" href="https://mapy.cz/?x=15.338406&amp;y=49.746077&amp;z=6" style="position: absolute; right: 0px; bottom: 0px; left: auto; top: auto;"><img src="https://api.mapy.cz/img/api/logo.svg" alt="Zobrazit na Mapy.cz" style="margin-bottom: 0px;"></a><div class="selection" style="border-width: 2px; visibility: hidden; position: absolute;"></div><div class="zoom" style="position: absolute; right: 1rem; top: 1rem; left: auto; bottom: auto; margin-top: 0px;"><div class="button-group"><button class="minus" type="button" aria-label="Oddálit" title="Oddálit">-</button><button class="plus" type="button" aria-label="Přiblížit" title="Přiblížit">+</button></div></div><div class="layer-switch" style="position: absolute; left: 1rem; top: 1rem; right: auto; bottom: auto; margin-top: 0px;"><button type="button"><span>Změnit mapu</span></button><div class="window" style="display: none;"><div class="port" style="position: relative; overflow: hidden; width: 195px;"><div style="position: relative; width: 195px; left: 0px;"><div class="item active" style="width: 65px; overflow: hidden;"><div><img src="https://api.mapy.cz/img/api/preview-zakladni.png" alt="Obecná" title="Obecná"><div class="border"></div></div><p>Obecná</p></div><div class="item" style="width: 65px; overflow: hidden;"><div><img src="https://api.mapy.cz/img/api/preview-letecka.png" alt="Letecká" title="Letecká"><div class="border"></div></div><p>Letecká</p></div><div class="item" style="width: 65px; overflow: hidden;"><div><img src="https://api.mapy.cz/img/api/preview-turisticka.png" alt="Turistická" title="Turistická"><div class="border"></div></div><p>Turistická</p></div></div></div><div class="left"><div class="arrow" style="display: none;"></div></div><div class="right"><div class="arrow" style="display: none;"></div></div></div></div></div></div></div>
 </div>
 <!-- ngInclude: respData.template --><div class="submap-title submap-list" ng-class="{bigmap: pageLayout.map.big}" ng-click="toggleMap(1)" ng-include="respData.template"><div class="two-lines ng-binding ng-scope">Byty 2+1, 3+kk na prodej Praha 8, Praha 7, do&nbsp;6&nbsp;000&nbsp;000&nbsp;Kč</div></div></div>
 
 
-<iframe style="width:0px; height:0px; border:0; position:absolute; visibility:hidden; display:none;" data-dot-sync-frame="" src="https://h.imedia.cz/cookie-html?0.91433709021060760.3322522605926366"></iframe><iframe style="width:0px; height:0px; border:0; position:absolute; visibility:hidden; display:none;" data-dot-sync-frame="" src="https://www.seznam.cz/sync?0.546273078531821"></iframe></body></html>
+<iframe style="width:0px; height:0px; border:0; position:absolute; visibility:hidden; display:none;" data-dot-sync-frame="" src="https://h.seznam.cz/cookie?0.64229337278138180.7451711058716086"></iframe></body></html>
