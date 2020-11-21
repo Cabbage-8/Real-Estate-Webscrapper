@@ -1,13 +1,15 @@
 from bs4 import BeautifulSoup
 import requests
 import urllib.request
-from datetime import datetime 
+from datetime import datetime
+import re 
 
 
 def WriteLineToOutput(str_Link, str_Type, str_Size, str_Location, str_Street, str_Price, str_OutputFilename):
     file_Output = open(str_OutputFilename, 'a')
     file_Output.write(str_Link + ';' +  str_Type + ';' +  str_Size + ';' +  str_Location + ';' +  str_Street + ';' +  str_Price + '\n')
     file_Output.close()
+    
 
 def GetDateTimeStamp():
     dateTimeObj = datetime.now()
@@ -27,59 +29,85 @@ def get_prop_maxima(location, offer, object):
 
     str_URLMaximaSearch = "https://www.maxima.cz/nabidka-nemovitosti/?advert_function=1&advert_type=1&advert_price-min=&advert_price-max=&floor_number-min=&floor_number-max=&usable_area-min=&usable_area-max=&estate_area-min=&estate_area-max="
 
-    resp_MaximaSearch = urllib.request.urlopen(str_URLMaximaSearch)
+    int_Page = 1
 
-    soup_MaximaSearch = BeautifulSoup(resp_MaximaSearch, 'html.parser')
+    while 1:
 
-    # Prepare header for output file
-    file_Output = open(str_OutputFilename, 'w')
-    file_Output.write('Link' + ';' +  'Type' + ';' +  'Size' + ';' +  'Location' + ';' +  'Street' + ';' +  'Price\n')
-    file_Output.close()
+        int_Page += 1
+    
+        resp_MaximaSearch = urllib.request.urlopen(str_URLMaximaSearch)
 
-    # Get all offers on page
-    tag_Offers = soup_MaximaSearch.find_all('a', class_="details-wrapper")
+        soup_MaximaSearch = BeautifulSoup(resp_MaximaSearch, 'html.parser')
 
-    dict_prop_maxima = {}
-    list_prop_maxima = []
+        # Prepare header for output file
+        file_Output = open(str_OutputFilename, 'w')
+        file_Output.write('Link' + ';' +  'Type' + ';' +  'Size' + ';' +  'Location' + ';' +  'Street' + ';' +  'Price\n')
+        file_Output.close()
 
-    for tag_Offer in tag_Offers:
-        # Link
-        str_Link = tag_Offer.get('href')
-        #print (tag_Offer.get('href'))
+        # Get all offers on page
+        tag_Offers = soup_MaximaSearch.find_all('a', class_="details-wrapper")
 
-        # Type
-        tag_Type = tag_Offer.find('span', class_="title")
-        str_Type = tag_Type.string
-        #print (tag_Type.string)
+        dict_prop_maxima = {}
+        list_prop_maxima = []
 
-        # Size
-        tag_Table = tag_Offer.find('table')
-        tag_Rows = tag_Table.find_all('td')
+        for tag_Offer in tag_Offers:
+            # Link
+            str_Link = tag_Offer.get('href')
+            #print (tag_Offer.get('href'))
+
+            # Type
+            tag_Type = tag_Offer.find('span', class_="title")
+            str_Type = tag_Type.string
+            #print (tag_Type.string)
+
+            # Size
+            tag_Table = tag_Offer.find('table')
+            tag_Rows = tag_Table.find_all('td')
 
 
-        int_Iter = 0
-        str_Size = ''
-        str_Location = ''
-        str_Street = ''
-        str_Price = ''
-        
-        for tag_Row in tag_Rows:
-            if int_Iter == 1: str_Size = tag_Row.getText()
-            if int_Iter == 3: str_Location = tag_Row.getText()
-            if int_Iter == 5: str_Street = tag_Row.getText()
-            if int_Iter == 7: str_Price = tag_Row.getText()
-            int_Iter += 1
+            int_Iter = 0
+            str_Size = ''
+            str_Location = ''
+            str_Street = ''
+            str_Price = ''
+            
+            for tag_Row in tag_Rows:
+                if int_Iter == 1: str_Size = tag_Row.getText()
+                if int_Iter == 3: str_Location = tag_Row.getText()
+                if int_Iter == 5: str_Street = tag_Row.getText()
+                if int_Iter == 7: str_Price = tag_Row.getText()
+                int_Iter += 1
 
-        #WriteLineToOutput(str_Link, str_Type, str_Size, str_Location, str_Street, str_Price, str_OutputFilename)
+            #WriteLineToOutput(str_Link, str_Type, str_Size, str_Location, str_Street, str_Price, str_OutputFilename)
 
-        dict_prop_maxima["int_metry"] = str_Size
-        dict_prop_maxima["str_typ"] = str_Type
-        dict_prop_maxima["str_address"] = str_Location + ', ' + str_Street
-        dict_prop_maxima["int_cena"] = str_Price
-        dict_prop_maxima["str_url"] = str_Link
-        list_prop_maxima.append(dict_prop_maxima.copy())
+            #print(str_Link, str_Type, str_Size, str_Location, str_Street, str_Price)
+
+            dict_prop_maxima["int_metry"] = str_Size
+            dict_prop_maxima["str_typ"] = str_Type
+            dict_prop_maxima["str_address"] = str_Location + ', ' + str_Street
+            dict_prop_maxima["int_cena"] = str_Price
+            dict_prop_maxima["str_url"] = str_Link
+            list_prop_maxima.append(dict_prop_maxima.copy())
+
+        tag_Pages = soup_MaximaSearch.select('li > a')
+
+        pattern_FindPage = r'\"[^\"]*\/page\/' + str(int_Page) + '\/[^\"]*\"'
+        list_Pages = re.findall(pattern_FindPage, str(tag_Pages))
+
+        if len(list_Pages) > 1:
+            str_Page = list_Pages[0]
+            str_Page = str_Page[1:]
+            str_Page = str_Page[:-1]
+
+            str_URLMaximaSearch = str_Page
+            print("Found page " + str(int_Page) + ": " + str_Page)
+        else:
+            print("Page " + str(int_Page) + " not found, ending.")
+            break
         
     return list_prop_maxima
+
+#get_prop_maxima("","","")
 
     #break
 
