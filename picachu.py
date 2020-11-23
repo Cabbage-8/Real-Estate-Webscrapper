@@ -15,8 +15,7 @@ def remove_duplicates(my_list):
     return my_list
 
 def add_new_prop_to_db(database, list_property):
-    #open( database, 'w').close()
-
+    open( database, 'w').close()
     dict_prop = {
         "str_address": "",
         "int_metry": 40,
@@ -24,7 +23,6 @@ def add_new_prop_to_db(database, list_property):
         "str_url": "www.hello.matous",
         "str_typ": "2+1"
     }
-
     with open( database, 'a', encoding="utf-8") as f:
         w = csv.DictWriter(f, dict_prop.keys())
         w.writeheader()
