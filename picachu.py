@@ -2,6 +2,7 @@ from metapod.sreality import *
 from metapod.maxima import *
 import pandas as pd
 
+
 def get_properties(location, offer, object):
     list_prop = []
 
@@ -9,9 +10,12 @@ def get_properties(location, offer, object):
     list_prop.extend( get_prop_maxima(location, offer, object) )
     return list_prop
 
+def remove_duplicates(my_list):
+
+    return my_list
 
 def add_new_prop_to_db(database, list_property):
-    open( database, 'w').close()
+    #open( database, 'w').close()
 
     dict_prop = {
         "str_address": "",

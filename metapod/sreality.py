@@ -4,6 +4,18 @@ from selenium import webdriver
 import csv
 import datetime
 import os
+import re
+
+def extract_type(my_string):
+    my_pattern = r'(\d+\d|\d+kk|6 pokojů a více|atypické)' #hledání 4 typů na sreality
+    return re.findall(my_pattern, str(my_string))[0]
+
+def extract_meters(my_string):
+    my_pattern = r'\d+ m²'
+    return re.findall(my_pattern, str(my_string))[0][:-3]
+
+#"[^"]strana=\d+[^"]"
+
 
 def get_prop_sreality(location, offer, object):
     str_html = get_html_sreality(location, offer, object)
