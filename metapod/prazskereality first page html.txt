@@ -1,0 +1,1968 @@
+Python 3.7.9 (tags/v3.7.9:13c94747c7, Aug 17 2020, 18:58:18) [MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+= RESTART: C:\Users\Mengele\Desktop\automatizace\real estate\Real-Estate-Webscrapper\metapod\prazskereality.py
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <head>
+   <meta charset="utf-8"/>
+   <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+   <meta content="width=device-width, initial-scale=1,user-scalable=no" name="viewport"/>
+   <meta content="index, follow" name="robots"/>
+   <title>
+    Prodej bytù  Hlavní mìsto Praha | PrazskeReality.cz
+   </title>
+   <meta content="Široká nabídka bytù na prodej v lokalitì Praha a okolí. Vyberte si svùj novı byt na portále s luxusními nemovitostmi." name="description"/>
+   <meta content="snippet,archive" name="googlebot"/>
+   <meta content="Prodej bytù  Hlavní mìsto Praha | PrazskeReality.cz" property="og:title"/>
+   <meta content="website" property="og:type"/>
+   <meta content="https://www.prazskereality.cz" property="og:url"/>
+   <meta content="/cms/common/images/prague-castle.jpg" property="og:image"/>
+   <meta content="Široká nabídka bytù na prodej v lokalitì Praha a okolí. Vyberte si svùj novı byt na portále s luxusními nemovitostmi." property="og:description"/>
+   <meta content="Prodej bytù  Hlavní mìsto Praha | PrazskeReality.cz" name="dc.title"/>
+   <meta content="real estates portal" name="dc.subject"/>
+   <meta content="Široká nabídka bytù na prodej v lokalitì Praha a okolí. Vyberte si svùj novı byt na portále s luxusními nemovitostmi." name="dc.description"/>
+   <meta content="Praské reality" name="dc.publisher"/>
+   <meta content="Allrights reserved." name="dc.rights"/>
+   <meta content="telephone=no" name="format-detection"/>
+   <link href="/cms/common-data/images/favico/favicon.ico" rel="shortcut icon"/>
+   <link href="/cms/common-data/images/favico/apple-icon-57x57.png" rel="apple-touch-icon" sizes="57x57"/>
+   <link href="/cms/common-data/images/favico/apple-icon-60x60.png" rel="apple-touch-icon" sizes="60x60"/>
+   <link href="/cms/common-data/images/favico/apple-icon-72x72.png" rel="apple-touch-icon" sizes="72x72"/>
+   <link href="/cms/common-data/images/favico/apple-icon-76x76.png" rel="apple-touch-icon" sizes="76x76"/>
+   <link href="/cms/common-data/images/favico/apple-icon-114x114.png" rel="apple-touch-icon" sizes="114x114"/>
+   <link href="/cms/common-data/images/favico/apple-icon-120x120.png" rel="apple-touch-icon" sizes="120x120"/>
+   <link href="/cms/common-data/images/favico/apple-icon-144x144.png" rel="apple-touch-icon" sizes="144x144"/>
+   <link href="/cms/common-data/images/favico/apple-icon-152x152.png" rel="apple-touch-icon" sizes="152x152"/>
+   <link href="/cms/common-data/images/favico/apple-icon-180x180.png" rel="apple-touch-icon" sizes="180x180"/>
+   <link href="/cms/common-data/images/favico/android-icon-192x192.png" rel="icon" sizes="192x192" type="image/png"/>
+   <link href="/cms/common-data/images/favico/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+   <link href="/cms/common-data/images/favico/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png"/>
+   <link href="/cms/common-data/images/favico/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+   <link href="/cms/common-data/images/favico/manifest.json" rel="manifest"/>
+   <meta content="#ffffff" name="msapplication-TileColor"/>
+   <meta content="/cms/common-data/images/favico/ms-icon-144x144.png" name="msapplication-TileImage"/>
+   <meta content="#ffffff" name="theme-color"/>
+   <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400&amp;display=swap" rel="stylesheet"/>
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,700,700i,800i&amp;display=swap&amp;subset=latin-ext" rel="stylesheet"/>
+   <link href="/cms/common-data/css/bootstrap.min.css" rel="stylesheet"/>
+   <link href="/cms/common-data/css/fontawesome/css/all.css" rel="stylesheet"/>
+   <link href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet"/>
+   <link href="/cms/common-data/css/main.css?v=5" rel="stylesheet"/>
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-295842-3">
+   </script>
+   <script>
+    window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'UA-295842-3');
+                gtag('config', 'UA-295842-4');
+                gtag('config', 'AW-704148871');
+   </script>
+  </head>
+ </head>
+ <body class="subpage">
+  <header>
+   <div class="wrap">
+    <a class="logo" href="/">
+     <img alt="Praské reality" src="/cms/common-data/images/logo-cs.png"/>
+    </a>
+    <button class="hamburger hamburger--elastic" type="button">
+     <span class="hamburger-box">
+      <span class="hamburger-inner">
+      </span>
+     </span>
+    </button>
+    <nav class="navigation without-logged">
+     <a href="/nemovitosti">
+      <i class="fal fa-home">
+      </i>
+      Katalog nemovitostí
+     </a>
+     <a href="/registrace/realitni-kancelare">
+      <i class="fal fa-plus-circle">
+      </i>
+      registrovat realitní kanceláø
+     </a>
+     <a href="/pravidla-inzerce">
+      <i class="fal fa-info-circle">
+      </i>
+      Pravidla inzerce
+     </a>
+    </nav>
+    <div class="login">
+     <div class="acc">
+      <a href="/adm">
+       <i class="fal fa-lock-alt">
+       </i>
+       Klientská zóna
+      </a>
+     </div>
+     <div class="lang">
+      <a href="//www.praguerealestate.cz" id="languageSwitchBig">
+       english
+      </a>
+     </div>
+    </div>
+   </div>
+  </header>
+  <section class="results is-published">
+   <div class="results-map">
+    <div id="mapid" style="width: 100%; height: 100%;">
+    </div>
+   </div>
+   <div class="results-list has-at" data-function="SELLING" data-ruian="VC19" data-type="APARTMENT">
+    <div class="results-list-expander">
+     <i class="fal fa-chevron-left">
+     </i>
+    </div>
+    <div class="results-list-nav">
+     <div class="inside spaced">
+      <div class="breadcrumbs">
+       <span>
+        <img alt="byty" src="/cms/common-data/images/icons/icon-1.png"/>
+       </span>
+       <h1>
+        <a href="/byty-na-prodej">
+         Byty na prodej
+        </a>
+       </h1>
+      </div>
+      <div class="sort">
+       seøadit podle ceny
+       <a href="#price_asc">
+        <i class="fal fa-angle-up">
+        </i>
+       </a>
+       <a href="#price_desc">
+        <i class="fal fa-angle-down">
+        </i>
+       </a>
+      </div>
+      <a class="btn-red backtosearch" href="./index.html">
+       <i class="fal fa-search">
+       </i>
+       upravit hledání
+      </a>
+     </div>
+    </div>
+    <section class="filter" id="filters">
+     <div class="wrap">
+      <div class="filter-map">
+       <div class="inside">
+        <div class="inline-closer">
+         <a href="#">
+          <i class="far fa-times">
+          </i>
+         </a>
+        </div>
+        <div class="preselects">
+         <div class="custom-selectbox" id="type">
+          <div class="custom-selectbox-picker">
+           <div class="text">
+            Typ nemovitosti
+           </div>
+           <div class="arrow">
+            <i class="fal fa-angle-down">
+            </i>
+           </div>
+          </div>
+          <div class="custom-selectbox-dropdown">
+           <div class="inside">
+            <div class="item" data-id="">
+             <span>
+             </span>
+             Nerozhoduje
+            </div>
+            <div class="item" data-id="HOUSE">
+             <span>
+              <img alt="domy" src="/cms/common-data/images/icons/transparent/icon-1.png"/>
+             </span>
+             domy
+            </div>
+            <div class="item" data-id="APARTMENT">
+             <span>
+              <img alt="domy" src="/cms/common-data/images/icons/transparent/icon-2.png"/>
+             </span>
+             byty
+            </div>
+            <div class="item" data-id="LAND">
+             <span>
+              <img alt="domy" src="/cms/common-data/images/icons/transparent/icon-3.png"/>
+             </span>
+             pozemky
+            </div>
+            <div class="item" data-id="COMMERCIAL">
+             <span>
+              <img alt="domy" src="/cms/common-data/images/icons/transparent/icon-6.png"/>
+             </span>
+             komerèní nemovitosti
+            </div>
+            <div class="item" data-id="OTHER">
+             <span>
+              <img alt="domy" src="/cms/common-data/images/icons/transparent/icon-4.png"/>
+             </span>
+             ostatní nemovitosti
+            </div>
+           </div>
+          </div>
+          <select class="hidden" name="voucher_id">
+           <option value="0">
+            Typ nemovitosti
+           </option>
+           <option value="">
+            Nerozhoduje
+           </option>
+           <option value="HOUSE">
+            domy
+           </option>
+           <option value="APARTMENT">
+            byty
+           </option>
+           <option value="LAND">
+            pozemky
+           </option>
+           <option value="COMMERCIAL">
+            komerèní nemovitosti
+           </option>
+           <option value="OTHER">
+            ostatní nemovitosti
+           </option>
+          </select>
+         </div>
+         <div class="custom-selectbox" id="saleorlease">
+          <div class="custom-selectbox-picker">
+           <div class="text">
+            Typ nabídky
+           </div>
+           <div class="arrow">
+            <i class="fal fa-angle-down">
+            </i>
+           </div>
+          </div>
+          <div class="custom-selectbox-dropdown">
+           <div class="inside">
+            <div class="item" data-id="">
+             Nerozhoduje
+            </div>
+            <div class="item" data-id="SELLING">
+             Prodej
+            </div>
+            <div class="item" data-id="RENTAL">
+             Pronájem
+            </div>
+           </div>
+          </div>
+          <select class="hidden" name="saleorlease">
+           <option value="0">
+            Vyberte...
+           </option>
+           <option value="">
+            Nerozhoduje
+           </option>
+           <option value="SELLING">
+            Prodej
+           </option>
+           <option value="RENTAL">
+            Pronájem
+           </option>
+          </select>
+         </div>
+        </div>
+        <div class="filter-map-map">
+         <div class="mapPrague">
+          <h2>
+          </h2>
+          <img id="praguemap" src="/cms/common-data/images/map/map-prague.png" usemap="#image-map"/>
+          <map name="image-map">
+           <area alt="Praha 3" coords="226,152,239,173,255,175,259,168,269,170,279,169,279,158,284,157,296,146,283,140,274,137,261,138,254,140,243,143,237,145" href="" shape="poly" title="Praha 3"/>
+           <area alt="Praha 2" coords="226,152,238,172,233,175,232,182,228,187,221,192,212,193,202,195,196,173,202,172,205,166,209,170,216,161" href="" shape="poly" title="Praha 2"/>
+           <area alt="Praha 1" coords="197,173,195,165,188,165,177,166,171,153,173,147,177,142,184,139,216,140,226,139,226,152,209,169,205,165,202,171" href="" shape="poly" title="Praha 1"/>
+           <area alt="Praha 8" coords="228,151,227,140,242,134,246,128,248,120,247,112,240,106,229,104,223,106,221,100,216,94,214,88,204,87,198,86,190,82,180,77,174,68,177,55,183,48,210,34,224,34,236,28,250,18,259,12,266,11,276,10,283,12,287,16,291,22,292,38,290,48,284,50,286,69,286,77,275,78,272,79,276,84,270,95,267,102,272,107,276,111,272,116,269,122,269,131,272,137,257,139,240,144" href="" shape="poly" title="Praha 8"/>
+           <area alt="Praha 4" coords="201,194,219,192,229,188,260,202,262,206,268,208,279,217,283,224,287,233,292,231,332,227,342,234,343,244,343,252,343,260,347,266,350,275,339,272,329,276,313,274,301,280,305,290,284,304,282,292,261,304,253,317,237,327,234,340,215,339,200,346,194,353,184,346,187,340,186,331,182,331,172,267,182,245,197,227,202,209" href="" shape="poly" title="Praha 4"/>
+           <area alt="Praha 5" coords="194,165,177,166,159,166,147,170,144,166,119,166,113,163,108,166,98,173,97,181,94,188,89,195,82,196,73,192,66,194,65,186,64,176,62,167,21,172,18,182,7,188,27,205,34,226,39,237,46,242,53,246,59,248,67,250,76,248,79,274,64,274,65,284,69,296,80,305,92,301,99,314,96,332,109,332,104,344,91,348,92,361,100,378,155,378,162,344,172,338,183,345,187,339,185,332,181,331,172,266,182,245,197,226,201,209,201,192,197,172" href="" shape="poly" title="Praha 5"/>
+           <area alt="Praha 6" coords="177,165,171,152,176,143,183,138,199,130,203,123,199,116,193,111,179,94,184,93,185,82,179,76,173,68,175,53,159,50,145,48,128,53,122,69,125,84,124,96,111,98,95,99,87,98,85,88,79,81,72,81,65,87,59,96,45,95,6,106,2,118,13,127,29,153,45,155,48,160,49,168,62,168,67,193,73,192,80,195,89,194,96,183,97,173,114,162,118,166,144,166,146,170,160,166" href="" shape="poly" title="Praha 6"/>
+           <area alt="Praha 7" coords="182,78,196,85,213,88,215,94,219,100,221,106,227,104,239,106,246,111,248,121,246,128,243,133,227,139,181,139,199,130,203,123,196,114,179,93,185,94,185,84" href="" shape="poly" title="Praha 7"/>
+           <area alt="Praha 9" coords="286,15,290,7,311,2,316,21,323,25,327,21,341,28,347,46,368,45,382,40,382,46,373,52,374,62,383,76,401,86,422,82,426,91,449,92,452,117,479,124,484,138,498,144,493,176,451,188,429,201,420,192,416,196,413,194,414,186,404,177,394,172,386,174,383,169,375,173,366,172,357,170,351,165,347,160,339,157,330,152,322,155,321,150,312,154,299,149,296,146,281,139,272,136,269,133,269,121,275,112,267,102,276,84,273,79,287,77,283,50,290,49,292,38,291,20" href="" shape="poly" title="Praha 9"/>
+           <area alt="Praha 10" coords="227,188,231,181,233,175,238,173,255,174,259,169,269,171,277,168,279,158,283,157,295,147,300,150,311,153,320,150,322,155,329,152,347,160,357,171,375,173,383,169,386,174,393,172,404,177,414,186,413,192,416,196,419,194,429,200,435,226,445,217,453,228,448,232,444,240,460,272,451,273,449,282,437,278,427,283,434,296,430,302,398,291,402,282,396,288,391,288,385,277,374,273,356,271,352,278,347,267,344,260,342,234,333,228,293,230,287,232,280,218,269,208,264,207,259,201,241,193" href="" shape="poly" title="Praha 10"/>
+          </map>
+          <a class="swapMap" data-map="mapCR" href="">
+           Zobrazit mapu ÈR
+           <i class="fal fa-chevron-right">
+           </i>
+          </a>
+         </div>
+         <div class="mapCR visible">
+          <h2>
+          </h2>
+          <img id="crmapp" src="/cms/common-data/images/map/cr.png" usemap="#image-map2"/>
+          <map name="image-map2">
+           <area alt="Plzeòskı kraj" coords="38,159,33,172,27,180,35,190,37,195,40,203,46,212,46,221,55,228,60,236,66,236,75,238,80,243,83,250,89,258,94,266,102,269,109,275,113,284,123,293,126,287,126,282,133,278,130,275,130,266,134,265,138,264,142,259,139,254,143,253,140,250,142,244,150,236,146,233,147,225,145,218,148,216,147,213,145,207,146,201,141,196,142,192,140,190,140,188,143,186,147,186,149,184,151,181,150,179,150,177,151,175,151,173,150,171,150,169,153,166,153,158,151,157,149,156,146,155,146,155,145,152,142,153,138,148,133,149,127,145,127,142,121,142,118,143,116,141,117,138,116,136,116,134,108,133,106,139,101,141,101,147,93,142,89,142,77,150,77,154,75,157,73,157,72,156,69,155,66,156,62,153,56,156,52,160,50,159,49,156,45,159,42,159,39,159" data-kod="VC51" shape="poly" title="Plzeòskı kraj"/>
+           <area alt="Karlovarskı kraj" coords="77,88,79,93,87,93,91,94,91,98,101,98,104,101,101,103,100,105,101,108,101,114,103,116,102,119,104,122,106,124,104,126,102,127,108,133,106,139,101,141,101,147,96,144,93,142,89,142,77,150,77,154,75,157,73,157,72,156,69,155,66,156,62,153,56,156,52,160,50,159,49,156,45,159,39,159,38,154,36,154,35,147,19,137,11,128,11,121,4,110,4,99,11,99,16,107,18,117,21,123,23,110,30,100,36,95,41,90,53,89,57,90,61,85,68,83,74,88,76,89" data-kod="VC43" shape="poly" title="Karlovarskı kraj"/>
+           <area alt="Jihoèeskı kraj" coords="126,289,126,282,133,278,130,275,130,266,138,264,142,259,139,254,143,253,140,250,142,244,150,236,146,233,147,224,145,218,148,216,147,213,152,214,158,214,162,216,167,214,169,210,172,209,175,212,186,212,189,209,194,209,197,212,201,213,205,210,211,212,219,213,226,215,229,212,233,209,232,203,237,201,242,206,246,206,247,209,250,214,251,224,249,227,249,235,251,243,256,248,259,247,265,249,271,256,274,255,283,256,286,256,289,260,290,265,294,269,305,268,312,272,311,275,306,277,306,280,303,286,309,293,307,299,295,290,285,289,273,292,270,287,259,283,255,288,257,302,253,312,257,317,249,317,242,316,239,323,233,328,234,338,231,343,225,338,217,340,209,334,206,340,199,346,189,342,176,341,168,335,171,332,166,325,155,318,152,318,143,302,138,301,135,297,135,294" data-kod="VC35" shape="poly" title="Jihoèeskı kraj"/>
+           <area alt="Ústeckı kraj" coords="77,88,79,93,87,93,91,94,91,98,98,98,101,98,104,101,101,103,100,105,101,108,101,114,103,116,102,119,104,122,106,124,104,126,102,127,104,129,108,133,116,134,119,132,123,130,124,126,129,121,134,121,140,117,143,116,148,117,153,112,157,114,157,112,159,110,163,110,167,106,168,102,171,100,174,100,177,102,192,102,195,99,202,99,203,97,203,90,206,90,207,88,211,86,212,79,203,66,200,57,206,47,209,42,208,38,209,36,213,36,218,38,219,35,226,32,226,21,220,22,222,15,215,4,207,8,197,3,192,13,199,13,199,16,205,20,203,26,197,27,193,26,188,32,184,31,174,38,169,35,161,38,162,43,157,48,150,46,143,48,141,46,137,50,133,48,129,53,129,59,122,63,116,57,112,62,109,67,106,66,101,76,94,75,87,76,84,81" data-kod="VC60" shape="poly" title="Ústeckı kraj"/>
+           <area alt="Libereckı kraj" coords="212,79,220,78,222,83,226,83,229,82,232,80,236,78,236,73,240,73,242,74,247,69,250,63,253,65,254,66,258,66,262,70,266,72,266,74,268,76,270,77,273,80,282,77,288,79,292,82,296,81,295,78,300,75,306,78,312,77,311,73,310,71,308,68,310,64,307,61,308,59,307,55,306,51,307,47,306,41,297,38,292,42,290,36,284,28,282,21,280,13,275,13,272,9,269,11,261,7,255,11,259,16,255,28,243,28,237,35,226,32,219,35,218,38,214,36,209,36,208,38,209,41,208,43,200,57,203,66" data-kod="VC78" shape="poly" title="Libereckı kraj"/>
+           <area alt="Moravskoslezskı kraj" coords="472,106,471,115,463,119,456,124,457,129,454,132,455,137,451,142,449,149,452,152,449,160,449,163,452,166,455,166,455,170,460,170,460,172,463,173,467,172,470,173,472,176,474,178,480,181,483,178,487,180,492,179,495,180,498,183,497,188,503,188,504,194,511,197,513,203,518,203,520,207,523,208,528,211,534,209,540,211,543,213,549,214,553,212,554,216,556,218,559,219,564,226,570,220,573,216,574,211,576,209,578,208,596,209,603,204,600,196,597,187,589,182,582,180,576,164,577,159,574,154,569,156,556,149,552,154,541,143,536,145,532,143,532,138,530,135,525,135,521,143,518,146,513,147,507,142,503,140,501,134,499,129,491,127,488,121,497,118,502,113,499,108,496,100,489,106" data-kod="VC132" shape="poly" title="Moravskoslezskı kraj"/>
+           <area alt="Zlínskı kraj" coords="500,302,505,301,508,297,511,292,520,291,520,281,524,277,534,277,540,269,540,261,543,252,543,245,547,239,563,234,565,227,559,219,556,218,554,216,553,212,549,214,543,213,540,211,534,209,528,211,523,208,520,207,517,210,513,210,509,212,507,214,507,220,504,223,500,218,493,220,494,224,493,227,489,227,485,226,482,228,480,232,477,230,472,230,471,228,469,227,467,230,469,235,466,238,464,241,459,241,456,243,454,247,450,251,451,258,456,258,457,262,448,269,449,272,452,273,459,271,460,273,460,276,461,281,468,279,471,285,476,288,484,287,488,290,490,294,494,296" data-kod="VC141" shape="poly" title="Zlínskı kraj"/>
+           <area alt="Hl. mìsto Praha" coords="180,126,174,129,179,134,178,138,177,140,181,146,186,149,185,154,190,156,188,163,193,168,199,167,200,163,203,161,209,161,212,157,216,155,219,154,223,151,228,152,234,155,238,153,239,149,238,144,236,141,240,139,246,138,247,136,247,133,244,130,242,129,238,128,237,125,230,122,230,118,227,119,223,116,219,113,212,112,208,116,203,120,199,118,192,121,194,127,188,127,185,124" data-kod="VC19" shape="poly" title="Hl. mìsto Praha"/>
+           <area alt="Olomouckı kraj" coords="422,118,421,125,419,129,417,137,418,142,411,147,411,152,413,157,413,162,415,164,411,167,418,180,418,183,421,185,422,187,422,192,419,195,416,202,414,209,418,210,421,211,418,214,417,220,421,224,419,228,424,232,427,229,430,225,428,222,425,218,426,216,430,215,436,221,436,226,440,227,442,236,448,238,451,244,454,247,456,243,459,241,464,241,466,238,469,235,467,230,469,227,471,228,472,230,477,230,480,232,482,228,485,226,489,227,493,227,494,224,493,220,500,218,504,223,507,220,507,214,509,212,513,210,517,210,520,207,518,203,513,203,511,197,504,194,503,188,497,188,498,183,495,180,493,179,487,180,483,178,480,181,474,178,470,173,467,172,463,173,460,172,460,170,455,170,455,166,452,166,449,163,449,160,452,152,449,149,451,142,455,137,454,132,457,129,456,124,463,119,471,115,472,105,467,105,463,99,458,99,452,95,451,90,446,90,424,83,421,88,427,96,429,102,433,105,435,108,435,114,427,115" data-kod="VC124" shape="poly" title="Olomouckı kraj"/>
+           <area alt="Královéhradeckı kraj" coords="270,77,267,79,270,82,269,86,271,90,271,94,268,96,269,101,274,101,277,104,277,108,284,110,286,107,290,109,293,121,290,126,296,131,295,135,300,135,309,128,313,130,320,130,324,125,328,125,328,129,331,130,337,125,345,125,347,128,347,133,351,133,362,142,375,141,377,136,381,132,388,129,388,126,391,124,397,125,396,116,385,105,379,102,376,96,371,96,365,88,371,81,381,75,384,67,375,56,366,55,364,60,355,57,346,63,343,53,335,55,329,45,321,47,306,41,307,47,306,51,308,59,307,61,310,64,308,68,311,73,312,77,306,78,300,75,295,78,296,81,292,82,288,79,282,77,273,80" data-kod="VC86" shape="poly" title="Královéhradeckı kraj"/>
+           <area alt="Pardubickı kraj" coords="296,135,293,137,291,140,291,143,294,145,300,148,300,151,303,152,305,154,305,159,303,161,301,162,303,168,310,174,317,174,327,181,333,183,334,189,343,192,342,187,348,184,348,186,353,186,355,191,361,192,367,194,369,197,371,199,376,200,382,205,383,203,394,203,396,199,412,198,416,202,419,195,422,192,422,187,421,185,418,183,418,180,411,167,415,164,413,162,413,157,411,152,411,147,418,142,417,137,419,129,421,125,422,118,416,121,416,126,408,133,397,125,391,124,388,126,388,129,381,132,377,136,375,141,362,142,351,133,347,133,347,128,345,125,337,125,331,130,328,129,328,125,324,125,320,130,313,130,309,128,300,135" data-kod="VC94" shape="poly" title="Pardubickı kraj"/>
+           <area alt="Jihomoravskı kraj" coords="383,203,381,209,384,212,383,215,380,217,381,221,380,225,382,231,382,237,378,238,374,240,373,243,370,245,372,249,369,252,369,256,371,258,372,260,368,262,369,265,370,266,372,267,372,271,368,272,366,276,362,275,361,278,358,280,352,279,348,281,344,277,338,280,337,284,332,284,329,287,327,289,324,292,321,291,317,292,313,293,309,293,307,300,313,301,320,305,326,306,333,304,343,309,347,315,356,320,364,321,373,321,383,322,387,319,390,313,398,312,403,316,409,316,409,322,415,320,420,323,428,323,432,327,434,335,436,334,443,320,448,311,450,305,457,301,467,304,475,307,482,304,487,307,495,305,500,302,495,297,490,294,488,290,484,287,476,288,471,285,468,279,461,281,460,276,460,273,459,271,452,273,449,272,448,269,457,262,456,258,451,258,450,251,454,247,451,244,448,238,442,236,440,227,436,226,436,221,430,215,426,216,425,218,428,222,430,225,427,229,424,232,419,228,421,224,417,220,418,214,421,211,414,209,416,202,412,198,396,199,394,203" data-kod="VC116" shape="poly" title="Jihomoravskı kraj"/>
+           <area alt="Vysoèina" coords="304,169,298,169,295,172,296,176,292,176,291,178,290,180,285,180,283,182,281,181,278,182,277,186,274,188,274,193,277,194,280,196,280,199,279,201,277,202,273,202,271,204,256,203,252,207,252,211,250,214,251,224,249,227,249,235,251,243,256,248,259,247,265,249,271,256,274,255,286,256,289,260,290,265,294,269,305,268,312,272,311,275,306,277,306,280,303,286,309,293,313,293,320,291,324,292,329,287,332,284,337,284,338,280,344,277,348,281,352,279,358,280,361,278,362,275,366,276,368,272,372,271,372,267,370,266,369,265,368,262,372,260,371,258,369,256,369,252,372,249,370,245,373,243,374,240,378,238,382,237,382,231,380,225,381,221,380,217,383,215,384,212,381,209,382,205,376,200,371,199,369,197,367,194,361,192,355,191,353,186,348,186,348,184,342,187,343,192,334,189,333,183,327,181,317,174,310,174" data-kod="VC108" shape="poly" title="Vysoèina"/>
+           <area alt="Støedoèeskı kraj" coords="116,134,116,136,117,138,116,141,118,143,121,142,127,142,127,145,130,147,133,149,138,148,142,153,145,152,146,155,149,156,153,158,153,166,150,169,150,171,151,173,151,175,150,177,150,179,151,181,149,184,147,186,143,186,140,188,140,190,142,192,141,196,144,199,146,201,145,207,147,213,152,214,158,214,162,216,167,214,169,210,172,209,175,212,186,212,189,209,194,209,197,212,201,213,205,210,211,212,219,213,226,215,229,212,233,209,232,203,237,201,242,206,246,206,247,209,250,214,252,211,252,207,256,203,271,204,273,202,277,202,279,201,280,199,280,196,277,194,274,193,274,188,277,186,278,182,281,181,283,182,285,180,290,180,292,176,296,176,295,172,298,169,303,169,301,162,303,161,305,159,305,154,303,152,300,151,300,148,294,145,291,143,291,140,293,137,295,135,296,131,290,126,293,121,290,109,286,107,284,110,277,108,277,104,274,101,269,101,268,96,271,94,271,90,269,86,270,82,267,79,270,77,268,76,266,74,266,72,262,70,258,66,254,66,253,65,250,63,247,69,242,74,240,73,236,73,236,78,232,80,229,82,226,83,222,83,220,78,212,79,211,86,207,88,206,90,203,90,203,97,202,99,195,99,192,102,177,102,174,100,171,100,168,102,167,106,165,108,163,110,159,110,157,112,157,114,155,113,153,112,148,117,143,116,140,117,134,121,129,121,124,126,123,130,119,132,116,134,174,129,180,126,185,124,188,127,194,127,192,121,199,118,203,120,208,116,212,112,219,113,227,119,230,118,230,122,237,125,238,128,242,129,244,130,247,133,247,136,246,138,240,139,236,141,238,144,239,149,238,153,234,155,228,152,223,151,219,154,216,155,212,157,209,161,203,161,200,163,199,167,193,168,188,163,190,156,185,154,186,149,181,146,177,140,178,138,179,134,174,129" data-kod="VC27" shape="poly" title="Støedoèeskı kraj"/>
+          </map>
+         </div>
+        </div>
+        <div class="line kraj-mobile">
+         <div class="row">
+          <div class="col-md-12">
+           <div class="custom-selectbox" id="krajmobile">
+            <div class="custom-selectbox-picker">
+             <div class="text">
+              Kraj
+             </div>
+             <div class="arrow">
+              <i class="fal fa-angle-down">
+              </i>
+             </div>
+            </div>
+            <div class="custom-selectbox-dropdown">
+             <div class="inside">
+              <div class="item" data-id="">
+               Nerozhoduje
+              </div>
+              <div class="item" data-id="VC51">
+               Karlovarskı kraj
+              </div>
+              <div class="item" data-id="VC43">
+               Plzeòskı kraj
+              </div>
+              <div class="item" data-id="VC35">
+               Jihoèeskı kraj
+              </div>
+              <div class="item" data-id="VC60">
+               Ústeckı kraj
+              </div>
+              <div class="item" data-id="VC78">
+               Libereckı kraj
+              </div>
+              <div class="item" data-id="VC132">
+               Moravskoslezskı kraj
+              </div>
+              <div class="item" data-id="VC141">
+               Zlínskı kraj
+              </div>
+              <div class="item" data-id="VC19">
+               Hl. mìsto Praha
+              </div>
+              <div class="item" data-id="VC124">
+               Olomouckı kraj
+              </div>
+              <div class="item" data-id="VC86">
+               Královéhradeckı kraj
+              </div>
+              <div class="item" data-id="VC94">
+               Pardubickı kraj
+              </div>
+              <div class="item" data-id="VC116">
+               Jihomoravskı kraj
+              </div>
+              <div class="item" data-id="VC108">
+               Vysoèina
+              </div>
+              <div class="item" data-id="VC27">
+               Støedoèeskı kraj
+              </div>
+             </div>
+            </div>
+            <select class="hidden" name="krajmobile">
+             <option value="0">
+              Vyberte...
+             </option>
+             <option value="">
+              Nerozhoduje
+             </option>
+             <option value="VC51">
+              Karlovarskı kraj
+             </option>
+             <option value="VC43">
+              Plzeòskı kraj
+             </option>
+             <option value="VC35">
+              Jihoèeskı kraj
+             </option>
+             <option value="VC60">
+              Ústeckı kraj
+             </option>
+             <option value="VC78">
+              Libereckı kraj
+             </option>
+             <option value="VC132">
+              Moravskoslezskı kraj
+             </option>
+             <option value="VC141">
+              Zlínskı kraj
+             </option>
+             <option value="VC19">
+              Hl. mìsto Praha
+             </option>
+             <option value="VC124">
+              Olomouckı kraj
+             </option>
+             <option value="VC86">
+              Královéhradeckı kraj
+             </option>
+             <option value="VC94">
+              Pardubickı kraj
+             </option>
+             <option value="VC116">
+              Jihomoravskı kraj
+             </option>
+             <option value="VC108">
+              Vysoèina
+             </option>
+             <option value="VC27">
+              Støedoèeskı kraj
+             </option>
+            </select>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="filter-checkboxes-holder">
+        </div>
+        <div class="filter-map-form">
+         <div class="line">
+          <div class="row">
+           <div class="col-md-12">
+            <input id="location_plus" placeholder="Upøesnit lokalitu" type="text"/>
+           </div>
+          </div>
+         </div>
+         <div class="line">
+          <div class="row">
+           <div class="col-md-6">
+            <input id="price_from" placeholder="Cena od" type="text"/>
+           </div>
+           <div class="col-md-6">
+            <input id="price_to" placeholder="Cena do" type="text"/>
+           </div>
+          </div>
+         </div>
+         <div class="line">
+          <div class="row">
+           <div class="col-md-6">
+            <input id="area_from" placeholder="Plocha od" type="text"/>
+           </div>
+           <div class="col-md-6">
+            <input id="area_to" placeholder="Plocha do" type="text"/>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!-- byty - dipozice-->
+      <!-- stav -->
+      <!-- byty vybava -->
+      <!-- stavebni material -->
+      <!-- vlastnictvi -->
+      <!-- dum - dipozice-->
+      <!-- dum typ -->
+      <!-- dum vybava -->
+      <div class="filter-showResults">
+       <a class="btn-big" data-text="Zobrazit % inzerátù" href="/nemovitosti">
+        <i class="fal fa-search">
+        </i>
+       </a>
+      </div>
+     </div>
+    </section>
+    <div class="results-list-item-wrap">
+     <div class="results-list-item-group">
+      <div class="results-list-item-group-inner">
+       <ul>
+        <li class="item">
+         <a class="main" href="/nabizime-prodej-bytu-1-kk-v-prizemi-projektu-g-residence-6726706.html">
+          <span style="background:url(/item-photo/tr-w234/bb8043e9-3b42-460d-ab0b-385c868f3f94.jpg) center center no-repeat;">
+           <i>
+            TIP
+           </i>
+           <img alt="." src="/item-photo/tr-w234/bb8043e9-3b42-460d-ab0b-385c868f3f94.jpg"/>
+          </span>
+         </a>
+         <div class="description">
+          <h2>
+           <a class="link" href="/nabizime-prodej-bytu-1-kk-v-prizemi-projektu-g-residence-6726706.html">
+            Byt na prodej / 1+kk / 24 m
+            <sup>
+             2
+            </sup>
+           </a>
+          </h2>
+          <a href="nabizime-prodej-bytu-1-kk-v-prizemi-projektu-g-residence-6726706.html">
+           <p>
+            <i class="fal fa-map">
+            </i>
+            Unhoš
+           </p>
+           <strong>
+            2 788 850 Kè (za nemovitost) Cena vèetnì provize
+           </strong>
+          </a>
+         </div>
+        </li>
+        <li class="item">
+         <a class="main" href="/v-exkluzivnim-zastoupeni-nabizime-svetly-a-vzdusny-byt-3-7193637.html">
+          <span style="background:url(/item-photo/tr-w234/09754b3d-7a32-4dfa-802e-98e300e36236.jpg) center center no-repeat;">
+           <i>
+            TIP
+           </i>
+           <img alt="." src="/item-photo/tr-w234/09754b3d-7a32-4dfa-802e-98e300e36236.jpg"/>
+          </span>
+         </a>
+         <div class="description">
+          <h2>
+           <a class="link" href="/v-exkluzivnim-zastoupeni-nabizime-svetly-a-vzdusny-byt-3-7193637.html">
+            Byt na prodej / 3+1 / 98 m
+            <sup>
+             2
+            </sup>
+           </a>
+          </h2>
+          <a href="v-exkluzivnim-zastoupeni-nabizime-svetly-a-vzdusny-byt-3-7193637.html">
+           <p>
+            <i class="fal fa-map">
+            </i>
+            Praha 5 - Košíøe
+           </p>
+           <strong>
+            7 800 000 Kè (za nemovitost) Cena vèetnì provize
+           </strong>
+          </a>
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </div>
+    <div class="results-list-item-wrap">
+     <div class="results-list-item">
+      <a class="images" href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7292051.html">
+       <span style="background:url(/item-photo/tr-w234/c6b38c4b-6380-4d45-88f2-8165df9b9c05.jpg) center center no-repeat;">
+        <img alt="rozestavìná ubytovací jednotka" src="/item-photo/tr-w234/c6b38c4b-6380-4d45-88f2-8165df9b9c05.jpg"/>
+       </span>
+       <span style="background:url(/item-photo/tr-w234/33096ce2-e903-4e40-affb-9c8eabe5ba4f.jpg) center center no-repeat;">
+        <img alt="rozestavìná ubytovací jednotka" src="/item-photo/tr-w234/33096ce2-e903-4e40-affb-9c8eabe5ba4f.jpg"/>
+       </span>
+       <span style="background:url(/item-photo/tr-w234/4d53d70e-6b0e-4ae6-a89e-be8cbea2d27a.jpg) center center no-repeat;">
+        <img alt="rozestavìná ubytovací jednotka" src="/item-photo/tr-w234/4d53d70e-6b0e-4ae6-a89e-be8cbea2d27a.jpg"/>
+       </span>
+      </a>
+      <div class="description">
+       <div class="text">
+        <h2>
+         <a href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7292051.html">
+          Byt na prodej / 1+kk / 61 m
+          <sup>
+           2
+          </sup>
+         </a>
+        </h2>
+        <a href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7292051.html">
+         <p>
+          <i class="fal fa-map">
+          </i>
+          Praha 8 - Libeò
+         </p>
+         <strong>
+          3 447 000 Kè (za nemovitost) Cena Prodává pøímı majitel, neplatíte provizi! S ohledem na aktuální situaci bychom Vás chtìli ujistit, e naše spoleènost pøijala veškerá nezbytná opatøení k tomu, abyste si své nové bydlení mohli vybrat bez obav a s plnohodnotnım servisem z naší strany. Jsme
+         </strong>
+        </a>
+       </div>
+       <div class="buttons">
+        <a class="btn-normal" href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7292051.html">
+         Více informací
+         <i class="fal fa-chevron-circle-right">
+         </i>
+        </a>
+        <a class="btn-red" href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7292051.html">
+         poptat nemovitost
+         <i class="fal fa-comment-lines">
+         </i>
+        </a>
+       </div>
+       <div class="contact-form hidden">
+        <div class="row">
+         <div class="col-md-6">
+          <h2>
+           poptat nemovitost
+          </h2>
+          <form action="/kontaktovat-prodejce/form" class="unit-request">
+           <input name="zipCode" type="text" value=""/>
+           <input class="tiny" name="name" placeholder="Jméno a pøíjmení" type="text"/>
+           <input class="tiny" name="email" placeholder="Váš email" type="email"/>
+           <input class="tiny" name="phoneNumber" placeholder="Váš telefon" type="tel"/>
+           <textarea class="tiny" name="message" placeholder="Vaše zpráva">Mám zájem o prohlídku nemovitosti. Kontaktujte mì prosím! Dìkuji</textarea>
+           <input id="itemId" name="itemId" type="hidden" value="7292051"/>
+           <div class="center">
+            <button class="btn-red" data-text="Odeslat dotaz" type="button">
+             Odeslat dotaz
+            </button>
+            <small>
+             Odesláním formuláøe udìlujete souhlas s pravidly ochrany
+             <a href="/ochrana-osobnich-udaju" target="_blank">
+              osobních údajù
+             </a>
+            </small>
+           </div>
+          </form>
+         </div>
+         <div class="col-md-6">
+          <div class="miniBrooker">
+           <div class="img-wrap">
+            <img alt="" src="/broker/2a8b8307-dd53-4953-aa1a-7f5454d2a174.jpg"/>
+           </div>
+           <h3 class="has-image">
+            Simon Lukavskı (oddìlení prodeje)
+            <small>
+             realitní makléø
+            </small>
+           </h3>
+           <div class="cleaner">
+           </div>
+           <div class="tel-hidden">
+            <span>
+             <i class="fas fa-phone">
+             </i>
+            </span>
+            <a class="show" data-rk-id="415" href="#" onclick="ga('send', 'event', 'VypisNem', 'MaklerRKtel');">
+             zobrazit
+            </a>
+            <a class="actualnumber" href="tel:725 753 753">
+             725 753 753
+            </a>
+           </div>
+           <p>
+            <span>
+             <i class="far fa-envelope">
+             </i>
+            </span>
+            <a href="mailto:prodej@psn.cz">
+             prodej@psn.cz
+            </a>
+           </p>
+           <div class="bottom-nfo">
+            <a href="/realitni-kancelare-praha/psn-s-r-o-415.html">
+             PSN, s. r. o.
+            </a>
+            <p>
+             Seifertova 823/9, 13000, Praha 3
+            </p>
+           </div>
+           <a class="reality-logo" href="/realitni-kancelare-praha/psn-s-r-o-415.html">
+            <img alt="PSN, s. r. o." src="/realitni-kancelare-praha/logo-415.jpg"/>
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="results-list-item">
+      <a class="images" href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7293519.html">
+       <span style="background:url(/item-photo/tr-w234/19968af8-79fd-4b4c-8d0e-5ea1ae6b544a.jpg) center center no-repeat;">
+        <img alt="ateliér" src="/item-photo/tr-w234/19968af8-79fd-4b4c-8d0e-5ea1ae6b544a.jpg"/>
+       </span>
+       <span style="background:url(/item-photo/tr-w234/25854cae-5d4d-4924-9486-58b2b64a05d2.jpg) center center no-repeat;">
+        <img alt="ateliér" src="/item-photo/tr-w234/25854cae-5d4d-4924-9486-58b2b64a05d2.jpg"/>
+       </span>
+       <span style="background:url(/item-photo/tr-w234/f7995bdc-e5c8-4934-8dfd-ad35db1148ce.jpg) center center no-repeat;">
+        <img alt="ateliér" src="/item-photo/tr-w234/f7995bdc-e5c8-4934-8dfd-ad35db1148ce.jpg"/>
+       </span>
+      </a>
+      <div class="description">
+       <div class="text">
+        <h2>
+         <a href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7293519.html">
+          Byt na prodej / 1+kk / 20 m
+          <sup>
+           2
+          </sup>
+         </a>
+        </h2>
+        <a href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7293519.html">
+         <p>
+          <i class="fal fa-map">
+          </i>
+          Praha 8 - Libeò
+         </p>
+         <strong>
+          2 606 000 Kè (za nemovitost) Cena Prodává pøímı majitel, neplatíte provizi! S ohledem na aktuální situaci bychom Vás chtìli ujistit, e naše spoleènost pøijala veškerá nezbytná opatøení k tomu, abyste si své nové bydlení mohli vybrat bez obav a s plnohodnotnım servisem z naší strany. Jsme
+         </strong>
+        </a>
+       </div>
+       <div class="buttons">
+        <a class="btn-normal" href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7293519.html">
+         Více informací
+         <i class="fal fa-chevron-circle-right">
+         </i>
+        </a>
+        <a class="btn-red" href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7293519.html">
+         poptat nemovitost
+         <i class="fal fa-comment-lines">
+         </i>
+        </a>
+       </div>
+       <div class="contact-form hidden">
+        <div class="row">
+         <div class="col-md-6">
+          <h2>
+           poptat nemovitost
+          </h2>
+          <form action="/kontaktovat-prodejce/form" class="unit-request">
+           <input name="zipCode" type="text" value=""/>
+           <input class="tiny" name="name" placeholder="Jméno a pøíjmení" type="text"/>
+           <input class="tiny" name="email" placeholder="Váš email" type="email"/>
+           <input class="tiny" name="phoneNumber" placeholder="Váš telefon" type="tel"/>
+           <textarea class="tiny" name="message" placeholder="Vaše zpráva">Mám zájem o prohlídku nemovitosti. Kontaktujte mì prosím! Dìkuji</textarea>
+           <input id="itemId" name="itemId" type="hidden" value="7293519"/>
+           <div class="center">
+            <button class="btn-red" data-text="Odeslat dotaz" type="button">
+             Odeslat dotaz
+            </button>
+            <small>
+             Odesláním formuláøe udìlujete souhlas s pravidly ochrany
+             <a href="/ochrana-osobnich-udaju" target="_blank">
+              osobních údajù
+             </a>
+            </small>
+           </div>
+          </form>
+         </div>
+         <div class="col-md-6">
+          <div class="miniBrooker">
+           <div class="img-wrap">
+            <img alt="" src="/broker/2a8b8307-dd53-4953-aa1a-7f5454d2a174.jpg"/>
+           </div>
+           <h3 class="has-image">
+            Simon Lukavskı (oddìlení prodeje)
+            <small>
+             realitní makléø
+            </small>
+           </h3>
+           <div class="cleaner">
+           </div>
+           <div class="tel-hidden">
+            <span>
+             <i class="fas fa-phone">
+             </i>
+            </span>
+            <a class="show" data-rk-id="415" href="#" onclick="ga('send', 'event', 'VypisNem', 'MaklerRKtel');">
+             zobrazit
+            </a>
+            <a class="actualnumber" href="tel:725 753 753">
+             725 753 753
+            </a>
+           </div>
+           <p>
+            <span>
+             <i class="far fa-envelope">
+             </i>
+            </span>
+            <a href="mailto:prodej@psn.cz">
+             prodej@psn.cz
+            </a>
+           </p>
+           <div class="bottom-nfo">
+            <a href="/realitni-kancelare-praha/psn-s-r-o-415.html">
+             PSN, s. r. o.
+            </a>
+            <p>
+             Seifertova 823/9, 13000, Praha 3
+            </p>
+           </div>
+           <a class="reality-logo" href="/realitni-kancelare-praha/psn-s-r-o-415.html">
+            <img alt="PSN, s. r. o." src="/realitni-kancelare-praha/logo-415.jpg"/>
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="results-list-item">
+      <a class="images" href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7294885.html">
+       <span style="background:url(/item-photo/tr-w234/934f821a-c03c-4f0a-9b9c-56537895f9f6.jpg) center center no-repeat;">
+        <img alt="Depo Grebovka" src="/item-photo/tr-w234/934f821a-c03c-4f0a-9b9c-56537895f9f6.jpg"/>
+       </span>
+       <span style="background:url(/item-photo/tr-w234/e307cac1-a2ce-4280-bc35-ca98c6798798.jpg) center center no-repeat;">
+        <img alt="ubytovací jednotka" src="/item-photo/tr-w234/e307cac1-a2ce-4280-bc35-ca98c6798798.jpg"/>
+       </span>
+       <span style="background:url(/item-photo/tr-w234/cc0ed695-ad56-4856-8aea-4a200e38db79.jpg) center center no-repeat;">
+        <img alt="Plnì vybavená Jednotka o dispozici 1+kk o vımìøe 28,2 m2 na Vinohradech." src="/item-photo/tr-w234/cc0ed695-ad56-4856-8aea-4a200e38db79.jpg"/>
+       </span>
+      </a>
+      <div class="description">
+       <div class="text">
+        <h2>
+         <a href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7294885.html">
+          Byt na prodej / 1+kk / 28 m
+          <sup>
+           2
+          </sup>
+         </a>
+        </h2>
+        <a href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7294885.html">
+         <p>
+          <i class="fal fa-map">
+          </i>
+          Praha 2 - Vinohrady
+         </p>
+         <strong>
+          4 124 000 Kè (za nemovitost) Cena U této jednotky je monost odpoètu 21 % DPH. Prodává pøímı majitel, neplatíte provizi! Uvedená cena je vèetnì veškerého vybavení jednotky, které je vidìt na fotkách. S ohledem na aktuální situaci bychom Vás chtìli ujistit, e naše spoleènost pøijala veške
+         </strong>
+        </a>
+       </div>
+       <div class="buttons">
+        <a class="btn-normal" href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7294885.html">
+         Více informací
+         <i class="fal fa-chevron-circle-right">
+         </i>
+        </a>
+        <a class="btn-red" href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7294885.html">
+         poptat nemovitost
+         <i class="fal fa-comment-lines">
+         </i>
+        </a>
+       </div>
+       <div class="contact-form hidden">
+        <div class="row">
+         <div class="col-md-6">
+          <h2>
+           poptat nemovitost
+          </h2>
+          <form action="/kontaktovat-prodejce/form" class="unit-request">
+           <input name="zipCode" type="text" value=""/>
+           <input class="tiny" name="name" placeholder="Jméno a pøíjmení" type="text"/>
+           <input class="tiny" name="email" placeholder="Váš email" type="email"/>
+           <input class="tiny" name="phoneNumber" placeholder="Váš telefon" type="tel"/>
+           <textarea class="tiny" name="message" placeholder="Vaše zpráva">Mám zájem o prohlídku nemovitosti. Kontaktujte mì prosím! Dìkuji</textarea>
+           <input id="itemId" name="itemId" type="hidden" value="7294885"/>
+           <div class="center">
+            <button class="btn-red" data-text="Odeslat dotaz" type="button">
+             Odeslat dotaz
+            </button>
+            <small>
+             Odesláním formuláøe udìlujete souhlas s pravidly ochrany
+             <a href="/ochrana-osobnich-udaju" target="_blank">
+              osobních údajù
+             </a>
+            </small>
+           </div>
+          </form>
+         </div>
+         <div class="col-md-6">
+          <div class="miniBrooker">
+           <div class="img-wrap">
+            <img alt="" src="/broker/2a8b8307-dd53-4953-aa1a-7f5454d2a174.jpg"/>
+           </div>
+           <h3 class="has-image">
+            Simon Lukavskı (oddìlení prodeje)
+            <small>
+             realitní makléø
+            </small>
+           </h3>
+           <div class="cleaner">
+           </div>
+           <div class="tel-hidden">
+            <span>
+             <i class="fas fa-phone">
+             </i>
+            </span>
+            <a class="show" data-rk-id="415" href="#" onclick="ga('send', 'event', 'VypisNem', 'MaklerRKtel');">
+             zobrazit
+            </a>
+            <a class="actualnumber" href="tel:725 753 753">
+             725 753 753
+            </a>
+           </div>
+           <p>
+            <span>
+             <i class="far fa-envelope">
+             </i>
+            </span>
+            <a href="mailto:prodej@psn.cz">
+             prodej@psn.cz
+            </a>
+           </p>
+           <div class="bottom-nfo">
+            <a href="/realitni-kancelare-praha/psn-s-r-o-415.html">
+             PSN, s. r. o.
+            </a>
+            <p>
+             Seifertova 823/9, 13000, Praha 3
+            </p>
+           </div>
+           <a class="reality-logo" href="/realitni-kancelare-praha/psn-s-r-o-415.html">
+            <img alt="PSN, s. r. o." src="/realitni-kancelare-praha/logo-415.jpg"/>
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="results-list-item">
+      <a class="images" href="/prodej-bytu-2-1-75-m2-ve-2-patre-cihloveho-cinzovniho-do-47024.html">
+       <span style="background:url(/item-photo/tr-w234/c416b730-eb52-4683-bba6-923a662c351d.jpg) center center no-repeat;">
+        <img alt="." src="/item-photo/tr-w234/c416b730-eb52-4683-bba6-923a662c351d.jpg"/>
+       </span>
+       <span style="background:url(/item-photo/tr-w234/1d91d463-8153-4e38-92f4-ad3a0f3b19af.jpg) center center no-repeat;">
+        <img alt="." src="/item-photo/tr-w234/1d91d463-8153-4e38-92f4-ad3a0f3b19af.jpg"/>
+       </span>
+       <span style="background:url(/item-photo/tr-w234/c973d2b3-0cb2-466c-ac57-23ad95fe89cb.jpg) center center no-repeat;">
+        <img alt="." src="/item-photo/tr-w234/c973d2b3-0cb2-466c-ac57-23ad95fe89cb.jpg"/>
+       </span>
+      </a>
+      <div class="description">
+       <div class="text">
+        <h2>
+         <a href="/prodej-bytu-2-1-75-m2-ve-2-patre-cihloveho-cinzovniho-do-47024.html">
+          Byt na prodej / 2+1 / 75 m
+          <sup>
+           2
+          </sup>
+         </a>
+        </h2>
+        <a href="/prodej-bytu-2-1-75-m2-ve-2-patre-cihloveho-cinzovniho-do-47024.html">
+         <p>
+          <i class="fal fa-map">
+          </i>
+          Praha 3 - Vinohrady
+         </p>
+         <strong>
+          7 255 000 Kè (za nemovitost) Cena vèetnì provize
+         </strong>
+        </a>
+       </div>
+       <div class="buttons">
+        <a class="btn-normal" href="/prodej-bytu-2-1-75-m2-ve-2-patre-cihloveho-cinzovniho-do-47024.html">
+         Více informací
+         <i class="fal fa-chevron-circle-right">
+         </i>
+        </a>
+        <a class="btn-red" href="/prodej-bytu-2-1-75-m2-ve-2-patre-cihloveho-cinzovniho-do-47024.html">
+         poptat nemovitost
+         <i class="fal fa-comment-lines">
+         </i>
+        </a>
+       </div>
+       <div class="contact-form hidden">
+        <div class="row">
+         <div class="col-md-6">
+          <h2>
+           poptat nemovitost
+          </h2>
+          <form action="/kontaktovat-prodejce/form" class="unit-request">
+           <input name="zipCode" type="text" value=""/>
+           <input class="tiny" name="name" placeholder="Jméno a pøíjmení" type="text"/>
+           <input class="tiny" name="email" placeholder="Váš email" type="email"/>
+           <input class="tiny" name="phoneNumber" placeholder="Váš telefon" type="tel"/>
+           <textarea class="tiny" name="message" placeholder="Vaše zpráva">Mám zájem o prohlídku nemovitosti. Kontaktujte mì prosím! Dìkuji</textarea>
+           <input id="itemId" name="itemId" type="hidden" value="47024"/>
+           <div class="center">
+            <button class="btn-red" data-text="Odeslat dotaz" type="button">
+             Odeslat dotaz
+            </button>
+            <small>
+             Odesláním formuláøe udìlujete souhlas s pravidly ochrany
+             <a href="/ochrana-osobnich-udaju" target="_blank">
+              osobních údajù
+             </a>
+            </small>
+           </div>
+          </form>
+         </div>
+         <div class="col-md-6">
+          <div class="miniBrooker">
+           <div class="img-wrap">
+            <img alt="" src="/broker/e9117da2-5ad1-450f-81e4-d7da1a927ac5.jpg"/>
+           </div>
+           <h3 class="has-image">
+            Vladimír Stránskı
+            <small>
+             realitní makléø
+            </small>
+           </h3>
+           <div class="cleaner">
+           </div>
+           <div class="tel-hidden">
+            <span>
+             <i class="fas fa-phone">
+             </i>
+            </span>
+            <a class="show" data-rk-id="347" href="#" onclick="ga('send', 'event', 'VypisNem', 'MaklerRKtel');">
+             zobrazit
+            </a>
+            <a class="actualnumber" href="tel:608 114 411">
+             608 114 411
+            </a>
+            <br/>
+            <a class="actualnumber" href="tel:(+420) 608 114 411">
+             (+420) 608 114 411
+            </a>
+           </div>
+           <p>
+            <span>
+             <i class="far fa-envelope">
+             </i>
+            </span>
+            <a href="mailto:vladimir@atlas-reality.cz">
+             vladimir@atlas-reality.cz
+            </a>
+           </p>
+           <div class="bottom-nfo">
+            <a href="/realitni-kancelare-praha/atlas-reality-s-r-o-347.html">
+             ATLAS Reality, s.r.o.
+            </a>
+            <p>
+             Táboritská 1000/23, 13000, Praha 3
+            </p>
+           </div>
+           <a class="reality-logo" href="/realitni-kancelare-praha/atlas-reality-s-r-o-347.html">
+            <img alt="ATLAS Reality, s.r.o." src="/realitni-kancelare-praha/logo-347.jpg"/>
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="results-list-item">
+      <a class="images" href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7293596.html">
+       <span style="background:url(/item-photo/tr-w234/615d3fe0-de5b-4ed4-9182-6b7051365fc4.jpg) center center no-repeat;">
+        <img alt="Mezonetovı byt 3+1/T" src="/item-photo/tr-w234/615d3fe0-de5b-4ed4-9182-6b7051365fc4.jpg"/>
+       </span>
+       <span style="background:url(/item-photo/tr-w234/ed2b41b8-a9b2-451c-857c-8bcb55593800.jpg) center center no-repeat;">
+        <img alt="Mezonetovı byt 3+1/T" src="/item-photo/tr-w234/ed2b41b8-a9b2-451c-857c-8bcb55593800.jpg"/>
+       </span>
+       <span style="background:url(/item-photo/tr-w234/7ce5f7a5-a757-41f9-932a-0005567ee8be.jpg) center center no-repeat;">
+        <img alt="Mezonetovı byt 3+1/T" src="/item-photo/tr-w234/7ce5f7a5-a757-41f9-932a-0005567ee8be.jpg"/>
+       </span>
+      </a>
+      <div class="description">
+       <div class="text">
+        <h2>
+         <a href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7293596.html">
+          Byt na prodej / 3+1 / 329 m
+          <sup>
+           2
+          </sup>
+         </a>
+        </h2>
+        <a href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7293596.html">
+         <p>
+          <i class="fal fa-map">
+          </i>
+          Praha 1 - Nové Mìsto
+         </p>
+         <strong>
+          40 251 000 Kè (za nemovitost) Cena Prodává pøímı majitel, neplatíte provizi! K bytu je moné si pøikoupit a 2 garáové stání pøi cenì 1 113 000 Kè za jedno stání vè. 21 % DPH.S ohledem na aktuální situaci bychom Vás chtìli ujistit, e naše spoleènost pøijala veškerá nezbytná opatøení k to
+         </strong>
+        </a>
+       </div>
+       <div class="buttons">
+        <a class="btn-normal" href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7293596.html">
+         Více informací
+         <i class="fal fa-chevron-circle-right">
+         </i>
+        </a>
+        <a class="btn-red" href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7293596.html">
+         poptat nemovitost
+         <i class="fal fa-comment-lines">
+         </i>
+        </a>
+       </div>
+       <div class="contact-form hidden">
+        <div class="row">
+         <div class="col-md-6">
+          <h2>
+           poptat nemovitost
+          </h2>
+          <form action="/kontaktovat-prodejce/form" class="unit-request">
+           <input name="zipCode" type="text" value=""/>
+           <input class="tiny" name="name" placeholder="Jméno a pøíjmení" type="text"/>
+           <input class="tiny" name="email" placeholder="Váš email" type="email"/>
+           <input class="tiny" name="phoneNumber" placeholder="Váš telefon" type="tel"/>
+           <textarea class="tiny" name="message" placeholder="Vaše zpráva">Mám zájem o prohlídku nemovitosti. Kontaktujte mì prosím! Dìkuji</textarea>
+           <input id="itemId" name="itemId" type="hidden" value="7293596"/>
+           <div class="center">
+            <button class="btn-red" data-text="Odeslat dotaz" type="button">
+             Odeslat dotaz
+            </button>
+            <small>
+             Odesláním formuláøe udìlujete souhlas s pravidly ochrany
+             <a href="/ochrana-osobnich-udaju" target="_blank">
+              osobních údajù
+             </a>
+            </small>
+           </div>
+          </form>
+         </div>
+         <div class="col-md-6">
+          <div class="miniBrooker">
+           <div class="img-wrap">
+            <img alt="" src="/broker/2a8b8307-dd53-4953-aa1a-7f5454d2a174.jpg"/>
+           </div>
+           <h3 class="has-image">
+            Simon Lukavskı (oddìlení prodeje)
+            <small>
+             realitní makléø
+            </small>
+           </h3>
+           <div class="cleaner">
+           </div>
+           <div class="tel-hidden">
+            <span>
+             <i class="fas fa-phone">
+             </i>
+            </span>
+            <a class="show" data-rk-id="415" href="#" onclick="ga('send', 'event', 'VypisNem', 'MaklerRKtel');">
+             zobrazit
+            </a>
+            <a class="actualnumber" href="tel:725 753 753">
+             725 753 753
+            </a>
+           </div>
+           <p>
+            <span>
+             <i class="far fa-envelope">
+             </i>
+            </span>
+            <a href="mailto:prodej@psn.cz">
+             prodej@psn.cz
+            </a>
+           </p>
+           <div class="bottom-nfo">
+            <a href="/realitni-kancelare-praha/psn-s-r-o-415.html">
+             PSN, s. r. o.
+            </a>
+            <p>
+             Seifertova 823/9, 13000, Praha 3
+            </p>
+           </div>
+           <a class="reality-logo" href="/realitni-kancelare-praha/psn-s-r-o-415.html">
+            <img alt="PSN, s. r. o." src="/realitni-kancelare-praha/logo-415.jpg"/>
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="results-list-item">
+      <a class="images" href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7293307.html">
+       <span style="background:url(/item-photo/tr-w234/a375008d-8f29-40b6-a8c0-13d01e290e55.jpg) center center no-repeat;">
+        <img alt="ubytovací jednotka" src="/item-photo/tr-w234/a375008d-8f29-40b6-a8c0-13d01e290e55.jpg"/>
+       </span>
+       <span style="background:url(/item-photo/tr-w234/09dfaf06-7402-4e3c-af08-b2bf26171331.jpg) center center no-repeat;">
+        <img alt="Proslunìná jednotka 2+1 o celkové vımìøe 61 m2." src="/item-photo/tr-w234/09dfaf06-7402-4e3c-af08-b2bf26171331.jpg"/>
+       </span>
+       <span style="background:url(/item-photo/tr-w234/4cf85173-735a-4b6c-b5b6-0a821f463653.jpg) center center no-repeat;">
+        <img alt="ubytovací jednotka" src="/item-photo/tr-w234/4cf85173-735a-4b6c-b5b6-0a821f463653.jpg"/>
+       </span>
+      </a>
+      <div class="description">
+       <div class="text">
+        <h2>
+         <a href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7293307.html">
+          Byt na prodej / 2+1 / 61 m
+          <sup>
+           2
+          </sup>
+         </a>
+        </h2>
+        <a href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7293307.html">
+         <p>
+          <i class="fal fa-map">
+          </i>
+          Praha 2 - Vinohrady
+         </p>
+         <strong>
+          5 484 000 Kè (za nemovitost) Cena Prodává pøímı majitel, neplatíte provizi! Monost dokoupit parkovací stání a èást pochozí støechy!! S ohledem na aktuální situaci bychom Vás chtìli ujistit, e naše spoleènost pøijala veškerá nezbytná opatøení k tomu, abyste si své nové bydlení mohli vybr
+         </strong>
+        </a>
+       </div>
+       <div class="buttons">
+        <a class="btn-normal" href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7293307.html">
+         Více informací
+         <i class="fal fa-chevron-circle-right">
+         </i>
+        </a>
+        <a class="btn-red" href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7293307.html">
+         poptat nemovitost
+         <i class="fal fa-comment-lines">
+         </i>
+        </a>
+       </div>
+       <div class="contact-form hidden">
+        <div class="row">
+         <div class="col-md-6">
+          <h2>
+           poptat nemovitost
+          </h2>
+          <form action="/kontaktovat-prodejce/form" class="unit-request">
+           <input name="zipCode" type="text" value=""/>
+           <input class="tiny" name="name" placeholder="Jméno a pøíjmení" type="text"/>
+           <input class="tiny" name="email" placeholder="Váš email" type="email"/>
+           <input class="tiny" name="phoneNumber" placeholder="Váš telefon" type="tel"/>
+           <textarea class="tiny" name="message" placeholder="Vaše zpráva">Mám zájem o prohlídku nemovitosti. Kontaktujte mì prosím! Dìkuji</textarea>
+           <input id="itemId" name="itemId" type="hidden" value="7293307"/>
+           <div class="center">
+            <button class="btn-red" data-text="Odeslat dotaz" type="button">
+             Odeslat dotaz
+            </button>
+            <small>
+             Odesláním formuláøe udìlujete souhlas s pravidly ochrany
+             <a href="/ochrana-osobnich-udaju" target="_blank">
+              osobních údajù
+             </a>
+            </small>
+           </div>
+          </form>
+         </div>
+         <div class="col-md-6">
+          <div class="miniBrooker">
+           <div class="img-wrap">
+            <img alt="" src="/broker/2a8b8307-dd53-4953-aa1a-7f5454d2a174.jpg"/>
+           </div>
+           <h3 class="has-image">
+            Simon Lukavskı (oddìlení prodeje)
+            <small>
+             realitní makléø
+            </small>
+           </h3>
+           <div class="cleaner">
+           </div>
+           <div class="tel-hidden">
+            <span>
+             <i class="fas fa-phone">
+             </i>
+            </span>
+            <a class="show" data-rk-id="415" href="#" onclick="ga('send', 'event', 'VypisNem', 'MaklerRKtel');">
+             zobrazit
+            </a>
+            <a class="actualnumber" href="tel:725 753 753">
+             725 753 753
+            </a>
+           </div>
+           <p>
+            <span>
+             <i class="far fa-envelope">
+             </i>
+            </span>
+            <a href="mailto:prodej@psn.cz">
+             prodej@psn.cz
+            </a>
+           </p>
+           <div class="bottom-nfo">
+            <a href="/realitni-kancelare-praha/psn-s-r-o-415.html">
+             PSN, s. r. o.
+            </a>
+            <p>
+             Seifertova 823/9, 13000, Praha 3
+            </p>
+           </div>
+           <a class="reality-logo" href="/realitni-kancelare-praha/psn-s-r-o-415.html">
+            <img alt="PSN, s. r. o." src="/realitni-kancelare-praha/logo-415.jpg"/>
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="results-list-item">
+      <a class="images" href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7291253.html">
+       <span style="background:url(/item-photo/tr-w234/50bd0a6a-7101-4dfc-9821-011d6e7063d4.jpg) center center no-repeat;">
+        <img alt="ubytovací jednotka" src="/item-photo/tr-w234/50bd0a6a-7101-4dfc-9821-011d6e7063d4.jpg"/>
+       </span>
+       <span style="background:url(/item-photo/tr-w234/be903643-4086-4633-9e7d-b83c28716fab.jpg) center center no-repeat;">
+        <img alt="exteriér" src="/item-photo/tr-w234/be903643-4086-4633-9e7d-b83c28716fab.jpg"/>
+       </span>
+       <span style="background:url(/item-photo/tr-w234/12e064c7-3fdb-403a-9cf3-64145158eb54.jpg) center center no-repeat;">
+        <img alt="ubytovací jednotka" src="/item-photo/tr-w234/12e064c7-3fdb-403a-9cf3-64145158eb54.jpg"/>
+       </span>
+      </a>
+      <div class="description">
+       <div class="text">
+        <h2>
+         <a href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7291253.html">
+          Byt na prodej / 2+kk / 65 m
+          <sup>
+           2
+          </sup>
+         </a>
+        </h2>
+        <a href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7291253.html">
+         <p>
+          <i class="fal fa-map">
+          </i>
+          Praha 5 - Jinonice
+         </p>
+         <strong>
+          4 797 000 Kè (za nemovitost) Cena U této jednotky je monost odpoètu 21% DPH. Prodává pøímı majitel, neplatíte provizi! S ohledem na aktuální situaci bychom Vás chtìli ujistit, e naše spoleènost pøijala veškerá nezbytná opatøení k tomu, abyste si své nové bydlení mohli vybrat bez obav a
+         </strong>
+        </a>
+       </div>
+       <div class="buttons">
+        <a class="btn-normal" href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7291253.html">
+         Více informací
+         <i class="fal fa-chevron-circle-right">
+         </i>
+        </a>
+        <a class="btn-red" href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7291253.html">
+         poptat nemovitost
+         <i class="fal fa-comment-lines">
+         </i>
+        </a>
+       </div>
+       <div class="contact-form hidden">
+        <div class="row">
+         <div class="col-md-6">
+          <h2>
+           poptat nemovitost
+          </h2>
+          <form action="/kontaktovat-prodejce/form" class="unit-request">
+           <input name="zipCode" type="text" value=""/>
+           <input class="tiny" name="name" placeholder="Jméno a pøíjmení" type="text"/>
+           <input class="tiny" name="email" placeholder="Váš email" type="email"/>
+           <input class="tiny" name="phoneNumber" placeholder="Váš telefon" type="tel"/>
+           <textarea class="tiny" name="message" placeholder="Vaše zpráva">Mám zájem o prohlídku nemovitosti. Kontaktujte mì prosím! Dìkuji</textarea>
+           <input id="itemId" name="itemId" type="hidden" value="7291253"/>
+           <div class="center">
+            <button class="btn-red" data-text="Odeslat dotaz" type="button">
+             Odeslat dotaz
+            </button>
+            <small>
+             Odesláním formuláøe udìlujete souhlas s pravidly ochrany
+             <a href="/ochrana-osobnich-udaju" target="_blank">
+              osobních údajù
+             </a>
+            </small>
+           </div>
+          </form>
+         </div>
+         <div class="col-md-6">
+          <div class="miniBrooker">
+           <div class="img-wrap">
+            <img alt="" src="/broker/2a8b8307-dd53-4953-aa1a-7f5454d2a174.jpg"/>
+           </div>
+           <h3 class="has-image">
+            Simon Lukavskı (oddìlení prodeje)
+            <small>
+             realitní makléø
+            </small>
+           </h3>
+           <div class="cleaner">
+           </div>
+           <div class="tel-hidden">
+            <span>
+             <i class="fas fa-phone">
+             </i>
+            </span>
+            <a class="show" data-rk-id="415" href="#" onclick="ga('send', 'event', 'VypisNem', 'MaklerRKtel');">
+             zobrazit
+            </a>
+            <a class="actualnumber" href="tel:725 753 753">
+             725 753 753
+            </a>
+           </div>
+           <p>
+            <span>
+             <i class="far fa-envelope">
+             </i>
+            </span>
+            <a href="mailto:prodej@psn.cz">
+             prodej@psn.cz
+            </a>
+           </p>
+           <div class="bottom-nfo">
+            <a href="/realitni-kancelare-praha/psn-s-r-o-415.html">
+             PSN, s. r. o.
+            </a>
+            <p>
+             Seifertova 823/9, 13000, Praha 3
+            </p>
+           </div>
+           <a class="reality-logo" href="/realitni-kancelare-praha/psn-s-r-o-415.html">
+            <img alt="PSN, s. r. o." src="/realitni-kancelare-praha/logo-415.jpg"/>
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="results-list-item">
+      <a class="images" href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7293040.html">
+       <span style="background:url(/item-photo/tr-w234/61e0c661-a847-4387-ac80-fa3592f58701.jpg) center center no-repeat;">
+        <img alt="vbloku" src="/item-photo/tr-w234/61e0c661-a847-4387-ac80-fa3592f58701.jpg"/>
+       </span>
+       <span style="background:url(/item-photo/tr-w234/061c0f34-3020-4938-b4e8-ce2ed0d7ef0f.jpg) center center no-repeat;">
+        <img alt="ubytovací jednotka" src="/item-photo/tr-w234/061c0f34-3020-4938-b4e8-ce2ed0d7ef0f.jpg"/>
+       </span>
+       <span style="background:url(/item-photo/tr-w234/bfa7795e-e785-4271-88ca-562fa9ab534c.jpg) center center no-repeat;">
+        <img alt="ubytovací jednotka" src="/item-photo/tr-w234/bfa7795e-e785-4271-88ca-562fa9ab534c.jpg"/>
+       </span>
+      </a>
+      <div class="description">
+       <div class="text">
+        <h2>
+         <a href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7293040.html">
+          Byt na prodej / 1+kk / 27 m
+          <sup>
+           2
+          </sup>
+         </a>
+        </h2>
+        <a href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7293040.html">
+         <p>
+          <i class="fal fa-map">
+          </i>
+          Praha 5 - Jinonice
+         </p>
+         <strong>
+          3 187 000 Kè (za nemovitost) Cena U této jednotky je monost odpoètu 21% DPH. Prodává pøímı majitel, neplatíte provizi! Uvedená cena je ji s vybavením, které lze vidìt na fotkách. S ohledem na aktuální situaci bychom Vás chtìli ujistit, e naše spoleènost pøijala veškerá nezbytná opatøen
+         </strong>
+        </a>
+       </div>
+       <div class="buttons">
+        <a class="btn-normal" href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7293040.html">
+         Více informací
+         <i class="fal fa-chevron-circle-right">
+         </i>
+        </a>
+        <a class="btn-red" href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7293040.html">
+         poptat nemovitost
+         <i class="fal fa-comment-lines">
+         </i>
+        </a>
+       </div>
+       <div class="contact-form hidden">
+        <div class="row">
+         <div class="col-md-6">
+          <h2>
+           poptat nemovitost
+          </h2>
+          <form action="/kontaktovat-prodejce/form" class="unit-request">
+           <input name="zipCode" type="text" value=""/>
+           <input class="tiny" name="name" placeholder="Jméno a pøíjmení" type="text"/>
+           <input class="tiny" name="email" placeholder="Váš email" type="email"/>
+           <input class="tiny" name="phoneNumber" placeholder="Váš telefon" type="tel"/>
+           <textarea class="tiny" name="message" placeholder="Vaše zpráva">Mám zájem o prohlídku nemovitosti. Kontaktujte mì prosím! Dìkuji</textarea>
+           <input id="itemId" name="itemId" type="hidden" value="7293040"/>
+           <div class="center">
+            <button class="btn-red" data-text="Odeslat dotaz" type="button">
+             Odeslat dotaz
+            </button>
+            <small>
+             Odesláním formuláøe udìlujete souhlas s pravidly ochrany
+             <a href="/ochrana-osobnich-udaju" target="_blank">
+              osobních údajù
+             </a>
+            </small>
+           </div>
+          </form>
+         </div>
+         <div class="col-md-6">
+          <div class="miniBrooker">
+           <div class="img-wrap">
+            <img alt="" src="/broker/2a8b8307-dd53-4953-aa1a-7f5454d2a174.jpg"/>
+           </div>
+           <h3 class="has-image">
+            Simon Lukavskı (oddìlení prodeje)
+            <small>
+             realitní makléø
+            </small>
+           </h3>
+           <div class="cleaner">
+           </div>
+           <div class="tel-hidden">
+            <span>
+             <i class="fas fa-phone">
+             </i>
+            </span>
+            <a class="show" data-rk-id="415" href="#" onclick="ga('send', 'event', 'VypisNem', 'MaklerRKtel');">
+             zobrazit
+            </a>
+            <a class="actualnumber" href="tel:725 753 753">
+             725 753 753
+            </a>
+           </div>
+           <p>
+            <span>
+             <i class="far fa-envelope">
+             </i>
+            </span>
+            <a href="mailto:prodej@psn.cz">
+             prodej@psn.cz
+            </a>
+           </p>
+           <div class="bottom-nfo">
+            <a href="/realitni-kancelare-praha/psn-s-r-o-415.html">
+             PSN, s. r. o.
+            </a>
+            <p>
+             Seifertova 823/9, 13000, Praha 3
+            </p>
+           </div>
+           <a class="reality-logo" href="/realitni-kancelare-praha/psn-s-r-o-415.html">
+            <img alt="PSN, s. r. o." src="/realitni-kancelare-praha/logo-415.jpg"/>
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="results-list-item">
+      <a class="images" href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7291215.html">
+       <span style="background:url(/item-photo/tr-w234/c886896d-1136-448c-8f60-98f061732865.jpg) center center no-repeat;">
+        <img alt="Byt 2+kk" src="/item-photo/tr-w234/c886896d-1136-448c-8f60-98f061732865.jpg"/>
+       </span>
+       <span style="background:url(/item-photo/tr-w234/7ede6163-2be2-4fe7-b4b3-2d1597bba370.jpg) center center no-repeat;">
+        <img alt="Byt 2+kk" src="/item-photo/tr-w234/7ede6163-2be2-4fe7-b4b3-2d1597bba370.jpg"/>
+       </span>
+       <span style="background:url(/item-photo/tr-w234/f1c2b3ab-977b-48e2-a71f-80d351584a4e.jpg) center center no-repeat;">
+        <img alt="Byt 2+kk" src="/item-photo/tr-w234/f1c2b3ab-977b-48e2-a71f-80d351584a4e.jpg"/>
+       </span>
+      </a>
+      <div class="description">
+       <div class="text">
+        <h2>
+         <a href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7291215.html">
+          Byt na prodej / 2+kk / 44 m
+          <sup>
+           2
+          </sup>
+         </a>
+        </h2>
+        <a href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7291215.html">
+         <p>
+          <i class="fal fa-map">
+          </i>
+          Praha 1 - Nové Mìsto
+         </p>
+         <strong>
+          8 810 000 Kè (za nemovitost) Cena Prodává pøímı majitel, neplatíte provizi! S ohledem na aktuální situaci bychom Vás chtìli ujistit, e naše spoleènost pøijala veškerá nezbytná opatøení k tomu, abyste si své nové bydlení mohli vybrat bez obav a s plnohodnotnım servisem z naší strany. Jsme
+         </strong>
+        </a>
+       </div>
+       <div class="buttons">
+        <a class="btn-normal" href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7291215.html">
+         Více informací
+         <i class="fal fa-chevron-circle-right">
+         </i>
+        </a>
+        <a class="btn-red" href="/s-ohledem-na-aktualni-situaci-bychom-vas-chteli-ujistit--7291215.html">
+         poptat nemovitost
+         <i class="fal fa-comment-lines">
+         </i>
+        </a>
+       </div>
+       <div class="contact-form hidden">
+        <div class="row">
+         <div class="col-md-6">
+          <h2>
+           poptat nemovitost
+          </h2>
+          <form action="/kontaktovat-prodejce/form" class="unit-request">
+           <input name="zipCode" type="text" value=""/>
+           <input class="tiny" name="name" placeholder="Jméno a pøíjmení" type="text"/>
+           <input class="tiny" name="email" placeholder="Váš email" type="email"/>
+           <input class="tiny" name="phoneNumber" placeholder="Váš telefon" type="tel"/>
+           <textarea class="tiny" name="message" placeholder="Vaše zpráva">Mám zájem o prohlídku nemovitosti. Kontaktujte mì prosím! Dìkuji</textarea>
+           <input id="itemId" name="itemId" type="hidden" value="7291215"/>
+           <div class="center">
+            <button class="btn-red" data-text="Odeslat dotaz" type="button">
+             Odeslat dotaz
+            </button>
+            <small>
+             Odesláním formuláøe udìlujete souhlas s pravidly ochrany
+             <a href="/ochrana-osobnich-udaju" target="_blank">
+              osobních údajù
+             </a>
+            </small>
+           </div>
+          </form>
+         </div>
+         <div class="col-md-6">
+          <div class="miniBrooker">
+           <div class="img-wrap">
+            <img alt="" src="/broker/2a8b8307-dd53-4953-aa1a-7f5454d2a174.jpg"/>
+           </div>
+           <h3 class="has-image">
+            Simon Lukavskı (oddìlení prodeje)
+            <small>
+             realitní makléø
+            </small>
+           </h3>
+           <div class="cleaner">
+           </div>
+           <div class="tel-hidden">
+            <span>
+             <i class="fas fa-phone">
+             </i>
+            </span>
+            <a class="show" data-rk-id="415" href="#" onclick="ga('send', 'event', 'VypisNem', 'MaklerRKtel');">
+             zobrazit
+            </a>
+            <a class="actualnumber" href="tel:725 753 753">
+             725 753 753
+            </a>
+           </div>
+           <p>
+            <span>
+             <i class="far fa-envelope">
+             </i>
+            </span>
+            <a href="mailto:prodej@psn.cz">
+             prodej@psn.cz
+            </a>
+           </p>
+           <div class="bottom-nfo">
+            <a href="/realitni-kancelare-praha/psn-s-r-o-415.html">
+             PSN, s. r. o.
+            </a>
+            <p>
+             Seifertova 823/9, 13000, Praha 3
+            </p>
+           </div>
+           <a class="reality-logo" href="/realitni-kancelare-praha/psn-s-r-o-415.html">
+            <img alt="PSN, s. r. o." src="/realitni-kancelare-praha/logo-415.jpg"/>
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="results-list-item">
+      <a class="images" href="/prodej-rekonstruovaneho-bytu-3-kk-75-8-m2-v-1-patre-cinz-47016.html">
+       <span style="background:url(/item-photo/tr-w234/451b84bf-dbbe-4084-87d8-183cd1124621.jpg) center center no-repeat;">
+        <img alt="IMG_4795.JPG" src="/item-photo/tr-w234/451b84bf-dbbe-4084-87d8-183cd1124621.jpg"/>
+       </span>
+       <span style="background:url(/item-photo/tr-w234/6a88fdcd-29b7-4f3f-98b8-def9ae5a56d6.jpg) center center no-repeat;">
+        <img alt="IMG_4784.JPG" src="/item-photo/tr-w234/6a88fdcd-29b7-4f3f-98b8-def9ae5a56d6.jpg"/>
+       </span>
+       <span style="background:url(/item-photo/tr-w234/d31b4c0e-b8db-405d-86b9-1e5a91ca2b0a.jpg) center center no-repeat;">
+        <img alt="IMG_4787.JPG" src="/item-photo/tr-w234/d31b4c0e-b8db-405d-86b9-1e5a91ca2b0a.jpg"/>
+       </span>
+      </a>
+      <div class="description">
+       <div class="text">
+        <h2>
+         <a href="/prodej-rekonstruovaneho-bytu-3-kk-75-8-m2-v-1-patre-cinz-47016.html">
+          Byt na prodej / 3+kk / 76 m
+          <sup>
+           2
+          </sup>
+         </a>
+        </h2>
+        <a href="/prodej-rekonstruovaneho-bytu-3-kk-75-8-m2-v-1-patre-cinz-47016.html">
+         <p>
+          <i class="fal fa-map">
+          </i>
+          Praha 5 - Smíchov
+         </p>
+         <strong>
+          7 876 000 Kè (za nemovitost) Cena vèetnì provize
+         </strong>
+        </a>
+       </div>
+       <div class="buttons">
+        <a class="btn-normal" href="/prodej-rekonstruovaneho-bytu-3-kk-75-8-m2-v-1-patre-cinz-47016.html">
+         Více informací
+         <i class="fal fa-chevron-circle-right">
+         </i>
+        </a>
+        <a class="btn-red" href="/prodej-rekonstruovaneho-bytu-3-kk-75-8-m2-v-1-patre-cinz-47016.html">
+         poptat nemovitost
+         <i class="fal fa-comment-lines">
+         </i>
+        </a>
+       </div>
+       <div class="contact-form hidden">
+        <div class="row">
+         <div class="col-md-6">
+          <h2>
+           poptat nemovitost
+          </h2>
+          <form action="/kontaktovat-prodejce/form" class="unit-request">
+           <input name="zipCode" type="text" value=""/>
+           <input class="tiny" name="name" placeholder="Jméno a pøíjmení" type="text"/>
+           <input class="tiny" name="email" placeholder="Váš email" type="email"/>
+           <input class="tiny" name="phoneNumber" placeholder="Váš telefon" type="tel"/>
+           <textarea class="tiny" name="message" placeholder="Vaše zpráva">Mám zájem o prohlídku nemovitosti. Kontaktujte mì prosím! Dìkuji</textarea>
+           <input id="itemId" name="itemId" type="hidden" value="47016"/>
+           <div class="center">
+            <button class="btn-red" data-text="Odeslat dotaz" type="button">
+             Odeslat dotaz
+            </button>
+            <small>
+             Odesláním formuláøe udìlujete souhlas s pravidly ochrany
+             <a href="/ochrana-osobnich-udaju" target="_blank">
+              osobních údajù
+             </a>
+            </small>
+           </div>
+          </form>
+         </div>
+         <div class="col-md-6">
+          <div class="miniBrooker">
+           <div class="img-wrap">
+            <img alt="" src="/broker/e9117da2-5ad1-450f-81e4-d7da1a927ac5.jpg"/>
+           </div>
+           <h3 class="has-image">
+            Vladimír Stránskı
+            <small>
+             realitní makléø
+            </small>
+           </h3>
+           <div class="cleaner">
+           </div>
+           <div class="tel-hidden">
+            <span>
+             <i class="fas fa-phone">
+             </i>
+            </span>
+            <a class="show" data-rk-id="347" href="#" onclick="ga('send', 'event', 'VypisNem', 'MaklerRKtel');">
+             zobrazit
+            </a>
+            <a class="actualnumber" href="tel:608 114 411">
+             608 114 411
+            </a>
+            <br/>
+            <a class="actualnumber" href="tel:(+420) 608 114 411">
+             (+420) 608 114 411
+            </a>
+           </div>
+           <p>
+            <span>
+             <i class="far fa-envelope">
+             </i>
+            </span>
+            <a href="mailto:vladimir@atlas-reality.cz">
+             vladimir@atlas-reality.cz
+            </a>
+           </p>
+           <div class="bottom-nfo">
+            <a href="/realitni-kancelare-praha/atlas-reality-s-r-o-347.html">
+             ATLAS Reality, s.r.o.
+            </a>
+            <p>
+             Táboritská 1000/23, 13000, Praha 3
+            </p>
+           </div>
+           <a class="reality-logo" href="/realitni-kancelare-praha/atlas-reality-s-r-o-347.html">
+            <img alt="ATLAS Reality, s.r.o." src="/realitni-kancelare-praha/logo-347.jpg"/>
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <section class="page-list">
+     <div class="btn btn-red btn-prev disabled">
+      Pøedchozí
+     </div>
+     <div class="page-wrapper">
+      <ul>
+       <li>
+        <span>
+         1
+        </span>
+       </li>
+       <li>
+        <a href="/byty-na-prodej/praha/p-2">
+         2
+        </a>
+       </li>
+       <li>
+        <a href="/byty-na-prodej/praha/p-3">
+         3
+        </a>
+       </li>
+       <li>
+        <a href="/byty-na-prodej/praha/p-4">
+         4
+        </a>
+       </li>
+       <li>
+        <a href="/byty-na-prodej/praha/p-5">
+         5
+        </a>
+       </li>
+       <li>
+        <a href="/byty-na-prodej/praha/p-6">
+         6
+        </a>
+       </li>
+       <li>
+        <a href="/byty-na-prodej/praha/p-7">
+         7
+        </a>
+       </li>
+       <li>
+        <a href="/byty-na-prodej/praha/p-8">
+         8
+        </a>
+       </li>
+       <li>
+        <a href="/byty-na-prodej/praha/p-9">
+         9
+        </a>
+       </li>
+       <li>
+        <a href="/byty-na-prodej/praha/p-10">
+         10
+        </a>
+       </li>
+       <li>
+        <a href="/byty-na-prodej/praha/p-11">
+         11
+        </a>
+       </li>
+      </ul>
+     </div>
+     <a class="btn btn-red btn-next" href="/byty-na-prodej/praha/p-2">
+      Následující
+     </a>
+    </section>
+    <section id="totalItemsInfo">
+     <h4 class="inzaratListingCounter">
+      Celkem
+      <span class="inzaratListingCounterNumber">
+       228
+      </span>
+      inzerátù.
+     </h4>
+    </section>
+    <footer>
+     <div class="wrap">
+      <div class="col-md-4 elm">
+       <a class="logo" href="/">
+        <img alt="Praské reality" src="/cms/common-data/images/logo-svetle-cs.svg"/>
+       </a>
+      </div>
+      <div class="col-md-4 elm">
+       <label>
+        Navigace
+       </label>
+       <div class="navigation">
+        <a href="/obchodni-podminky">
+         Obchodní podmínky
+        </a>
+        <a href="/ochrana-osobnich-udaju">
+         Ochrana osobních údajù
+        </a>
+        <a href="/realitni-kancelare-praha">
+         Realitní kanceláøe
+        </a>
+        <a href="/kontaktni-informace">
+         Kontakt
+        </a>
+       </div>
+      </div>
+      <div class="col-md-4 elm">
+       <label>
+        Kontakt
+       </label>
+       <p>
+        Praské reality
+        <br/>
+        Budìjovická 778/3
+        <br/>
+        140 00 Praha 4
+       </p>
+      </div>
+      <div class="col-md-12">
+       <small>
+        © 2020 Praské reality - Všechna práva vyhrazena !
+       </small>
+      </div>
+     </div>
+    </footer>
+    <div id="cookie-float-agree">
+     <div class="wrap">
+      <p>
+       www.prazskereality.cz pouívají cookies pro marketingové úèely, analytiku a vyhodnocování návštìvnosti webu ze sociálních sítí a reklamních kampaní. Tyto informace vyuíváme pouze pro interní potøeby a dále je nesdílíme.
+      </p>
+      <div id="cookie-float-agree-buttons">
+       <a class="cookie__btn js-cookie-agree-btn" href="#eu-cookie">
+        ok
+       </a>
+      </div>
+     </div>
+    </div>
+    <script src="/cms/common-data/js/jquery/jquery.min.js">
+    </script>
+    <!--[if lt IE 9]><script src="http://cdnjs.cloudflare.com/ajax/libs/es5-shim/2.0.8/es5-shim.min.js"></script><![endif]-->
+    <link href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" rel="stylesheet"/>
+    <link href="/cms/common-data/css/components/MarkerCluster.css" rel="stylesheet"/>
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js">
+    </script>
+    <script src="/cms/common-data/js/components/leaflet.markercluster.js">
+    </script>
+    <link href="/cms/common-data/js/components/qtip/jquery.qtip.min.css" rel="stylesheet"/>
+    <script src="/cms/common-data/js/components/qtip/jquery.qtip.min.js">
+    </script>
+    <script charset="utf-8" src="/cms/common-data/js/components/RobinHerbots-Inputmask-b295978/dist/jquery.inputmask.js" type="text/javascript">
+    </script>
+    <script charset="utf-8" src="/cms/common-data/js/components/jQuery-Mask-Plugin-master/dist/jquery.mask.min.js" type="text/javascript">
+    </script>
+    <script src="/cms/common-data/js/components/jquery.maphilight.js">
+    </script>
+    <script src="/cms/common-data/js/components/lightbox.js">
+    </script>
+    <script src="/cms/common-data/js/components/Magnific.popup.js">
+    </script>
+    <script src="/cms/common-data/js/components/scrollto.js" type="text/javascript">
+    </script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js">
+    </script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js" type="text/javascript">
+    </script>
+    <script src="/cms/common-data/js/components/owl.carousel.min.js">
+    </script>
+    <script crossorigin="anonymous" src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">
+    </script>
+    <script src="/cms/common-data/js/bootstrap/bootstrap.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js">
+    </script>
+    <script src="/cms/common-data/js/scripts.js?v=4">
+    </script>
+    <script src="/rest/ItemResource/search-data.js" type="text/javascript">
+    </script>
+    <script src="/cms/common-data/js/components/cleave/cleave.min.js">
+    </script>
+    <script src="/cms/common-data/js/Searchform.class.js">
+    </script>
+    <script src="/cms/common-data/js/Hypocalc.class.js?v=5">
+    </script>
+    <script src="/cms/common-data/js/Katalog.class.js?v=5">
+    </script>
+   </div>
+  </section>
+ </body>
+</html>
+>>> 

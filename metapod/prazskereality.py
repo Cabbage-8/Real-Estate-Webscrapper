@@ -18,16 +18,14 @@ def GetDateTimeStamp():
     date_RunDatetime = str(date_RunDate) + '_' + str(date_RunTime)
     return str(date_RunDatetime)
 
-def get_prop_maxima(location, offer, object):
+def get_prop_Prazskereality(location, offer, object):
     
-    str_Sitename = "Maxima"
+    str_Sitename = "Prazskereality"
 
     # Get current date time stamp in format YYYYMMDD_HHmmSS
-
-
     str_OutputFilename = str_Sitename + '_' + GetDateTimeStamp() + '.txt'
 
-    str_URLMaximaSearch = "https://www.maxima.cz/nabidka-nemovitosti/?advert_function=1&advert_type=1&advert_price-min=&advert_price-max=&floor_number-min=&floor_number-max=&usable_area-min=&usable_area-max=&estate_area-min=&estate_area-max="
+    str_URLSearch = "https://www.prazskereality.cz/byty-na-prodej/praha/p-1"
 
     int_Page = 1
 
@@ -35,9 +33,13 @@ def get_prop_maxima(location, offer, object):
 
         int_Page += 1
     
-        resp_MaximaSearch = urllib.request.urlopen(str_URLMaximaSearch)
+        resp_PrazskerealitySearch = urllib.request.urlopen(str_URLSearch)
 
-        soup_MaximaSearch = BeautifulSoup(resp_MaximaSearch, 'html.parser')
+        soup_PrazskerealitySearch = BeautifulSoup(resp_PrazskerealitySearch, 'html.parser')
+
+        #print(soup_PrazskerealitySearch.prettify())
+
+        #raise SystemExit(0)
 
         # Prepare header for output file
         file_Output = open(str_OutputFilename, 'w')
@@ -45,15 +47,30 @@ def get_prop_maxima(location, offer, object):
         file_Output.close()
 
         # Get all offers on page
-        tag_Offers = soup_MaximaSearch.find_all('a', class_="details-wrapper")
+        tag_Offers = soup_PrazskerealitySearch.find_all('div', class_="results-list-item")
 
-        dict_prop_maxima = {}
-        list_prop_maxima = []
+        dict_prop_Prazskereality = {}
+        list_prop_Prazskereality = []
 
         for tag_Offer in tag_Offers:
             # Link
-            str_Link = tag_Offer.get('href')
-            #print (tag_Offer.get('href'))
+            tag_Description = tag_Offer.find_all('div', class_="text")
+            #print (tag_Offer.prettify())
+            #print(tag_Description.string)
+            
+            #print(type(tag_Offer))
+            #print(type(tag_Description))
+
+
+            #^.+m2.+Kč
+
+            pattern_Description = r'^.+m2.+Kč'
+            str_Description = re.findall(pattern_Description, str(tag_Offer.get_text()))
+
+            print(str_Description)
+            #print(tag_Offer.get_text())
+            
+            raise SystemExit(0)
 
             # Type
             tag_Type = tag_Offer.find('span', class_="title")
@@ -79,18 +96,17 @@ def get_prop_maxima(location, offer, object):
                 int_Iter += 1
 
             #WriteLineToOutput(str_Link, str_Type, str_Size, str_Location, str_Street, str_Price, str_OutputFilename)
-                
 
             #print(str_Link, str_Type, str_Size, str_Location, str_Street, str_Price)
 
-            dict_prop_maxima["int_metry"] = str_Size
-            dict_prop_maxima["str_typ"] = str_Type
-            dict_prop_maxima["str_address"] = str_Location + ', ' + str_Street
-            dict_prop_maxima["int_cena"] = str_Price
-            dict_prop_maxima["str_url"] = str_Link
-            list_prop_maxima.append(dict_prop_maxima.copy())
+            dict_prop_Prazskereality["int_metry"] = str_Size
+            dict_prop_Prazskereality["str_typ"] = str_Type
+            dict_prop_Prazskereality["str_address"] = str_Location + ', ' + str_Street
+            dict_prop_Prazskereality["int_cena"] = str_Price
+            dict_prop_Prazskereality["str_url"] = str_Link
+            list_prop_Prazskereality.append(dict_prop_Prazskereality.copy())
 
-        tag_Pages = soup_MaximaSearch.select('li > a')
+        tag_Pages = soup_PrazskerealitySearch.select('li > a')
 
         pattern_FindPage = r'\"[^\"]*\/page\/' + str(int_Page) + '\/[^\"]*\"'
         list_Pages = re.findall(pattern_FindPage, str(tag_Pages))
@@ -100,15 +116,15 @@ def get_prop_maxima(location, offer, object):
             str_Page = str_Page[1:]
             str_Page = str_Page[:-1]
 
-            str_URLMaximaSearch = str_Page
+            str_URLSearch = str_Page
             print("Found page " + str(int_Page) + ": " + str_Page)
         else:
             print("Page " + str(int_Page) + " not found, ending.")
             break
         
-    return list_prop_maxima
+    return list_prop_Prazskereality
 
-#get_prop_maxima("","","")
+get_prop_Prazskereality("","","")
 
     #break
 
@@ -128,14 +144,14 @@ def get_prop_maxima(location, offer, object):
 #________________________________________________
 # Save html as txt file
 
-#bytes_MaximaSearch = resp_MaximaSearch.read()
+#bytes_PrazskerealitySearch = resp_PrazskerealitySearch.read()
 
-#str_MaximaSearch = bytes_MaximaSearch.decode("utf8")
+#str_PrazskerealitySearch = bytes_PrazskerealitySearch.decode("utf8")
 
-#resp_MaximaSearch.close()
+#resp_PrazskerealitySearch.close()
 
 #file_MaximTextExample = open("Maxim_FirstPage.txt", "w")
-#print(str_MaximaSearch)
+#print(str_PrazskerealitySearch)
 #file_MaximTextExample.close()
 #________________________________________________
 
